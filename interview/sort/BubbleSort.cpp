@@ -4,8 +4,8 @@
 // 对于内层循环，就要看每次找到一个最小值还是最大值，
 //      1）当每次要找一个最大值时，那么这个最大值要定位到数组的最末端，
 //         因此j每次都要从0开始，[0,n-1-i)
-//      2) 每次找最小值，这个最小值就要定位到数组的最开始，其实就是i的位置
-//         因此j从i+1开始，到最后[i+1,n-1)
+//      2) 每次找最小值，这个最小值就要定位到数组的最开始，
+//         因此j每次都从最后n-1开始，(i,n-1]
 
 #include <iostream>
 #include <vector>
@@ -19,11 +19,14 @@ using Vector = std::vector<T>;
 // 比较次数 n(n-1)/2 移动次数 3n(n-1)/2
 size_t BubbleSort_min(Vector<int>& vec) {
     size_t times = 0;
-    for (size_t i = 0; i < vec.size() - 1; i++) {
-        for (size_t j = i + 1; j < vec.size(); j++) {
+    bool flag = true;
+    for (size_t i = 0; i < vec.size() - 1 && flag; ++i) {
+        flag = false;
+        for (size_t j = vec.size() - 1; j > i; --j) {
             times++;
-            if (vec[i] > vec[j]) {
-                std::swap(vec[i], vec[j]);
+            if (vec[j] < vec[j - 1]) {
+                flag = true;
+                std::swap(vec[j], vec[j - 1]);
             }
         }
     }
@@ -39,10 +42,11 @@ size_t BubbleSort_max(Vector<int>& vec) {
     size_t times = 0;
     bool flag = true;
     for (size_t i = 0; i < vec.size() - 1 && flag; i++) {
+        flag = false;
         for (size_t j = 0; j < vec.size() - 1 - i; j++) {
             times++;
             if (vec[j] > vec[j + 1]) {
-                flag = false;
+                flag = true;
                 std::swap(vec[j], vec[j+1]);
             }
         }
