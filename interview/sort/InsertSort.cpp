@@ -40,6 +40,7 @@ void InsertSort(Vector<int>& vec) {
 //
 //  二分插入排序，交换的次数没有减少，但是比较的次数减少了，因为采用了
 //  二分查找，变成了O(nlogn);
+//
 void BinaryInsertSort(Vector<int>& vec) {
     for (size_t i = 1; i < vec.size(); i++) {
         int temp;

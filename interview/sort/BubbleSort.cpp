@@ -18,9 +18,6 @@
 template <typename T>
 using Vector = std::vector<T>;
 
-// 第一种方式，每一次排序使得最小的数位于第一个
-// 此时外层循环 i 就是每趟排序要确定的最小值。
-// 算法的复杂度是n^2, 并且没有优化的地步。
 // 比较次数 n(n-1)/2 移动次数 3n(n-1)/2
 size_t BubbleSort_min(Vector<int>& vec) {
     size_t times = 0;
