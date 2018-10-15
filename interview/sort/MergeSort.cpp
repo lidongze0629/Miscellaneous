@@ -44,6 +44,20 @@ void MergeSort(Vector<int>& vec, int left, int right) {
     }
 }
 
+// 将归并排序的空间复杂度降为O(1)
+// 重点是Merge操作，将第二个有序列表中的元素
+// 插入到第一个有序列表中
+//
+
+void MergeSort_O1(Vector<int>& vec, int left, int right) {
+    if (left < right) {
+        int mid = left + ((right - left) >> 1);
+        MergeSort_O1(vec, 0, mid);
+        MergeSort_O1(vec, mid + 1, right);
+        Merge_O1(vec, left, mid, right);
+    }
+}
+
 void Test1() {
     Vector<int> input;
     for (unsigned i = 1; i < 11; ++i) {
