@@ -125,7 +125,9 @@ int main() {
             if (expect_max_value > best_value) {
                 pqueue.push(std::make_pair(expect_max_value, new_node_with_0));
             }
-        }  
+        }
+
+        delete node;  
     }
 
     std::cout << "Total search times: " <<  loop_times << std::endl;
