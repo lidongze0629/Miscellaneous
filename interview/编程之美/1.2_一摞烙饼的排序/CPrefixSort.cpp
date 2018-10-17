@@ -69,8 +69,9 @@ class CPrefixSort {
 
         void BackTrack(size_t deep) {
             
-            total_search_times_++;
+            total_search_times_++; // 只是记录这个BackTrack函数执行的多少次，因为每一次意味着一次搜索
 
+            // 剪枝条件， 当前结点的下界 + 目前翻转的次数(deep) > 可行的最好解，就return
             size_t nEstimate = LowerBound(current_begin_to_reverse_data_, cake_numbers_);
             if (deep + nEstimate > best_value_) {
                 return;
@@ -93,6 +94,10 @@ class CPrefixSort {
             }
         }
 
+        /*
+         * 下界的计算思想是找到数组中相对没序的对数，相加即可
+         * 目前这个下界函数还不是很好，可以思考下优化的地方
+         */
         size_t LowerBound(Vector<int>& array_data, size_t size) {
             size_t bound = 0;
             for (size_t i = 1; i < size; i++) {
@@ -104,6 +109,9 @@ class CPrefixSort {
             return bound;
         }
 
+        /**
+         * 从begin 到end 翻转数组
+         */
         void Reverse(size_t begin, size_t end) {
             assert(end > begin);
             
