@@ -69,7 +69,6 @@ class CPrefixSort {
             }
 
             for (size_t i = 1; i < cake_numbers_; i++) {
-                
                 Reverse(0, i);
                 current_result_[deep] = i; // 记录本次跟i这个位置交换，相当于记录结果
                 BackTrack(deep + 1);
@@ -108,8 +107,6 @@ class CPrefixSort {
         size_t deep_; // 当前搜索的深度
         size_t total_search_times_; // 总搜索次数
         size_t best_value_; // upperbound 就是目前可行解中的最小翻转次数，初始化为 2(n-1)
-
-        size_t prohibited_form_; // 尝试提高效率的禁止表，防止两个位置连续交换.
 };
 
 int main() {
