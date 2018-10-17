@@ -128,7 +128,20 @@ class CPrefixSort {
 
 int main() {
 
-    Vector<int> input_data = {3,2,1,6,5,4,9,8,7,0};
+    //Vector<int> input_data = {3,2,1,6,5,4,9,8,7,0};
+    std::cout << "Please input original array, end with ctrl-d" << std::endl; 
+    std::cout << "sample input: 3 2 1 6 5 4 9 8 7 0" << std::endl;
+    
+    Vector<int> input_data;
+    int data;
+    while (std::cin >> data) {
+        input_data.push_back(data);
+    }
+    std::cout << "input data: " << std::endl;
+    for (auto iter : input_data) {
+        std::cout << iter << ", ";
+    }  
+    std::cout << std::endl;
 
     CPrefixSort cprefix_sort;
     cprefix_sort.Init(input_data);
