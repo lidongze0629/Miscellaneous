@@ -98,7 +98,7 @@ class LCS {
                     if (list_a_[i - 1] == list_b_[j - 1]) {
                         result_[i][j] = result_[i - 1][j - 1] + 1;
                         path_[i][j] = 1;
-                    } else if (result_[i - 1][j] >= result_[i][j - 1]) {
+                    } else if (result_[i - 1][j] >= result_[i][j - 1]) { // 次数判断的等号很重要, 决定了如果有多个最长子序列,最终输出的走向问题.
                         // 相当于从上面下来
                         result_[i][j] = result_[i - 1][j];
                         path_[i][j] = 2;
