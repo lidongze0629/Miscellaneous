@@ -24,6 +24,23 @@ filetype on
 " 根据侦测到的不同类型加载对应的插件
 filetype plugin on
 
+" 定义快捷键到行首和行尾
+nmap LB 0
+nmap LE $
+" 设置快捷键将选中文本块复制至系统剪贴板
+vnoremap <Leader>y "+y
+" 设置快捷键将系统剪贴板内容粘贴至 vim
+nmap <Leader>p "+p
+" 定义快捷键关闭当前分割窗口
+nmap <Leader>q :q<CR>
+" 定义快捷键保存当前窗口内容
+nmap <Leader>w :w<CR>
+" 定义快捷键保存所有窗口内容并退出 vim
+nmap <Leader>WQ :wa<CR>:q<CR>
+" 不做任何保存，直接退出 vim
+nmap <Leader>Q :qa!<CR>
+" 依次遍历子窗口
+nnoremap nw <C-W><C-W>
 " 跳转至右方的窗口
 nnoremap <Leader>lw <C-W>l
 " 跳转至左方的窗口
@@ -45,6 +62,10 @@ set ignorecase
 set nocompatible
 " vim 自身命令行模式智能补全
 set wildmenu
+
+" 配色方案 主题
+set background=dark
+colorscheme solarized
 
 " 总是显示状态栏
 set laststatus=2
@@ -77,6 +98,7 @@ set softtabstop=4
 colorscheme default
 " 随 vim 自启动
 let g:indent_guides_enable_on_vim_startup = 1
+
 " 从第二层开始可视化显示缩进
 let g:indent_guides_start_level=2
 " 色块宽度
@@ -84,8 +106,22 @@ let g:indent_guides_guide_size=1
 " 快捷键 i 开/关缩进可视化
 :nmap <silent> <Leader>i <Plug>IndentGuidesToggle
 
+" 代码折叠 za: 打开或关闭当前折叠 
+" zM: 关闭所有折叠
+" zR: 打开所有折叠
+" 基于缩进或语法进行代码折叠
+"set foldmethod=indent
+set foldmethod=syntax
+" 启动 vim 时关闭折叠代码
+set nofoldenable
+
 " *.cpp 和 *.h 间切换
-:let b:fswitchdst = 'cc,cpp,cxx,C'
+" 快捷键 是 <leader>sw
+au!
+au BufEnter *.h let b:fswitchdst  = 'cpp,cc,C'
+au BufEnter *.h let b:fswitchlocs = 'reg:/include/src/,reg:/include.*/src/'
+au BufEnter *.cc let b:fswitchdst = 'h'
+let b:fswitchlocs = 'reg:|src|include/**|'
 nmap <silent> <Leader>sw :FSHere<cr>
 
 " nnoremap <leader>jc :YcmCompleter GoToDeclaration<CR>
