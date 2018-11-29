@@ -117,7 +117,7 @@ set nofoldenable
 
 " *.cpp 和 *.h 间切换
 " 快捷键 是 <leader>sw
-au!
+" au!
 au BufEnter *.h let b:fswitchdst  = 'cpp,cc,C'
 au BufEnter *.h let b:fswitchlocs = 'reg:/include/src/,reg:/include.*/src/'
 au BufEnter *.cc let b:fswitchdst = 'h'
