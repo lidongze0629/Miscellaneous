@@ -180,6 +180,8 @@ let NERDTreeShowHidden=1
 let NERDTreeMinimalUI=1
 " 删除文件时自动删除文件对应 buffer
 let NERDTreeAutoDeleteBuffer=1
+" ^G remove
+let g:NERDTreeNodeDelimiter = "\u00a0"
 
 " ----------------------------------------------------
 " 独立书签功能
