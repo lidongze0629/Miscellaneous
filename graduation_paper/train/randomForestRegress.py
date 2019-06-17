@@ -12,7 +12,7 @@ def parseLogData(line, total_vertex_number, L):
     data = line[line.find('TrainLog'):]
     data_array = data.split(';')
     fid = data_array[0][14:]
-    running_time = data_array[1]
+    running_time = float(data_array[1]) * 1000
     ivnum = data_array[2]
     ovnum = data_array[3]
     tvnum = data_array[4]
@@ -45,6 +45,26 @@ def parseLogData(line, total_vertex_number, L):
 
     return fid, running_time, feature_vector
 
+def printError(result, labels):
+    if len(result) != len(labels):
+        print("size error when printError")
+    error = []
+    absError = []
+    squaredError = []
+    for i in range(len(labels)):
+        print(str(result[i]) + " -> " + str(labels[i]))
+        error.append(float(labels[i]) - float(result[i]))
+
+    for val in error:
+        squaredError.append(val * val)
+        absError.append(abs(val))
+
+    
+    print("MSE = " + str(sum(squaredError) / len(squaredError)))
+    print("MAE = " + str(sum(absError) / len(absError)))
+    print("RMSE = " + str(math.sqrt(sum(squaredError) / len(squaredError))))
+
+
 if __name__ == '__main__':
 
     fnum = sys.argv[1]
@@ -55,25 +75,44 @@ if __name__ == '__main__':
 
     # parse trian data
     print("-------------- begin parse train data ----------------")
-    train_datas = [None] * int(fnum)
-    labels = [None] * int(fnum)
+    total_dataset = [None] * int(fnum)
+    total_labels = [None] * int(fnum)
+    train_dataset = [None] * int(fnum)
+    train_labels = [None] * int(fnum)
+    validate_dataset = [None] * int(fnum)
+    validate_labels = [None] * int(fnum)
 
     logfile = open("wcc_hashmin_usa_road_bsp_64.out", "r");
     lines = logfile.readlines()
     for line in lines:
         if line.find('TrainLog') != -1:
             fid, running_time, feature_vector = parseLogData(line, total_vertex_number, L)
-            if train_datas[int(fid)] == None:
-                train_datas[int(fid)] = []
-                labels[int(fid)] = []
-            train_datas[int(fid)].append(feature_vector)
-            labels[int(fid)].append(running_time)
-
+            if total_dataset[int(fid)] == None:
+                total_dataset[int(fid)] = []
+                total_labels[int(fid)] = []
+            total_dataset[int(fid)].append(feature_vector)
+            total_labels[int(fid)].append(running_time)
     logfile.close()
+
+    for i in range(int(fnum)):
+        train_num = math.ceil(len(total_dataset[i]) * 0.95)
+        train_dataset[i] = total_dataset[i][0:train_num]
+        train_labels[i] = total_labels[i][0:train_num]
+        validate_dataset[i] = total_dataset[i][train_num:]
+        validate_labels[i] = total_labels[i][train_num:]
+
+    # random forest model train
     regr = RandomForestRegressor(n_estimators=100);
-    start = time.process_time();
-    regr.fit(train_datas[8], labels[8])
-    end = time.process_time();
-    print("train time is " + str(end - start))
-    print(regr.feature_importances_)
-    #print(regr.predict([['374804', '339', '375143', '920744', '339', '7', '326588', '7', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 1, 0, 0, 0, 0, 0, 0]]));
+    for i in range(int(fnum)):
+        start = time.process_time();
+        regr.fit(train_dataset[i], train_labels[i])
+        end = time.process_time();
+        print("-----------------  fid-" + str(i) + "  -----------------")
+        print("train time is " + str(end-start))
+        print(regr.feature_importances_)
+        result = regr.predict(validate_dataset[i])
+        print(validate_dataset[i])
+        print(validate_labels[i])
+        printError(result, validate_labels[i])
+
+    # print(regr.predict([['374804', '339', '375143', '920744', '339', '7', '326588', '7', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 1, 0, 0, 0, 0, 0, 0]]));
