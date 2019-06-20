@@ -1,0 +1,1 @@
+python3 main.py ./train_data/wcc_hashmin/usa_road/64/wcc_hashmin_usa_road_bsp_64.out 64 23947348 1000000
