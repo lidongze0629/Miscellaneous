@@ -25,13 +25,14 @@ if __name__ == '__main__':
 
     print("--------------- parse log -------------------")
     # which t means train, v means validate
-    t_data, t_label, v_data, v_label = parse_log(fnum, log_path, total_vertex_num, L, "random", 0.99)
+    t_data, t_label, v_data, v_label = parse_log(fnum, log_path, total_vertex_num, L, "random", 0.98)
     
     print("-------- random forest model train ----------")
     t_results = []
     t_labels = []
     regr = RandomForestRegressor(n_estimators=100)
     for i in range(fnum):
+        # print(str(i) + ", " + str(len(v_data[i])) + ", " + str(len(v_label[i])))
         start = time.process_time()
         regr.fit(t_data[i], t_label[i]);
         end = time.process_time()

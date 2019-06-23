@@ -31,6 +31,7 @@ def parse_log(fnum, log_path, total_vertex_num, L, mode, proportion):
             total_num = len(total_datasets[i])
             train_num = math.ceil(total_num * proportion)
             validate_num = total_num - train_num
+            # print("fid-" + str(i) + " total number " + str(total_num) + " train number " + str(train_num) + "validate number " + str(validate_num))
             random_list = np.unique(np.random.randint(0, total_num, validate_num))
             random_list_reverse = random_list[::-1]
             for j in random_list_reverse:
@@ -65,6 +66,9 @@ def parse_log_data(line, total_vertex_num, L):
         del update_node_list[len(update_node_list) - 1]
         for item in update_node_list:
             belong_interval = math.floor(int(item) / L)
+            if belong_interval > interval:
+                continue
+            # print(str(interval) + ", " + str(belong_interval)+ ", " + str(item))
             message_embedding[belong_interval] = message_embedding[belong_interval] + 1
 
     # construct feature vector
