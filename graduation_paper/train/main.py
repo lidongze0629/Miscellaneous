@@ -1,4 +1,4 @@
-from parse import parse_log
+from parse import *
 from metric import printErrorMetrics
 
 import matplotlib.pyplot as plt
@@ -8,14 +8,15 @@ import numpy as np
 import sys, time, random
 
 if __name__ == '__main__':
-    if len(sys.argv) != 5:
-        print("Usage: python3 main.py <log_path> <fnum> <total_vertex_num> <L>")
+    if len(sys.argv) != 6:
+        print("Usage: python3 main.py <algorithm> <log_path> <fnum> <total_vertex_num> <L>")
         sys.exit()
-
-    log_path = sys.argv[1]
-    fnum = int(sys.argv[2])
-    total_vertex_num = int(sys.argv[3])
-    L = int(sys.argv[4])
+    
+    algo = sys.argv[1]
+    log_path = sys.argv[2]
+    fnum = int(sys.argv[3])
+    total_vertex_num = int(sys.argv[4])
+    L = int(sys.argv[5])
     
     print("--------------- user params -----------------")
     print("L: " + str(L))
@@ -25,8 +26,14 @@ if __name__ == '__main__':
 
     print("--------------- parse log -------------------")
     # which t means train, v means validate
-    t_data, t_label, v_data, v_label = parse_log(fnum, log_path, total_vertex_num, L, "random", 0.98)
-    
+    if algo == "wcc_hashmin":
+        t_data, t_label, v_data, v_label = parse_wcc_hashmin_log(fnum, log_path, total_vertex_num, L, "random", 0.98)
+    elif algo == "pagerankx":
+        t_data, t_label, v_data, v_label = parse_pagerankx_log(fnum, log_path, "random", 0.9)
+    else:
+        print("unsupport algo " + algo)
+        sys.exit()
+
     print("-------- random forest model train ----------")
     t_results = []
     t_labels = []
@@ -57,7 +64,12 @@ if __name__ == '__main__':
 
     predict_num = len(figure_results) + 1
     fig = plt.figure()
-    plt.suptitle("wcc-hashmin usa-road predict result")
+
+    if algo == "wcc_hashmin":
+        plt.suptitle("wcc-hashmin usa-road predict result")
+    elif algo == "pagerankx":
+        plt.suptitle("pagerank dbpedia predic result")
+
     plt.plot(list(range(1, predict_num)), figure_results, label='predict')
     plt.plot(list(range(1, predict_num)), figure_labels, label='real')
     plt.xlabel('number')
