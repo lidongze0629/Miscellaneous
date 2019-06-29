@@ -9,6 +9,7 @@ import sys, time, random
 
 # usa_road 23947348 
 # com-friendster 65608366
+# livejournal 4847572
 
 if __name__ == '__main__':
     if len(sys.argv) != 6:
@@ -35,6 +36,8 @@ if __name__ == '__main__':
         t_data, t_label, v_data, v_label = parse_pagerankx_log(fnum, log_path, "random", 0.9)
     elif algo == "sssp":
         t_data, t_label, v_data, v_label = parse_sssp_log(fnum, log_path, total_vertex_num, L, "random", 0.9)
+    elif algo == "sampling":
+        t_data, t_label, v_data, v_label = parse_sampling_log(fnum, log_path, "random", 0.7)
     else:
         print("unsupport algo " + algo)
         sys.exit()
@@ -49,7 +52,7 @@ if __name__ == '__main__':
         regr.fit(t_data[i], t_label[i]);
         end = time.process_time()
         print("----- fid-" + str(i) + ": train time is " + str(end-start))
-        # print(regr.feature_importances_)
+        print(regr.feature_importances_)
         result = regr.predict(v_data[i])
         # printErrorMetrics(result, v_label[i])
         for r in range(len(result)):
@@ -76,6 +79,8 @@ if __name__ == '__main__':
         plt.suptitle("pagerank dbpedia predict result")
     elif algo == "sssp":
         plt.suptitle("sssp com-friendster predict result")
+    elif algo == "sampling":
+        plt.suptitle("sampling livejournal predict presult")
 
     plt.plot(list(range(1, predict_num)), figure_results, label='predict')
     plt.plot(list(range(1, predict_num)), figure_labels, label='real')
