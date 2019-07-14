@@ -1,1 +1,3 @@
 graduation_paper/train/__pycache__
+graduation_paper/grpc/build
+graduation_paper/grpc/python/__pycache__

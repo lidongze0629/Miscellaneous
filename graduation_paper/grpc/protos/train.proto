@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package grape.rpc;
+
+service TrainService {
+  rpc GetPredictResult(Feature) returns (PredictResult) {}
+  rpc TrainData(stream Feature) returns (TrainResult) {}
+}
+
+message Feature {
+  repeated double feature = 1;
+  string feature_str = 2;
+  double label = 3;
+}
+
+message PredictResult {
+  double predict_result = 1;
+}
+
+message TrainResult {
+  bool TrainStatus = 1;
+}

@@ -1,0 +1,2 @@
+protoc -I ../protos --grpc_out=. --plugin=protoc-gen-grpc=/usr/local/bin/grpc_cpp_plugin ../protos/train.proto
+protoc -I ../protos --cpp_out=. ../protos/train.proto
