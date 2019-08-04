@@ -127,11 +127,11 @@ def parse_sssp_log_data(line, total_vertex_num, L):
     tvnum = int(data_array[4])
     edge_num = int(data_array[5])
     received_msg_num = int(data_array[6])
-    heap_size = int(data_array[7])
-    available_msg_num = int(data_array[8])
+    # heap_size = int(data_array[7])
+    available_msg_num = int(data_array[7])
 
     if int(available_msg_num) > 0:
-        update_node = data_array[9]
+        update_node = data_array[8]
         update_node_list = update_node.split(',')
         del update_node_list[len(update_node_list) - 1]
         for item in update_node_list:
@@ -151,7 +151,7 @@ def parse_sssp_log_data(line, total_vertex_num, L):
     #feature_vector.append(tvnum)
     #feature_vector.append(edge_num)
     feature_vector.append(received_msg_num)
-    feature_vector.append(heap_size)
+    #feature_vector.append(heap_size)
     feature_vector.append(available_msg_num)
     for item in message_embedding:
         feature_vector.append(item)

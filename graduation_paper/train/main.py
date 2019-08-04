@@ -10,6 +10,7 @@ import sys, time, random
 # usa_road 23947348 
 # com-friendster 65608366
 # livejournal 4847572
+# dbpedia 4900578
 
 if __name__ == '__main__':
     if len(sys.argv) != 6:
@@ -35,7 +36,7 @@ if __name__ == '__main__':
     elif algo == "pagerankx":
         t_data, t_label, v_data, v_label = parse_pagerankx_log(fnum, log_path, "random", 0.9)
     elif algo == "sssp":
-        t_data, t_label, v_data, v_label = parse_sssp_log(fnum, log_path, total_vertex_num, L, "random", 0.9)
+        t_data, t_label, v_data, v_label = parse_sssp_log(fnum, log_path, total_vertex_num, L, "random", 0.8)
     elif algo == "sampling":
         t_data, t_label, v_data, v_label = parse_sampling_log(fnum, log_path, "random", 0.7)
     else:
