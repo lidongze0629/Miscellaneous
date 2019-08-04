@@ -38,6 +38,7 @@ if __name__ == '__main__':
     # print(len(list(range(1, max_step + 1))))
     # print(len(total_windows[:max_step + 1]))
     for i in range(step + 1):
+        # here you should seted by graph
         total_windows[i] = total_windows[i] / 65608366
     plt.plot(list(range(1, max_step + 2)), total_windows[:max_step + 1], linestyle='dotted', color='black', marker='*', ms=6)
     plt.xlabel('superstep')
