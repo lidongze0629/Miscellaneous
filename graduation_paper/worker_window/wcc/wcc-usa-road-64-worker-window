@@ -1,0 +1,1286 @@
+I0804 15:24:26.818994 12393 util.cc:56] "query-bsp"
+I0804 15:24:26.819988 12393 worker.cc:238] The query absolute path is /BIGDATA1/buaa_wffan_1/lidongze/code/grape/cpp/build/query/wcc/bsp/query-bsp
+I0804 15:24:26.831419 12393 worker.cc:244] query detail: 
+I0804 15:24:26.831439 12393 query.cc:81] terminate = 0
+I0804 15:24:26.831459 12393 query.cc:82] bound = 0
+I0804 15:24:26.831467 12393 query.cc:83] root = 0
+I0804 15:24:26.831475 12393 query.cc:84] lower_bound_ = 0
+I0804 15:24:26.831480 12393 query.cc:85] upper_bound_ = 50
+I0804 15:24:26.831485 12393 query.cc:86] ttl_ = 100000
+I0804 15:24:26.836179 12393 query.cc:87] sampling_pattern = 
+I0804 15:24:26.836191 12393 worker.cc:249] query_info=file:/BIGDATA1/buaa_wffan_1/lidongze/code/grape/cpp/build/query/wcc/bsp/query-bsp
+I0804 15:24:26.836385 12393 worker.cc:35] Enter coordinator loop
+I0804 15:24:27.025117  9190 worker.cc:155] tid-0 access Cool
+I0804 15:24:26.657299  4181 worker.cc:155] tid-4 access Cool
+I0804 15:24:26.657279  4177 worker.cc:155] tid-0 access Cool
+I0804 15:24:26.603698 13184 worker.cc:155] tid-4 access Cool
+I0804 15:24:26.775686 13074 worker.cc:155] tid-0 access Cool
+I0804 15:24:26.564694 13305 worker.cc:155] tid-1 access Cool
+I0804 15:24:26.564694 13307 worker.cc:155] tid-3 access Cool
+I0804 15:24:26.471361   832 worker.cc:155] tid-0 access Cool
+I0804 15:24:26.471462   839 worker.cc:155] tid-6 access Cool
+I0804 15:24:26.856093 17470 worker.cc:155] tid-2 access Cool
+I0804 15:24:26.856101 17472 worker.cc:155] tid-4 access Cool
+I0804 15:24:26.652148 13031 worker.cc:155] tid-3 access Cool
+I0804 15:24:26.652150 13032 worker.cc:155] tid-4 access Cool
+I0804 15:24:26.657276  4178 worker.cc:155] tid-1 access Cool
+I0804 15:24:26.603688 13183 worker.cc:155] tid-3 access Cool
+I0804 15:24:26.775651 13078 worker.cc:155] tid-4 access Cool
+I0804 15:24:26.564785 13304 worker.cc:155] tid-0 access Cool
+I0804 15:24:26.471421   838 worker.cc:155] tid-5 access Cool
+I0804 15:24:26.856151 17473 worker.cc:155] tid-5 access Cool
+I0804 15:24:27.025122  9194 worker.cc:155] tid-4 access Cool
+I0804 15:24:26.657276  4180 worker.cc:155] tid-3 access Cool
+I0804 15:24:26.603734 13185 worker.cc:155] tid-5 access Cool
+I0804 15:24:26.775647 13079 worker.cc:155] tid-5 access Cool
+I0804 15:24:26.564891 13310 worker.cc:155] tid-6 access Cool
+I0804 15:24:26.564925 13311 worker.cc:155] tid-7 access Cool
+I0804 15:24:26.564910 13299 worker.cc:49] Enter worker loop, task num is 8
+I0804 15:24:26.471328   836 worker.cc:155] tid-3 access Cool
+I0804 15:24:26.471434   833 worker.cc:155] tid-1 access Cool
+I0804 15:24:26.471459   837 worker.cc:155] tid-4 access Cool
+I0804 15:24:26.856076 17471 worker.cc:155] tid-3 access Cool
+I0804 15:24:27.025107  9191 worker.cc:155] tid-1 access Cool
+I0804 15:24:27.025110  9193 worker.cc:155] tid-3 access Cool
+I0804 15:24:26.657330  4182 worker.cc:155] tid-5 access Cool
+I0804 15:24:26.603687 13181 worker.cc:155] tid-1 access Cool
+I0804 15:24:26.775774 13076 worker.cc:155] tid-2 access Cool
+I0804 15:24:26.775776 13080 worker.cc:155] tid-6 access Cool
+I0804 15:24:26.564795 13308 worker.cc:155] tid-4 access Cool
+I0804 15:24:26.471508   827 worker.cc:49] Enter worker loop, task num is 8
+I0804 15:24:26.856242 17463 worker.cc:49] Enter worker loop, task num is 8
+I0804 15:24:27.025184  9195 worker.cc:155] tid-5 access Cool
+I0804 15:24:27.025187  9192 worker.cc:155] tid-2 access Cool
+I0804 15:24:26.657371  4179 worker.cc:155] tid-2 access Cool
+I0804 15:24:26.657380  4183 worker.cc:155] tid-6 access Cool
+I0804 15:24:26.603852 13175 worker.cc:49] Enter worker loop, task num is 8
+I0804 15:24:26.775822 13075 worker.cc:155] tid-1 access Cool
+I0804 15:24:26.564844 13309 worker.cc:155] tid-5 access Cool
+I0804 15:24:26.471496   840 worker.cc:155] tid-7 access Cool
+I0804 15:24:26.471328   834 worker.cc:155] tid-2 access Cool
+I0804 15:24:26.472043   836 wcc.cc:23] access PEval
+I0804 15:24:26.856181 17468 worker.cc:155] tid-0 access Cool
+I0804 15:24:27.025223  9196 worker.cc:155] tid-6 access Cool
+I0804 15:24:27.025266  9197 worker.cc:155] tid-7 access Cool
+I0804 15:24:26.657419  4184 worker.cc:155] tid-7 access Cool
+I0804 15:24:26.603799 13182 worker.cc:155] tid-2 access Cool
+I0804 15:24:26.603816 13186 worker.cc:155] tid-6 access Cool
+I0804 15:24:26.775842 13081 worker.cc:155] tid-7 access Cool
+I0804 15:24:26.565462 13309 wcc.cc:23] access PEval
+I0804 15:24:26.472052   834 wcc.cc:23] access PEval
+I0804 15:24:26.472045   840 wcc.cc:23] access PEval
+I0804 15:24:26.856202 17474 worker.cc:155] tid-6 access Cool
+I0804 15:24:27.025269  9185 worker.cc:49] Enter worker loop, task num is 8
+I0804 15:24:26.657414  4172 worker.cc:49] Enter worker loop, task num is 8
+I0804 15:24:26.603852 13187 worker.cc:155] tid-7 access Cool
+I0804 15:24:26.775841 13069 worker.cc:49] Enter worker loop, task num is 8
+I0804 15:24:26.775807 13077 worker.cc:155] tid-3 access Cool
+I0804 15:24:26.564694 13306 worker.cc:155] tid-2 access Cool
+I0804 15:24:26.472815   839 wcc.cc:23] access PEval
+I0804 15:24:26.472815   837 wcc.cc:23] access PEval
+I0804 15:24:26.856243 17475 worker.cc:155] tid-7 access Cool
+I0804 15:24:27.025864  9191 wcc.cc:23] access PEval
+I0804 15:24:26.658047  4178 wcc.cc:23] access PEval
+I0804 15:24:26.604513 13182 wcc.cc:23] access PEval
+I0804 15:24:26.776466 13080 wcc.cc:23] access PEval
+I0804 15:24:26.776479 13081 wcc.cc:23] access PEval
+I0804 15:24:26.776466 13074 wcc.cc:23] access PEval
+I0804 15:24:26.565503 13306 wcc.cc:23] access PEval
+I0804 15:24:26.472832   838 wcc.cc:23] access PEval
+I0804 15:24:26.473137   833 wcc.cc:23] access PEval
+I0804 15:24:26.473140   832 wcc.cc:23] access PEval
+I0804 15:24:26.856073 17469 worker.cc:155] tid-1 access Cool
+I0804 15:24:27.025888  9190 wcc.cc:23] access PEval
+I0804 15:24:26.658051  4177 wcc.cc:23] access PEval
+I0804 15:24:26.604522 13186 wcc.cc:23] access PEval
+I0804 15:24:26.603716 13180 worker.cc:155] tid-0 access Cool
+I0804 15:24:26.776509 13078 wcc.cc:23] access PEval
+I0804 15:24:26.777617 13075 wcc.cc:23] access PEval
+I0804 15:24:26.565858 13311 wcc.cc:23] access PEval
+I0804 15:24:26.508302   836 wcc.cc:128] jsjs 30 0 374373
+I0804 15:24:26.856772 17470 wcc.cc:23] access PEval
+I0804 15:24:27.025897  9192 wcc.cc:23] access PEval
+I0804 15:24:26.658901  4179 wcc.cc:23] access PEval
+I0804 15:24:26.604550 13187 wcc.cc:23] access PEval
+I0804 15:24:26.605722 13184 wcc.cc:23] access PEval
+I0804 15:24:26.777668 13077 wcc.cc:23] access PEval
+I0804 15:24:26.565431 13310 wcc.cc:23] access PEval
+I0804 15:24:26.565434 13305 wcc.cc:23] access PEval
+I0804 15:24:26.565438 13308 wcc.cc:23] access PEval
+I0804 15:24:26.565440 13304 wcc.cc:23] access PEval
+I0804 15:24:26.856781 17472 wcc.cc:23] access PEval
+I0804 15:24:27.025882  9197 wcc.cc:23] access PEval
+I0804 15:24:27.025880  9193 wcc.cc:23] access PEval
+I0804 15:24:27.026022  9194 wcc.cc:23] access PEval
+I0804 15:24:26.658905  4180 wcc.cc:23] access PEval
+I0804 15:24:26.658982  4182 wcc.cc:23] access PEval
+I0804 15:24:26.605723 13183 wcc.cc:23] access PEval
+I0804 15:24:26.777669 13076 wcc.cc:23] access PEval
+I0804 15:24:26.565441 13307 wcc.cc:23] access PEval
+I0804 15:24:26.856776 17468 wcc.cc:23] access PEval
+I0804 15:24:27.025880  9195 wcc.cc:23] access PEval
+I0804 15:24:26.658999  4183 wcc.cc:23] access PEval
+I0804 15:24:26.605844 13181 wcc.cc:23] access PEval
+I0804 15:24:26.777798 13079 wcc.cc:23] access PEval
+I0804 15:24:26.856808 17474 wcc.cc:23] access PEval
+I0804 15:24:27.026026  9196 wcc.cc:23] access PEval
+I0804 15:24:26.658922  4184 wcc.cc:23] access PEval
+I0804 15:24:26.605953 13185 wcc.cc:23] access PEval
+I0804 15:24:26.814327 13079 wcc.cc:128] jsjs 43 0 374720
+I0804 15:24:26.856818 17475 wcc.cc:23] access PEval
+I0804 15:24:26.658906  4181 wcc.cc:23] access PEval
+I0804 15:24:26.606006 13180 wcc.cc:23] access PEval
+I0804 15:24:26.815001 13075 wcc.cc:128] jsjs 11 0 374616
+I0804 15:24:26.856798 17473 wcc.cc:23] access PEval
+I0804 15:24:26.856775 17471 wcc.cc:23] access PEval
+I0804 15:24:26.856815 17469 wcc.cc:23] access PEval
+I0804 15:24:26.896715 17473 wcc.cc:128] jsjs 47 0 374088
+I0804 15:24:26.897059 17471 wcc.cc:128] jsjs 31 0 372216
+I0804 15:24:26.652222 13033 worker.cc:155] tid-5 access Cool
+I0804 15:24:26.652180 13030 worker.cc:155] tid-2 access Cool
+I0804 15:24:26.652335 13035 worker.cc:155] tid-7 access Cool
+I0804 15:24:26.652160 13029 worker.cc:155] tid-1 access Cool
+I0804 15:24:26.652266 13034 worker.cc:155] tid-6 access Cool
+I0804 15:24:26.652279 13028 worker.cc:155] tid-0 access Cool
+I0804 15:24:26.652312 13023 worker.cc:49] Enter worker loop, task num is 8
+I0804 15:24:26.653733 13028 wcc.cc:23] access PEval
+I0804 15:24:26.653748 13029 wcc.cc:23] access PEval
+I0804 15:24:26.653760 13035 wcc.cc:23] access PEval
+I0804 15:24:26.817072 13077 wcc.cc:128] jsjs 27 0 374686
+I0804 15:24:26.653764 13034 wcc.cc:23] access PEval
+I0804 15:24:26.653754 13030 wcc.cc:23] access PEval
+I0804 15:24:26.653908 13032 wcc.cc:23] access PEval
+I0804 15:24:26.653779 13033 wcc.cc:23] access PEval
+I0804 15:24:26.653913 13031 wcc.cc:23] access PEval
+I0804 15:24:26.693271 13034 wcc.cc:128] jsjs 49 0 374873
+I0804 15:24:26.701336  4184 wcc.cc:128] jsjs 56 0 374145
+I0804 15:24:26.648468 13186 wcc.cc:128] jsjs 50 0 374182
+I0804 15:24:26.901016 17469 wcc.cc:128] jsjs 15 0 374139
+I0804 15:24:26.648753 13183 wcc.cc:128] jsjs 26 0 374235
+I0804 15:24:26.901728 17474 wcc.cc:128] jsjs 55 0 374129
+I0804 15:24:26.649732 13187 wcc.cc:128] jsjs 58 0 375024
+I0804 15:24:26.698319 13035 wcc.cc:128] jsjs 57 0 374111
+I0804 15:24:26.705128  4178 wcc.cc:128] jsjs 8 0 374804
+I0804 15:24:26.519444   839 wcc.cc:128] jsjs 54 0 374220
+I0804 15:24:26.904208 17475 wcc.cc:128] jsjs 63 0 375615
+I0804 15:24:27.073349  9193 wcc.cc:128] jsjs 29 0 374537
+I0804 15:24:26.705914  4180 wcc.cc:128] jsjs 24 0 374079
+I0804 15:24:26.520658   840 wcc.cc:128] jsjs 62 0 372293
+I0804 15:24:26.706818  4183 wcc.cc:128] jsjs 48 0 374772
+I0804 15:24:27.074862  9197 wcc.cc:128] jsjs 61 0 374403
+I0804 15:24:26.707231  4182 wcc.cc:128] jsjs 40 0 374193
+I0804 15:24:26.521410   833 wcc.cc:128] jsjs 14 0 374476
+I0804 15:24:26.654234 13181 wcc.cc:128] jsjs 10 0 374015
+I0804 15:24:26.615234 13305 wcc.cc:128] jsjs 12 0 374141
+I0804 15:24:27.076568  9195 wcc.cc:128] jsjs 45 0 374082
+I0804 15:24:26.522840   837 wcc.cc:128] jsjs 38 0 374899
+I0804 15:24:26.616458 13304 wcc.cc:128] jsjs 4 0 374512
+I0804 15:24:27.077028  9190 wcc.cc:128] jsjs 5 0 374065
+I0804 15:24:27.077061  9194 wcc.cc:128] jsjs 37 0 374216
+I0804 15:24:26.655802 13185 wcc.cc:128] jsjs 42 0 374186
+I0804 15:24:26.524039   834 wcc.cc:128] jsjs 22 0 374439
+I0804 15:24:26.908843 17468 wcc.cc:128] jsjs 7 0 374083
+I0804 15:24:26.705411 13031 wcc.cc:128] jsjs 25 0 374081
+I0804 15:24:27.078454  9196 wcc.cc:128] jsjs 53 0 374205
+I0804 15:24:26.618901 13309 wcc.cc:128] jsjs 44 0 374458
+I0804 15:24:26.706450 13029 wcc.cc:128] jsjs 9 0 372074
+I0804 15:24:26.619072 13307 wcc.cc:128] jsjs 28 0 374551
+I0804 15:24:26.711953  4179 wcc.cc:128] jsjs 16 0 374359
+I0804 15:24:26.830591 13076 wcc.cc:128] jsjs 19 0 374020
+I0804 15:24:27.080116  9191 wcc.cc:128] jsjs 13 0 374174
+I0804 15:24:26.707505 13028 wcc.cc:128] jsjs 1 0 374231
+I0804 15:24:26.526976   838 wcc.cc:128] jsjs 46 0 374079
+I0804 15:24:27.081058  9192 wcc.cc:128] jsjs 21 0 374490
+I0804 15:24:26.912449 17470 wcc.cc:128] jsjs 23 0 374254
+I0804 15:24:26.713718  4181 wcc.cc:128] jsjs 32 0 374381
+I0804 15:24:26.912668 17472 wcc.cc:128] jsjs 39 0 374840
+I0804 15:24:26.832850 13078 wcc.cc:128] jsjs 35 0 374446
+I0804 15:24:26.622121 13311 wcc.cc:128] jsjs 60 0 374411
+I0804 15:24:26.622159 13310 wcc.cc:128] jsjs 52 0 374182
+I0804 15:24:26.622388 13308 wcc.cc:128] jsjs 36 0 371990
+I0804 15:24:26.710085 13030 wcc.cc:128] jsjs 17 0 374358
+I0804 15:24:26.833542 13081 wcc.cc:128] jsjs 59 0 374594
+I0804 15:24:26.833683 13074 wcc.cc:128] jsjs 3 0 374246
+I0804 15:24:26.834484 13080 wcc.cc:128] jsjs 51 0 371790
+I0804 15:24:26.716259  4177 wcc.cc:128] jsjs 0 0 374073
+I0804 15:24:26.663889 13182 wcc.cc:128] jsjs 18 0 373998
+I0804 15:24:26.624986 13306 wcc.cc:128] jsjs 20 0 374081
+I0804 15:24:26.664331 13184 wcc.cc:128] jsjs 34 0 374324
+I0804 15:24:26.713399 13033 wcc.cc:128] jsjs 41 0 374199
+I0804 15:24:26.713855 13032 wcc.cc:128] jsjs 33 0 374384
+I0804 15:24:26.533380   832 wcc.cc:128] jsjs 6 0 374270
+I0804 15:24:26.665974 13180 wcc.cc:128] jsjs 2 0 374238
+I0804 15:24:26.714506 13028 wcc.cc:148] access IncEval
+I0804 15:24:26.714509 13032 wcc.cc:148] access IncEval
+I0804 15:24:26.714536 13029 wcc.cc:148] access IncEval
+I0804 15:24:26.666045 13180 wcc.cc:148] access IncEval
+I0804 15:24:26.666049 13183 wcc.cc:148] access IncEval
+I0804 15:24:26.666056 13187 wcc.cc:148] access IncEval
+I0804 15:24:26.838004 13075 wcc.cc:148] access IncEval
+I0804 15:24:26.838016 13080 wcc.cc:148] access IncEval
+I0804 15:24:26.838016 13079 wcc.cc:148] access IncEval
+I0804 15:24:26.838027 13077 wcc.cc:148] access IncEval
+I0804 15:24:26.838034 13080 wcc.cc:178] worker window 51 1 104
+I0804 15:24:26.838048 13081 wcc.cc:148] access IncEval
+I0804 15:24:26.838050 13079 wcc.cc:178] worker window 43 1 230
+I0804 15:24:26.627058 13304 wcc.cc:148] access IncEval
+I0804 15:24:26.627075 13310 wcc.cc:148] access IncEval
+I0804 15:24:26.627086 13305 wcc.cc:148] access IncEval
+I0804 15:24:26.533697   836 wcc.cc:148] access IncEval
+I0804 15:24:26.533721   833 wcc.cc:148] access IncEval
+I0804 15:24:26.533726   834 wcc.cc:148] access IncEval
+I0804 15:24:26.533723   840 wcc.cc:148] access IncEval
+I0804 15:24:26.918426 17470 wcc.cc:148] access IncEval
+I0804 15:24:26.918442 17470 wcc.cc:178] worker window 23 1 173
+I0804 15:24:26.918449 17468 wcc.cc:148] access IncEval
+I0804 15:24:27.087479  9190 wcc.cc:148] access IncEval
+I0804 15:24:27.087487  9193 wcc.cc:148] access IncEval
+I0804 15:24:27.087483  9192 wcc.cc:148] access IncEval
+I0804 15:24:27.087489  9194 wcc.cc:148] access IncEval
+I0804 15:24:27.087507  9193 wcc.cc:178] worker window 29 1 56
+I0804 15:24:26.714551 13034 wcc.cc:148] access IncEval
+I0804 15:24:26.714540 13031 wcc.cc:148] access IncEval
+I0804 15:24:26.666064 13183 wcc.cc:178] worker window 26 1 111
+I0804 15:24:26.838023 13074 wcc.cc:148] access IncEval
+I0804 15:24:26.838074 13077 wcc.cc:178] worker window 27 1 182
+I0804 15:24:26.627099 13307 wcc.cc:148] access IncEval
+I0804 15:24:26.627110 13309 wcc.cc:148] access IncEval
+I0804 15:24:26.533730   838 wcc.cc:148] access IncEval
+I0804 15:24:26.918457 17469 wcc.cc:148] access IncEval
+I0804 15:24:27.087518  9192 wcc.cc:178] worker window 21 1 216
+I0804 15:24:27.087502  9190 wcc.cc:178] worker window 5 1 203
+I0804 15:24:27.087509  9191 wcc.cc:148] access IncEval
+I0804 15:24:26.714550 13033 wcc.cc:148] access IncEval
+I0804 15:24:26.714596 13031 wcc.cc:178] worker window 25 1 86
+I0804 15:24:26.714568 13029 wcc.cc:178] worker window 9 1 308
+I0804 15:24:26.714540 13030 wcc.cc:148] access IncEval
+I0804 15:24:26.666070 13187 wcc.cc:178] worker window 58 1 102
+I0804 15:24:26.666059 13180 wcc.cc:178] worker window 2 1 105
+I0804 15:24:26.838023 13075 wcc.cc:178] worker window 11 1 398
+I0804 15:24:26.838109 13074 wcc.cc:178] worker window 3 1 173
+I0804 15:24:26.838035 13076 wcc.cc:148] access IncEval
+I0804 15:24:26.627090 13306 wcc.cc:148] access IncEval
+I0804 15:24:26.627106 13308 wcc.cc:148] access IncEval
+I0804 15:24:26.627127 13307 wcc.cc:178] worker window 28 1 70
+I0804 15:24:26.627152 13306 wcc.cc:178] worker window 20 1 188
+I0804 15:24:26.533731   839 wcc.cc:148] access IncEval
+I0804 15:24:26.533730   837 wcc.cc:148] access IncEval
+I0804 15:24:26.533777   838 wcc.cc:178] worker window 46 1 146
+I0804 15:24:26.918459 17471 wcc.cc:148] access IncEval
+I0804 15:24:26.918474 17475 wcc.cc:148] access IncEval
+I0804 15:24:26.918498 17471 wcc.cc:178] worker window 31 1 93
+I0804 15:24:26.918463 17472 wcc.cc:148] access IncEval
+I0804 15:24:27.087527  9194 wcc.cc:178] worker window 37 1 174
+I0804 15:24:27.087525  9196 wcc.cc:148] access IncEval
+I0804 15:24:26.714540 13032 wcc.cc:178] worker window 33 1 245
+I0804 15:24:26.666077 13185 wcc.cc:148] access IncEval
+I0804 15:24:26.838037 13078 wcc.cc:148] access IncEval
+I0804 15:24:26.838140 13076 wcc.cc:178] worker window 19 1 90
+I0804 15:24:26.627158 13308 wcc.cc:178] worker window 36 1 191
+I0804 15:24:26.627140 13309 wcc.cc:178] worker window 44 1 163
+I0804 15:24:26.533758   834 wcc.cc:178] worker window 22 1 161
+I0804 15:24:26.533744   833 wcc.cc:178] worker window 14 1 266
+I0804 15:24:26.533802   837 wcc.cc:178] worker window 38 1 40
+I0804 15:24:26.533735   836 wcc.cc:178] worker window 30 1 204
+I0804 15:24:26.918471 17474 wcc.cc:148] access IncEval
+I0804 15:24:27.087525  9195 wcc.cc:148] access IncEval
+I0804 15:24:27.087576  9196 wcc.cc:178] worker window 53 1 287
+I0804 15:24:26.714553 13035 wcc.cc:148] access IncEval
+I0804 15:24:26.666074 13181 wcc.cc:148] access IncEval
+I0804 15:24:26.666108 13185 wcc.cc:178] worker window 42 1 172
+I0804 15:24:26.666093 13184 wcc.cc:148] access IncEval
+I0804 15:24:26.666121 13181 wcc.cc:178] worker window 10 1 185
+I0804 15:24:26.838088 13081 wcc.cc:178] worker window 59 1 40
+I0804 15:24:26.627101 13310 wcc.cc:178] worker window 52 1 243
+I0804 15:24:26.533722   832 wcc.cc:148] access IncEval
+I0804 15:24:26.918527 17472 wcc.cc:178] worker window 39 1 109
+I0804 15:24:27.087522  9197 wcc.cc:148] access IncEval
+I0804 15:24:27.087590  9195 wcc.cc:178] worker window 45 1 125
+I0804 15:24:27.087553  9191 wcc.cc:178] worker window 13 1 241
+I0804 15:24:27.087604  9197 wcc.cc:178] worker window 61 1 78
+I0804 15:24:26.714592 13034 wcc.cc:178] worker window 49 1 108
+I0804 15:24:26.666080 13182 wcc.cc:148] access IncEval
+I0804 15:24:26.838156 13078 wcc.cc:178] worker window 35 1 364
+I0804 15:24:26.627075 13304 wcc.cc:178] worker window 4 1 114
+I0804 15:24:26.533766   840 wcc.cc:178] worker window 62 1 116
+I0804 15:24:26.918473 17468 wcc.cc:178] worker window 7 1 96
+I0804 15:24:26.714653 13035 wcc.cc:178] worker window 57 1 141
+I0804 15:24:26.666136 13186 wcc.cc:148] access IncEval
+I0804 15:24:26.666146 13182 wcc.cc:178] worker window 18 1 112
+I0804 15:24:26.666138 13184 wcc.cc:178] worker window 34 1 290
+I0804 15:24:26.666188 13186 wcc.cc:178] worker window 50 1 193
+I0804 15:24:26.627120 13305 wcc.cc:178] worker window 12 1 332
+I0804 15:24:26.533789   839 wcc.cc:178] worker window 54 1 325
+I0804 15:24:26.918543 17474 wcc.cc:178] worker window 55 1 470
+I0804 15:24:26.714606 13033 wcc.cc:178] worker window 41 1 80
+I0804 15:24:26.714629 13030 wcc.cc:178] worker window 17 1 157
+I0804 15:24:26.627104 13311 wcc.cc:148] access IncEval
+I0804 15:24:26.533831   832 wcc.cc:178] worker window 6 1 117
+I0804 15:24:26.918491 17469 wcc.cc:178] worker window 15 1 279
+I0804 15:24:26.918506 17475 wcc.cc:178] worker window 63 1 57
+I0804 15:24:26.714532 13028 wcc.cc:178] worker window 1 1 279
+I0804 15:24:26.627261 13311 wcc.cc:178] worker window 60 1 85
+I0804 15:24:26.918470 17473 wcc.cc:148] access IncEval
+I0804 15:24:26.918589 17473 wcc.cc:178] worker window 47 1 241
+I0804 15:24:26.719661  4178 wcc.cc:148] access IncEval
+I0804 15:24:26.719673  4179 wcc.cc:148] access IncEval
+I0804 15:24:26.719664  4181 wcc.cc:148] access IncEval
+I0804 15:24:26.719679  4183 wcc.cc:148] access IncEval
+I0804 15:24:26.719678  4180 wcc.cc:148] access IncEval
+I0804 15:24:26.719704  4179 wcc.cc:178] worker window 16 1 155
+I0804 15:24:26.719676  4177 wcc.cc:148] access IncEval
+I0804 15:24:26.719681  4184 wcc.cc:148] access IncEval
+I0804 15:24:26.719729  4180 wcc.cc:178] worker window 24 1 186
+I0804 15:24:26.719753  4184 wcc.cc:178] worker window 56 1 59
+I0804 15:24:26.719678  4182 wcc.cc:148] access IncEval
+I0804 15:24:26.716480 13028 wcc.cc:148] access IncEval
+I0804 15:24:26.716486 13033 wcc.cc:148] access IncEval
+I0804 15:24:26.716503 13028 wcc.cc:178] worker window 1 2 221
+I0804 15:24:26.716483 13032 wcc.cc:148] access IncEval
+I0804 15:24:26.716512 13033 wcc.cc:178] worker window 41 2 80
+I0804 15:24:26.719753  4177 wcc.cc:178] worker window 0 1 177
+I0804 15:24:26.668018 13183 wcc.cc:148] access IncEval
+I0804 15:24:26.668030 13183 wcc.cc:178] worker window 26 2 111
+I0804 15:24:26.839964 13075 wcc.cc:148] access IncEval
+I0804 15:24:26.839987 13079 wcc.cc:148] access IncEval
+I0804 15:24:26.839992 13075 wcc.cc:178] worker window 11 2 398
+I0804 15:24:26.840001 13079 wcc.cc:178] worker window 43 2 230
+I0804 15:24:26.840003 13077 wcc.cc:148] access IncEval
+I0804 15:24:26.840011 13076 wcc.cc:148] access IncEval
+I0804 15:24:26.840013 13074 wcc.cc:148] access IncEval
+I0804 15:24:26.840050 13076 wcc.cc:178] worker window 19 2 90
+I0804 15:24:26.840029 13081 wcc.cc:148] access IncEval
+I0804 15:24:26.629043 13310 wcc.cc:148] access IncEval
+I0804 15:24:26.629061 13305 wcc.cc:148] access IncEval
+I0804 15:24:26.629074 13307 wcc.cc:148] access IncEval
+I0804 15:24:26.535651   839 wcc.cc:148] access IncEval
+I0804 15:24:26.535678   839 wcc.cc:178] worker window 54 2 325
+I0804 15:24:26.920428 17469 wcc.cc:148] access IncEval
+I0804 15:24:26.920441 17472 wcc.cc:148] access IncEval
+I0804 15:24:26.920428 17471 wcc.cc:148] access IncEval
+I0804 15:24:27.089459  9194 wcc.cc:148] access IncEval
+I0804 15:24:26.716513 13031 wcc.cc:148] access IncEval
+I0804 15:24:26.716524 13032 wcc.cc:178] worker window 33 2 245
+I0804 15:24:26.721464  4182 wcc.cc:178] worker window 40 1 238
+I0804 15:24:26.668048 13181 wcc.cc:148] access IncEval
+I0804 15:24:26.668061 13182 wcc.cc:148] access IncEval
+I0804 15:24:26.840013 13078 wcc.cc:148] access IncEval
+I0804 15:24:26.629092 13305 wcc.cc:178] worker window 12 2 332
+I0804 15:24:26.629062 13310 wcc.cc:178] worker window 52 2 243
+I0804 15:24:26.535693   837 wcc.cc:148] access IncEval
+I0804 15:24:26.920444 17473 wcc.cc:148] access IncEval
+I0804 15:24:26.920472 17472 wcc.cc:178] worker window 39 2 109
+I0804 15:24:26.920437 17470 wcc.cc:148] access IncEval
+I0804 15:24:27.089474  9194 wcc.cc:178] worker window 37 2 174
+I0804 15:24:26.716516 13030 wcc.cc:148] access IncEval
+I0804 15:24:26.716529 13034 wcc.cc:148] access IncEval
+I0804 15:24:26.716543 13031 wcc.cc:178] worker window 25 2 86
+I0804 15:24:26.716570 13034 wcc.cc:178] worker window 49 2 108
+I0804 15:24:26.719712  4181 wcc.cc:178] worker window 32 1 307
+I0804 15:24:26.719693  4178 wcc.cc:178] worker window 8 1 339
+I0804 15:24:26.719719  4183 wcc.cc:178] worker window 48 1 145
+I0804 15:24:26.668062 13184 wcc.cc:148] access IncEval
+I0804 15:24:26.668064 13180 wcc.cc:148] access IncEval
+I0804 15:24:26.668092 13182 wcc.cc:178] worker window 18 2 112
+I0804 15:24:26.840063 13074 wcc.cc:178] worker window 3 2 125
+I0804 15:24:26.840013 13080 wcc.cc:148] access IncEval
+I0804 15:24:26.840091 13078 wcc.cc:178] worker window 35 2 364
+I0804 15:24:26.840023 13077 wcc.cc:178] worker window 27 2 182
+I0804 15:24:26.629065 13304 wcc.cc:148] access IncEval
+I0804 15:24:26.629084 13308 wcc.cc:148] access IncEval
+I0804 15:24:26.629086 13309 wcc.cc:148] access IncEval
+I0804 15:24:26.535693   832 wcc.cc:148] access IncEval
+I0804 15:24:26.535729   837 wcc.cc:178] worker window 38 2 40
+I0804 15:24:26.535698   836 wcc.cc:148] access IncEval
+I0804 15:24:26.535701   838 wcc.cc:148] access IncEval
+I0804 15:24:26.920495 17473 wcc.cc:178] worker window 47 2 241
+I0804 15:24:26.920437 17468 wcc.cc:148] access IncEval
+I0804 15:24:26.920509 17470 wcc.cc:178] worker window 23 2 173
+I0804 15:24:26.920445 17475 wcc.cc:148] access IncEval
+I0804 15:24:27.089488  9191 wcc.cc:148] access IncEval
+I0804 15:24:26.716514 13029 wcc.cc:148] access IncEval
+I0804 15:24:26.721613  4177 wcc.cc:148] access IncEval
+I0804 15:24:26.721619  4181 wcc.cc:148] access IncEval
+I0804 15:24:26.668068 13185 wcc.cc:148] access IncEval
+I0804 15:24:26.840104 13080 wcc.cc:178] worker window 51 2 104
+I0804 15:24:26.629083 13306 wcc.cc:148] access IncEval
+I0804 15:24:26.629144 13309 wcc.cc:178] worker window 44 2 163
+I0804 15:24:26.535701   840 wcc.cc:148] access IncEval
+I0804 15:24:26.920444 17474 wcc.cc:148] access IncEval
+I0804 15:24:27.089500  9197 wcc.cc:148] access IncEval
+I0804 15:24:26.716563 13030 wcc.cc:178] worker window 17 2 157
+I0804 15:24:26.721616  4178 wcc.cc:148] access IncEval
+I0804 15:24:26.668069 13181 wcc.cc:178] worker window 10 2 185
+I0804 15:24:26.840077 13081 wcc.cc:178] worker window 59 2 40
+I0804 15:24:26.629123 13304 wcc.cc:178] worker window 4 2 114
+I0804 15:24:26.629154 13306 wcc.cc:178] worker window 20 2 188
+I0804 15:24:26.535696   833 wcc.cc:148] access IncEval
+I0804 15:24:26.920537 17475 wcc.cc:178] worker window 63 2 57
+I0804 15:24:26.920485 17471 wcc.cc:178] worker window 31 2 93
+I0804 15:24:27.089489  9192 wcc.cc:148] access IncEval
+I0804 15:24:27.089525  9197 wcc.cc:178] worker window 61 2 78
+I0804 15:24:26.716606 13029 wcc.cc:178] worker window 9 2 308
+I0804 15:24:26.716531 13035 wcc.cc:148] access IncEval
+I0804 15:24:26.721624  4183 wcc.cc:148] access IncEval
+I0804 15:24:26.721626  4184 wcc.cc:148] access IncEval
+I0804 15:24:26.721621  4182 wcc.cc:148] access IncEval
+I0804 15:24:26.721645  4178 wcc.cc:178] worker window 8 2 339
+I0804 15:24:26.668066 13186 wcc.cc:148] access IncEval
+I0804 15:24:26.840267 13075 wcc.cc:148] access IncEval
+I0804 15:24:26.629083 13311 wcc.cc:148] access IncEval
+I0804 15:24:26.535773   840 wcc.cc:178] worker window 62 2 116
+I0804 15:24:26.920552 17474 wcc.cc:178] worker window 55 2 470
+I0804 15:24:27.089488  9190 wcc.cc:148] access IncEval
+I0804 15:24:26.716636 13035 wcc.cc:178] worker window 57 2 141
+I0804 15:24:26.721637  4181 wcc.cc:178] worker window 32 2 307
+I0804 15:24:26.721647  4179 wcc.cc:148] access IncEval
+I0804 15:24:26.668109 13180 wcc.cc:178] worker window 2 2 105
+I0804 15:24:26.840268 13077 wcc.cc:148] access IncEval
+I0804 15:24:26.629102 13307 wcc.cc:178] worker window 28 2 70
+I0804 15:24:26.629179 13311 wcc.cc:178] worker window 60 2 85
+I0804 15:24:26.535742   832 wcc.cc:178] worker window 6 2 117
+I0804 15:24:26.920464 17469 wcc.cc:178] worker window 15 2 279
+I0804 15:24:27.089504  9195 wcc.cc:148] access IncEval
+I0804 15:24:27.089563  9190 wcc.cc:178] worker window 5 2 159
+I0804 15:24:26.716781 13029 wcc.cc:148] access IncEval
+I0804 15:24:26.716790 13028 wcc.cc:148] access IncEval
+I0804 15:24:26.716784 13030 wcc.cc:148] access IncEval
+I0804 15:24:26.716812 13028 wcc.cc:178] worker window 1 3 107
+I0804 15:24:26.716785 13031 wcc.cc:148] access IncEval
+I0804 15:24:26.716789 13035 wcc.cc:148] access IncEval
+I0804 15:24:26.721652  4184 wcc.cc:178] worker window 56 2 59
+I0804 15:24:26.721666  4182 wcc.cc:178] worker window 40 2 238
+I0804 15:24:26.668066 13187 wcc.cc:148] access IncEval
+I0804 15:24:26.840273 13079 wcc.cc:148] access IncEval
+I0804 15:24:26.840287 13077 wcc.cc:178] worker window 27 3 182
+I0804 15:24:26.840283 13075 wcc.cc:178] worker window 11 3 398
+I0804 15:24:26.629134 13308 wcc.cc:178] worker window 36 2 191
+I0804 15:24:26.535784   833 wcc.cc:178] worker window 14 2 239
+I0804 15:24:26.920521 17468 wcc.cc:178] worker window 7 2 96
+I0804 15:24:27.089514  9191 wcc.cc:178] worker window 13 2 241
+I0804 15:24:27.089572  9195 wcc.cc:178] worker window 45 2 125
+I0804 15:24:26.716785 13032 wcc.cc:148] access IncEval
+I0804 15:24:26.716831 13031 wcc.cc:178] worker window 25 3 86
+I0804 15:24:26.716789 13034 wcc.cc:148] access IncEval
+I0804 15:24:26.716819 13033 wcc.cc:148] access IncEval
+I0804 15:24:26.721647  4180 wcc.cc:148] access IncEval
+I0804 15:24:26.668102 13184 wcc.cc:178] worker window 34 2 290
+I0804 15:24:26.840296 13079 wcc.cc:178] worker window 43 3 230
+I0804 15:24:26.629335 13304 wcc.cc:148] access IncEval
+I0804 15:24:26.629339 13307 wcc.cc:148] access IncEval
+I0804 15:24:26.535764   838 wcc.cc:178] worker window 46 2 146
+I0804 15:24:26.920709 17469 wcc.cc:148] access IncEval
+I0804 15:24:26.920711 17468 wcc.cc:148] access IncEval
+I0804 15:24:27.089489  9193 wcc.cc:148] access IncEval
+I0804 15:24:26.716853 13034 wcc.cc:178] worker window 49 3 108
+I0804 15:24:26.716838 13035 wcc.cc:178] worker window 57 3 141
+I0804 15:24:26.716862 13033 wcc.cc:178] worker window 41 3 80
+I0804 15:24:26.721632  4177 wcc.cc:178] worker window 0 2 177
+I0804 15:24:26.668128 13185 wcc.cc:178] worker window 42 2 172
+I0804 15:24:26.840279 13081 wcc.cc:148] access IncEval
+I0804 15:24:26.629335 13305 wcc.cc:148] access IncEval
+I0804 15:24:26.535696   834 wcc.cc:148] access IncEval
+I0804 15:24:26.920717 17474 wcc.cc:148] access IncEval
+I0804 15:24:27.089504  9196 wcc.cc:148] access IncEval
+I0804 15:24:27.089606  9193 wcc.cc:178] worker window 29 2 56
+I0804 15:24:27.089545  9192 wcc.cc:178] worker window 21 2 216
+I0804 15:24:27.089617  9196 wcc.cc:178] worker window 53 2 287
+I0804 15:24:26.716845 13032 wcc.cc:178] worker window 33 3 245
+I0804 15:24:26.716805 13029 wcc.cc:178] worker window 9 3 308
+I0804 15:24:26.721650  4183 wcc.cc:178] worker window 48 2 145
+I0804 15:24:26.668177 13186 wcc.cc:178] worker window 50 2 193
+I0804 15:24:26.840301 13076 wcc.cc:148] access IncEval
+I0804 15:24:26.629341 13309 wcc.cc:148] access IncEval
+I0804 15:24:26.629350 13304 wcc.cc:178] worker window 4 3 58
+I0804 15:24:26.629348 13311 wcc.cc:148] access IncEval
+I0804 15:24:26.535755   836 wcc.cc:178] worker window 30 2 204
+I0804 15:24:26.920713 17471 wcc.cc:148] access IncEval
+I0804 15:24:26.920718 17473 wcc.cc:148] access IncEval
+I0804 15:24:26.920734 17474 wcc.cc:178] worker window 55 3 470
+I0804 15:24:26.920718 17475 wcc.cc:148] access IncEval
+I0804 15:24:27.089756  9190 wcc.cc:148] access IncEval
+I0804 15:24:27.089761  9194 wcc.cc:148] access IncEval
+I0804 15:24:26.716821 13030 wcc.cc:178] worker window 17 3 157
+I0804 15:24:26.721678  4179 wcc.cc:178] worker window 16 2 155
+I0804 15:24:26.668201 13187 wcc.cc:178] worker window 58 2 102
+I0804 15:24:26.840301 13074 wcc.cc:148] access IncEval
+I0804 15:24:26.629339 13306 wcc.cc:148] access IncEval
+I0804 15:24:26.629355 13307 wcc.cc:178] worker window 28 3 70
+I0804 15:24:26.535822   834 wcc.cc:178] worker window 22 2 157
+I0804 15:24:26.920727 17468 wcc.cc:178] worker window 7 3 68
+I0804 15:24:26.920743 17470 wcc.cc:148] access IncEval
+I0804 15:24:27.089763  9196 wcc.cc:148] access IncEval
+I0804 15:24:27.089762  9195 wcc.cc:148] access IncEval
+I0804 15:24:26.717015 13029 wcc.cc:148] access IncEval
+I0804 15:24:26.721720  4180 wcc.cc:178] worker window 24 2 186
+I0804 15:24:26.668335 13181 wcc.cc:148] access IncEval
+I0804 15:24:26.668344 13187 wcc.cc:148] access IncEval
+I0804 15:24:26.840337 13076 wcc.cc:178] worker window 19 3 90
+I0804 15:24:26.629346 13310 wcc.cc:148] access IncEval
+I0804 15:24:26.535949   832 wcc.cc:148] access IncEval
+I0804 15:24:26.535954   836 wcc.cc:148] access IncEval
+I0804 15:24:26.535953   834 wcc.cc:148] access IncEval
+I0804 15:24:26.920739 17471 wcc.cc:178] worker window 31 3 90
+I0804 15:24:27.089756  9191 wcc.cc:148] access IncEval
+I0804 15:24:27.089764  9197 wcc.cc:148] access IncEval
+I0804 15:24:27.089774  9190 wcc.cc:178] worker window 5 3 143
+I0804 15:24:26.717021 13031 wcc.cc:148] access IncEval
+I0804 15:24:26.717027 13033 wcc.cc:148] access IncEval
+I0804 15:24:26.721911  4179 wcc.cc:148] access IncEval
+I0804 15:24:26.668341 13185 wcc.cc:148] access IncEval
+I0804 15:24:26.668346 13182 wcc.cc:148] access IncEval
+I0804 15:24:26.668355 13187 wcc.cc:178] worker window 58 3 102
+I0804 15:24:26.840317 13078 wcc.cc:148] access IncEval
+I0804 15:24:26.629340 13308 wcc.cc:148] access IncEval
+I0804 15:24:26.535969   832 wcc.cc:178] worker window 6 3 68
+I0804 15:24:26.535971   836 wcc.cc:178] worker window 30 3 130
+I0804 15:24:26.535950   833 wcc.cc:148] access IncEval
+I0804 15:24:26.535956   839 wcc.cc:148] access IncEval
+I0804 15:24:26.920754 17475 wcc.cc:178] worker window 63 3 57
+I0804 15:24:26.920747 17473 wcc.cc:178] worker window 47 3 241
+I0804 15:24:27.089778  9194 wcc.cc:178] worker window 37 3 174
+I0804 15:24:27.089782  9196 wcc.cc:178] worker window 53 3 287
+I0804 15:24:26.717031 13029 wcc.cc:178] worker window 9 4 180
+I0804 15:24:26.717036 13031 wcc.cc:178] worker window 25 4 71
+I0804 15:24:26.717028 13035 wcc.cc:148] access IncEval
+I0804 15:24:26.717023 13032 wcc.cc:148] access IncEval
+I0804 15:24:26.717021 13030 wcc.cc:148] access IncEval
+I0804 15:24:26.721918  4182 wcc.cc:148] access IncEval
+I0804 15:24:26.721915  4183 wcc.cc:148] access IncEval
+I0804 15:24:26.668354 13181 wcc.cc:178] worker window 10 3 185
+I0804 15:24:26.668370 13182 wcc.cc:178] worker window 18 3 112
+I0804 15:24:26.840348 13074 wcc.cc:178] worker window 3 3 73
+I0804 15:24:26.840322 13081 wcc.cc:178] worker window 59 3 40
+I0804 15:24:26.629370 13309 wcc.cc:178] worker window 44 3 163
+I0804 15:24:26.535959   840 wcc.cc:148] access IncEval
+I0804 15:24:26.535985   837 wcc.cc:148] access IncEval
+I0804 15:24:26.535980   834 wcc.cc:178] worker window 22 3 157
+I0804 15:24:26.535989   833 wcc.cc:178] worker window 14 3 179
+I0804 15:24:26.535959   838 wcc.cc:148] access IncEval
+I0804 15:24:26.920756 17472 wcc.cc:148] access IncEval
+I0804 15:24:27.089758  9193 wcc.cc:148] access IncEval
+I0804 15:24:27.089787  9195 wcc.cc:178] worker window 45 3 125
+I0804 15:24:27.089795  9191 wcc.cc:178] worker window 13 3 241
+I0804 15:24:27.089758  9192 wcc.cc:148] access IncEval
+I0804 15:24:26.717028 13034 wcc.cc:148] access IncEval
+I0804 15:24:26.721913  4181 wcc.cc:148] access IncEval
+I0804 15:24:26.721912  4180 wcc.cc:148] access IncEval
+I0804 15:24:26.668360 13180 wcc.cc:148] access IncEval
+I0804 15:24:26.668362 13185 wcc.cc:178] worker window 42 3 172
+I0804 15:24:26.840314 13080 wcc.cc:148] access IncEval
+I0804 15:24:26.840366 13078 wcc.cc:178] worker window 35 3 364
+I0804 15:24:26.629377 13311 wcc.cc:178] worker window 60 3 85
+I0804 15:24:26.535996   839 wcc.cc:178] worker window 54 3 325
+I0804 15:24:26.920773 17470 wcc.cc:178] worker window 23 3 173
+I0804 15:24:26.920724 17469 wcc.cc:178] worker window 15 3 188
+I0804 15:24:26.920806 17472 wcc.cc:178] worker window 39 3 109
+I0804 15:24:27.089818  9193 wcc.cc:178] worker window 29 3 56
+I0804 15:24:27.089802  9197 wcc.cc:178] worker window 61 3 78
+I0804 15:24:27.089838  9192 wcc.cc:178] worker window 21 3 216
+I0804 15:24:26.717067 13030 wcc.cc:178] worker window 17 4 157
+I0804 15:24:26.717052 13035 wcc.cc:178] worker window 57 4 141
+I0804 15:24:26.721937  4178 wcc.cc:148] access IncEval
+I0804 15:24:26.668397 13180 wcc.cc:178] worker window 2 3 56
+I0804 15:24:26.840400 13080 wcc.cc:178] worker window 51 3 104
+I0804 15:24:26.629364 13305 wcc.cc:178] worker window 12 3 332
+I0804 15:24:26.536000   840 wcc.cc:178] worker window 62 3 116
+I0804 15:24:26.920953 17469 wcc.cc:148] access IncEval
+I0804 15:24:26.920960 17473 wcc.cc:148] access IncEval
+I0804 15:24:26.920977 17469 wcc.cc:178] worker window 15 4 188
+I0804 15:24:26.920961 17475 wcc.cc:148] access IncEval
+I0804 15:24:26.920956 17471 wcc.cc:148] access IncEval
+I0804 15:24:26.920960 17474 wcc.cc:148] access IncEval
+I0804 15:24:26.920986 17473 wcc.cc:178] worker window 47 4 241
+I0804 15:24:27.089990  9191 wcc.cc:148] access IncEval
+I0804 15:24:26.717077 13034 wcc.cc:178] worker window 49 4 108
+I0804 15:24:26.717046 13033 wcc.cc:178] worker window 41 4 80
+I0804 15:24:26.721942  4183 wcc.cc:178] worker window 48 3 145
+I0804 15:24:26.668362 13183 wcc.cc:148] access IncEval
+I0804 15:24:26.840515 13075 wcc.cc:148] access IncEval
+I0804 15:24:26.840523 13078 wcc.cc:148] access IncEval
+I0804 15:24:26.629389 13306 wcc.cc:178] worker window 20 3 188
+I0804 15:24:26.536015   837 wcc.cc:178] worker window 38 3 40
+I0804 15:24:26.536046   838 wcc.cc:178] worker window 46 3 146
+I0804 15:24:26.921000 17471 wcc.cc:178] worker window 31 4 35
+I0804 15:24:26.921006 17474 wcc.cc:178] worker window 55 4 470
+I0804 15:24:27.089995  9193 wcc.cc:148] access IncEval
+I0804 15:24:27.090003  9191 wcc.cc:178] worker window 13 4 241
+I0804 15:24:27.089998  9195 wcc.cc:148] access IncEval
+I0804 15:24:27.089998  9192 wcc.cc:148] access IncEval
+I0804 15:24:26.717061 13032 wcc.cc:178] worker window 33 4 245
+I0804 15:24:26.721916  4184 wcc.cc:148] access IncEval
+I0804 15:24:26.668349 13186 wcc.cc:148] access IncEval
+I0804 15:24:26.840528 13080 wcc.cc:148] access IncEval
+I0804 15:24:26.840519 13077 wcc.cc:148] access IncEval
+I0804 15:24:26.629418 13308 wcc.cc:178] worker window 36 3 191
+I0804 15:24:26.536182   832 wcc.cc:148] access IncEval
+I0804 15:24:26.536187   839 wcc.cc:148] access IncEval
+I0804 15:24:26.536190   840 wcc.cc:148] access IncEval
+I0804 15:24:26.920995 17472 wcc.cc:148] access IncEval
+I0804 15:24:26.920997 17475 wcc.cc:178] worker window 63 4 57
+I0804 15:24:26.920996 17470 wcc.cc:148] access IncEval
+I0804 15:24:27.090001  9196 wcc.cc:148] access IncEval
+I0804 15:24:27.090001  9194 wcc.cc:148] access IncEval
+I0804 15:24:27.090003  9197 wcc.cc:148] access IncEval
+I0804 15:24:27.090013  9193 wcc.cc:178] worker window 29 4 56
+I0804 15:24:27.090031  9196 wcc.cc:178] worker window 53 4 287
+I0804 15:24:26.717226 13029 wcc.cc:148] access IncEval
+I0804 15:24:26.717231 13030 wcc.cc:148] access IncEval
+I0804 15:24:26.721959  4180 wcc.cc:178] worker window 24 3 186
+I0804 15:24:26.721982  4184 wcc.cc:178] worker window 56 3 59
+I0804 15:24:26.668421 13183 wcc.cc:178] worker window 26 3 111
+I0804 15:24:26.840533 13079 wcc.cc:148] access IncEval
+I0804 15:24:26.840541 13080 wcc.cc:178] worker window 51 4 104
+I0804 15:24:26.840546 13077 wcc.cc:178] worker window 27 4 147
+I0804 15:24:26.840543 13078 wcc.cc:178] worker window 35 4 364
+I0804 15:24:26.629424 13310 wcc.cc:178] worker window 52 3 243
+I0804 15:24:26.536198   839 wcc.cc:178] worker window 54 4 325
+I0804 15:24:26.536185   834 wcc.cc:148] access IncEval
+I0804 15:24:26.921039 17472 wcc.cc:178] worker window 39 4 109
+I0804 15:24:26.921059 17470 wcc.cc:178] worker window 23 4 173
+I0804 15:24:27.090026  9192 wcc.cc:178] worker window 21 4 208
+I0804 15:24:27.090039  9194 wcc.cc:178] worker window 37 4 174
+I0804 15:24:26.717236 13034 wcc.cc:148] access IncEval
+I0804 15:24:26.721951  4181 wcc.cc:178] worker window 32 3 307
+I0804 15:24:26.721968  4178 wcc.cc:178] worker window 8 3 199
+I0804 15:24:26.721932  4179 wcc.cc:178] worker window 16 3 155
+I0804 15:24:26.668372 13184 wcc.cc:148] access IncEval
+I0804 15:24:26.668447 13186 wcc.cc:178] worker window 50 3 193
+I0804 15:24:26.668481 13184 wcc.cc:178] worker window 34 3 290
+I0804 15:24:26.840533 13075 wcc.cc:178] worker window 11 4 344
+I0804 15:24:26.629598 13305 wcc.cc:148] access IncEval
+I0804 15:24:26.629606 13308 wcc.cc:148] access IncEval
+I0804 15:24:26.629611 13311 wcc.cc:148] access IncEval
+I0804 15:24:26.629608 13309 wcc.cc:148] access IncEval
+I0804 15:24:26.629603 13307 wcc.cc:148] access IncEval
+I0804 15:24:26.629624 13311 wcc.cc:178] worker window 60 4 85
+I0804 15:24:26.629604 13306 wcc.cc:148] access IncEval
+I0804 15:24:26.629613 13310 wcc.cc:148] access IncEval
+I0804 15:24:26.536195   832 wcc.cc:178] worker window 6 4 2
+I0804 15:24:26.536204   840 wcc.cc:178] worker window 62 4 116
+I0804 15:24:26.536217   834 wcc.cc:178] worker window 22 4 161
+I0804 15:24:26.921164 17469 wcc.cc:148] access IncEval
+I0804 15:24:26.921167 17470 wcc.cc:148] access IncEval
+I0804 15:24:27.090019  9195 wcc.cc:178] worker window 45 4 125
+I0804 15:24:27.090039  9197 wcc.cc:178] worker window 61 4 78
+I0804 15:24:26.717234 13033 wcc.cc:148] access IncEval
+I0804 15:24:26.717239 13029 wcc.cc:178] worker window 9 5 60
+I0804 15:24:26.717236 13032 wcc.cc:148] access IncEval
+I0804 15:24:26.717247 13030 wcc.cc:178] worker window 17 5 96
+I0804 15:24:26.721940  4182 wcc.cc:178] worker window 40 3 238
+I0804 15:24:26.668571 13181 wcc.cc:148] access IncEval
+I0804 15:24:26.668576 13183 wcc.cc:148] access IncEval
+I0804 15:24:26.840553 13076 wcc.cc:148] access IncEval
+I0804 15:24:26.629638 13304 wcc.cc:148] access IncEval
+I0804 15:24:26.629655 13310 wcc.cc:178] worker window 52 4 243
+I0804 15:24:26.629632 13309 wcc.cc:178] worker window 44 4 163
+I0804 15:24:26.536190   836 wcc.cc:148] access IncEval
+I0804 15:24:26.536224   838 wcc.cc:148] access IncEval
+I0804 15:24:26.921170 17474 wcc.cc:148] access IncEval
+I0804 15:24:26.717252 13034 wcc.cc:178] worker window 49 5 108
+I0804 15:24:26.717237 13035 wcc.cc:148] access IncEval
+I0804 15:24:26.717257 13033 wcc.cc:178] worker window 41 5 80
+I0804 15:24:26.668578 13184 wcc.cc:148] access IncEval
+I0804 15:24:26.668591 13183 wcc.cc:178] worker window 26 4 111
+I0804 15:24:26.840553 13079 wcc.cc:178] worker window 43 4 230
+I0804 15:24:26.629647 13306 wcc.cc:178] worker window 20 4 188
+I0804 15:24:26.629618 13305 wcc.cc:178] worker window 12 4 332
+I0804 15:24:26.629642 13307 wcc.cc:178] worker window 28 4 70
+I0804 15:24:26.629623 13308 wcc.cc:178] worker window 36 4 191
+I0804 15:24:26.536226   837 wcc.cc:148] access IncEval
+I0804 15:24:26.921177 17469 wcc.cc:178] worker window 15 5 150
+I0804 15:24:26.921169 17473 wcc.cc:148] access IncEval
+I0804 15:24:26.921191 17474 wcc.cc:178] worker window 55 5 470
+I0804 15:24:26.717267 13032 wcc.cc:178] worker window 33 5 245
+I0804 15:24:26.717280 13035 wcc.cc:178] worker window 57 5 141
+I0804 15:24:26.722152  4178 wcc.cc:148] access IncEval
+I0804 15:24:26.722157  4179 wcc.cc:148] access IncEval
+I0804 15:24:26.722154  4180 wcc.cc:148] access IncEval
+I0804 15:24:26.722159  4181 wcc.cc:148] access IncEval
+I0804 15:24:26.722162  4184 wcc.cc:148] access IncEval
+I0804 15:24:26.722163  4183 wcc.cc:148] access IncEval
+I0804 15:24:26.722164  4182 wcc.cc:148] access IncEval
+I0804 15:24:26.668576 13182 wcc.cc:148] access IncEval
+I0804 15:24:26.668578 13185 wcc.cc:148] access IncEval
+I0804 15:24:26.840577 13076 wcc.cc:178] worker window 19 4 90
+I0804 15:24:26.629667 13304 wcc.cc:178] worker window 4 4 15
+I0804 15:24:26.536252   838 wcc.cc:178] worker window 46 4 146
+I0804 15:24:26.921185 17470 wcc.cc:178] worker window 23 5 103
+I0804 15:24:26.921170 17475 wcc.cc:148] access IncEval
+I0804 15:24:26.722168  4178 wcc.cc:178] worker window 8 4 190
+I0804 15:24:26.722185  4181 wcc.cc:178] worker window 32 4 307
+I0804 15:24:26.668602 13184 wcc.cc:178] worker window 34 4 290
+I0804 15:24:26.668586 13187 wcc.cc:148] access IncEval
+I0804 15:24:26.668586 13181 wcc.cc:178] worker window 10 4 185
+I0804 15:24:26.840565 13081 wcc.cc:148] access IncEval
+I0804 15:24:26.629814 13305 wcc.cc:148] access IncEval
+I0804 15:24:26.536262   837 wcc.cc:178] worker window 38 4 40
+I0804 15:24:26.921200 17473 wcc.cc:178] worker window 47 5 241
+I0804 15:24:26.722187  4184 wcc.cc:178] worker window 56 4 59
+I0804 15:24:26.722193  4183 wcc.cc:178] worker window 48 4 145
+I0804 15:24:26.722174  4179 wcc.cc:178] worker window 16 4 116
+I0804 15:24:26.668615 13185 wcc.cc:178] worker window 42 4 172
+I0804 15:24:26.668612 13182 wcc.cc:178] worker window 18 4 112
+I0804 15:24:26.840598 13081 wcc.cc:178] worker window 59 4 40
+I0804 15:24:26.629822 13309 wcc.cc:148] access IncEval
+I0804 15:24:26.629824 13310 wcc.cc:148] access IncEval
+I0804 15:24:26.536238   836 wcc.cc:178] worker window 30 4 80
+I0804 15:24:26.921219 17475 wcc.cc:178] worker window 63 5 57
+I0804 15:24:26.722201  4182 wcc.cc:178] worker window 40 4 238
+I0804 15:24:26.668627 13187 wcc.cc:178] worker window 58 4 102
+I0804 15:24:26.840718 13075 wcc.cc:148] access IncEval
+I0804 15:24:26.629825 13311 wcc.cc:148] access IncEval
+I0804 15:24:26.629817 13307 wcc.cc:148] access IncEval
+I0804 15:24:26.629844 13310 wcc.cc:178] worker window 52 5 243
+I0804 15:24:26.629839 13309 wcc.cc:178] worker window 44 5 163
+I0804 15:24:26.536401   834 wcc.cc:148] access IncEval
+I0804 15:24:26.921202 17472 wcc.cc:148] access IncEval
+I0804 15:24:26.722177  4180 wcc.cc:178] worker window 24 4 169
+I0804 15:24:26.668583 13186 wcc.cc:148] access IncEval
+I0804 15:24:26.840718 13077 wcc.cc:148] access IncEval
+I0804 15:24:26.840725 13080 wcc.cc:148] access IncEval
+I0804 15:24:26.629853 13307 wcc.cc:178] worker window 28 5 70
+I0804 15:24:26.629832 13305 wcc.cc:178] worker window 12 5 241
+I0804 15:24:26.536401   836 wcc.cc:148] access IncEval
+I0804 15:24:26.921247 17472 wcc.cc:178] worker window 39 5 109
+I0804 15:24:26.722357  4180 wcc.cc:148] access IncEval
+I0804 15:24:26.668656 13186 wcc.cc:178] worker window 50 4 193
+I0804 15:24:26.840725 13079 wcc.cc:148] access IncEval
+I0804 15:24:26.840740 13080 wcc.cc:178] worker window 51 5 104
+I0804 15:24:26.629822 13306 wcc.cc:148] access IncEval
+I0804 15:24:26.536406   840 wcc.cc:148] access IncEval
+I0804 15:24:26.536422   836 wcc.cc:178] worker window 30 5 10
+I0804 15:24:26.536404   839 wcc.cc:148] access IncEval
+I0804 15:24:26.536429   840 wcc.cc:178] worker window 62 5 116
+I0804 15:24:26.722362  4182 wcc.cc:148] access IncEval
+I0804 15:24:26.722358  4179 wcc.cc:148] access IncEval
+I0804 15:24:26.668778 13181 wcc.cc:148] access IncEval
+I0804 15:24:26.840734 13077 wcc.cc:178] worker window 27 5 46
+I0804 15:24:26.629845 13311 wcc.cc:178] worker window 60 5 85
+I0804 15:24:26.536418   834 wcc.cc:178] worker window 22 5 161
+I0804 15:24:26.722363  4183 wcc.cc:148] access IncEval
+I0804 15:24:26.722378  4182 wcc.cc:178] worker window 40 5 238
+I0804 15:24:26.668783 13183 wcc.cc:148] access IncEval
+I0804 15:24:26.840747 13079 wcc.cc:178] worker window 43 5 230
+I0804 15:24:26.629886 13306 wcc.cc:178] worker window 20 5 100
+I0804 15:24:26.536435   837 wcc.cc:148] access IncEval
+I0804 15:24:26.722362  4181 wcc.cc:148] access IncEval
+I0804 15:24:26.722385  4183 wcc.cc:178] worker window 48 5 145
+I0804 15:24:26.668787 13184 wcc.cc:148] access IncEval
+I0804 15:24:26.668789 13186 wcc.cc:148] access IncEval
+I0804 15:24:26.668789 13181 wcc.cc:178] worker window 10 5 5
+I0804 15:24:26.668783 13182 wcc.cc:148] access IncEval
+I0804 15:24:26.668788 13187 wcc.cc:148] access IncEval
+I0804 15:24:26.840723 13078 wcc.cc:148] access IncEval
+I0804 15:24:26.629820 13308 wcc.cc:148] access IncEval
+I0804 15:24:26.536437   838 wcc.cc:148] access IncEval
+I0804 15:24:26.722363  4184 wcc.cc:148] access IncEval
+I0804 15:24:26.722383  4179 wcc.cc:178] worker window 16 5 74
+I0804 15:24:26.668788 13185 wcc.cc:148] access IncEval
+I0804 15:24:26.668820 13182 wcc.cc:178] worker window 18 5 112
+I0804 15:24:26.840751 13076 wcc.cc:148] access IncEval
+I0804 15:24:26.840775 13078 wcc.cc:178] worker window 35 5 364
+I0804 15:24:26.629906 13308 wcc.cc:178] worker window 36 5 191
+I0804 15:24:26.536463   837 wcc.cc:178] worker window 38 5 40
+I0804 15:24:26.722398  4181 wcc.cc:178] worker window 32 5 307
+I0804 15:24:26.722404  4184 wcc.cc:178] worker window 56 5 59
+I0804 15:24:26.668807 13184 wcc.cc:178] worker window 34 5 290
+I0804 15:24:26.668829 13185 wcc.cc:178] worker window 42 5 172
+I0804 15:24:26.840729 13075 wcc.cc:178] worker window 11 5 251
+I0804 15:24:26.536438   839 wcc.cc:178] worker window 54 5 325
+I0804 15:24:26.536475   838 wcc.cc:178] worker window 46 5 146
+I0804 15:24:26.722370  4180 wcc.cc:178] worker window 24 5 36
+I0804 15:24:26.668795 13183 wcc.cc:178] worker window 26 5 25
+I0804 15:24:26.668824 13187 wcc.cc:178] worker window 58 5 102
+I0804 15:24:26.840765 13081 wcc.cc:148] access IncEval
+I0804 15:24:26.668812 13186 wcc.cc:178] worker window 50 5 193
+I0804 15:24:26.840785 13076 wcc.cc:178] worker window 19 5 90
+I0804 15:24:26.840803 13081 wcc.cc:178] worker window 59 5 40
+I0804 15:24:27.093665  9193 wcc.cc:148] access IncEval
+I0804 15:24:27.093665  9192 wcc.cc:148] access IncEval
+I0804 15:24:27.093680  9193 wcc.cc:178] worker window 29 5 112
+I0804 15:24:27.093667  9195 wcc.cc:148] access IncEval
+I0804 15:24:27.093669  9197 wcc.cc:148] access IncEval
+I0804 15:24:27.093667  9196 wcc.cc:148] access IncEval
+I0804 15:24:27.093698  9195 wcc.cc:178] worker window 45 5 250
+I0804 15:24:27.093690  9192 wcc.cc:178] worker window 21 5 154
+I0804 15:24:27.093699  9197 wcc.cc:178] worker window 61 5 156
+I0804 15:24:26.720860 13032 wcc.cc:148] access IncEval
+I0804 15:24:26.720865 13035 wcc.cc:148] access IncEval
+I0804 15:24:26.720881 13032 wcc.cc:178] worker window 33 6 245
+I0804 15:24:26.720861 13030 wcc.cc:148] access IncEval
+I0804 15:24:26.720890 13035 wcc.cc:178] worker window 57 6 141
+I0804 15:24:26.725991  4179 wcc.cc:148] access IncEval
+I0804 15:24:26.725991  4183 wcc.cc:148] access IncEval
+I0804 15:24:26.725993  4184 wcc.cc:148] access IncEval
+I0804 15:24:26.725994  4182 wcc.cc:148] access IncEval
+I0804 15:24:26.726008  4179 wcc.cc:178] worker window 16 6 4
+I0804 15:24:26.672402 13185 wcc.cc:148] access IncEval
+I0804 15:24:26.672406 13186 wcc.cc:148] access IncEval
+I0804 15:24:26.672402 13182 wcc.cc:148] access IncEval
+I0804 15:24:26.672402 13184 wcc.cc:148] access IncEval
+I0804 15:24:26.672423 13186 wcc.cc:178] worker window 50 6 188
+I0804 15:24:26.672416 13185 wcc.cc:178] worker window 42 6 172
+I0804 15:24:26.672435 13184 wcc.cc:178] worker window 34 6 290
+I0804 15:24:26.844350 13078 wcc.cc:148] access IncEval
+I0804 15:24:26.844352 13079 wcc.cc:148] access IncEval
+I0804 15:24:26.844370 13078 wcc.cc:178] worker window 35 6 364
+I0804 15:24:26.844372 13079 wcc.cc:178] worker window 43 6 230
+I0804 15:24:26.844382 13080 wcc.cc:148] access IncEval
+I0804 15:24:26.633412 13305 wcc.cc:148] access IncEval
+I0804 15:24:26.633417 13306 wcc.cc:148] access IncEval
+I0804 15:24:26.633420 13308 wcc.cc:148] access IncEval
+I0804 15:24:26.633433 13306 wcc.cc:178] worker window 20 6 48
+I0804 15:24:26.633424 13310 wcc.cc:148] access IncEval
+I0804 15:24:26.633419 13307 wcc.cc:148] access IncEval
+I0804 15:24:26.633425 13305 wcc.cc:178] worker window 12 6 117
+I0804 15:24:26.540032   836 wcc.cc:148] access IncEval
+I0804 15:24:26.540047   836 wcc.cc:178] worker window 30 6 10
+I0804 15:24:26.924777 17469 wcc.cc:148] access IncEval
+I0804 15:24:26.924784 17475 wcc.cc:148] access IncEval
+I0804 15:24:26.924790 17469 wcc.cc:178] worker window 15 6 19
+I0804 15:24:27.093689  9191 wcc.cc:148] access IncEval
+I0804 15:24:27.093706  9196 wcc.cc:178] worker window 53 5 574
+I0804 15:24:27.093701  9194 wcc.cc:148] access IncEval
+I0804 15:24:26.720894 13034 wcc.cc:148] access IncEval
+I0804 15:24:26.720896 13033 wcc.cc:148] access IncEval
+I0804 15:24:26.725992  4181 wcc.cc:148] access IncEval
+I0804 15:24:26.726037  4182 wcc.cc:178] worker window 40 6 238
+I0804 15:24:26.726018  4183 wcc.cc:178] worker window 48 6 145
+I0804 15:24:26.726025  4184 wcc.cc:178] worker window 56 6 59
+I0804 15:24:26.672430 13182 wcc.cc:178] worker window 18 6 61
+I0804 15:24:26.672426 13181 wcc.cc:148] access IncEval
+I0804 15:24:26.844382 13076 wcc.cc:148] access IncEval
+I0804 15:24:26.844400 13080 wcc.cc:178] worker window 51 6 104
+I0804 15:24:26.844415 13076 wcc.cc:178] worker window 19 6 74
+I0804 15:24:26.633451 13310 wcc.cc:178] worker window 52 6 243
+I0804 15:24:26.633442 13308 wcc.cc:178] worker window 36 6 191
+I0804 15:24:26.633456 13309 wcc.cc:148] access IncEval
+I0804 15:24:26.540035   839 wcc.cc:148] access IncEval
+I0804 15:24:26.924794 17475 wcc.cc:178] worker window 63 6 57
+I0804 15:24:26.924782 17473 wcc.cc:148] access IncEval
+I0804 15:24:27.093744  9191 wcc.cc:178] worker window 13 5 277
+I0804 15:24:26.720896 13030 wcc.cc:178] worker window 17 6 45
+I0804 15:24:26.720919 13034 wcc.cc:178] worker window 49 6 108
+I0804 15:24:26.720943 13033 wcc.cc:178] worker window 41 6 80
+I0804 15:24:26.726052  4181 wcc.cc:178] worker window 32 6 307
+I0804 15:24:26.672439 13187 wcc.cc:148] access IncEval
+I0804 15:24:26.672472 13181 wcc.cc:178] worker window 10 6 5
+I0804 15:24:26.672482 13187 wcc.cc:178] worker window 58 6 102
+I0804 15:24:26.844395 13081 wcc.cc:148] access IncEval
+I0804 15:24:26.844439 13081 wcc.cc:178] worker window 59 6 40
+I0804 15:24:26.633471 13311 wcc.cc:148] access IncEval
+I0804 15:24:26.633489 13309 wcc.cc:178] worker window 44 6 163
+I0804 15:24:26.633496 13311 wcc.cc:178] worker window 60 6 85
+I0804 15:24:26.540032   834 wcc.cc:148] access IncEval
+I0804 15:24:26.540062   837 wcc.cc:148] access IncEval
+I0804 15:24:26.540071   839 wcc.cc:178] worker window 54 6 325
+I0804 15:24:26.924809 17473 wcc.cc:178] worker window 47 6 241
+I0804 15:24:26.924813 17474 wcc.cc:148] access IncEval
+I0804 15:24:26.924816 17470 wcc.cc:148] access IncEval
+I0804 15:24:27.093768  9194 wcc.cc:178] worker window 37 5 315
+I0804 15:24:26.721048 13032 wcc.cc:148] access IncEval
+I0804 15:24:26.721051 13033 wcc.cc:148] access IncEval
+I0804 15:24:26.726169  4181 wcc.cc:148] access IncEval
+I0804 15:24:26.672598 13182 wcc.cc:148] access IncEval
+I0804 15:24:26.672605 13187 wcc.cc:148] access IncEval
+I0804 15:24:26.672600 13185 wcc.cc:148] access IncEval
+I0804 15:24:26.672600 13184 wcc.cc:148] access IncEval
+I0804 15:24:26.672627 13185 wcc.cc:178] worker window 42 7 160
+I0804 15:24:26.672616 13182 wcc.cc:178] worker window 18 7 3
+I0804 15:24:26.844523 13076 wcc.cc:148] access IncEval
+I0804 15:24:26.844529 13080 wcc.cc:148] access IncEval
+I0804 15:24:26.633456 13307 wcc.cc:178] worker window 28 6 70
+I0804 15:24:26.540035   840 wcc.cc:148] access IncEval
+I0804 15:24:26.540076   838 wcc.cc:148] access IncEval
+I0804 15:24:26.924818 17472 wcc.cc:148] access IncEval
+I0804 15:24:27.093832  9191 wcc.cc:148] access IncEval
+I0804 15:24:26.721065 13033 wcc.cc:178] worker window 41 7 80
+I0804 15:24:26.721052 13035 wcc.cc:148] access IncEval
+I0804 15:24:26.672605 13186 wcc.cc:148] access IncEval
+I0804 15:24:26.672621 13187 wcc.cc:178] worker window 58 7 102
+I0804 15:24:26.672649 13186 wcc.cc:178] worker window 50 7 98
+I0804 15:24:26.844527 13078 wcc.cc:148] access IncEval
+I0804 15:24:26.844532 13081 wcc.cc:148] access IncEval
+I0804 15:24:26.633607 13307 wcc.cc:148] access IncEval
+I0804 15:24:26.540087   837 wcc.cc:178] worker window 38 6 40
+I0804 15:24:26.540115   838 wcc.cc:178] worker window 46 6 146
+I0804 15:24:26.924860 17470 wcc.cc:178] worker window 23 6 68
+I0804 15:24:26.721061 13032 wcc.cc:178] worker window 33 7 217
+I0804 15:24:26.721086 13035 wcc.cc:178] worker window 57 7 139
+I0804 15:24:26.726174  4182 wcc.cc:148] access IncEval
+I0804 15:24:26.672641 13184 wcc.cc:178] worker window 34 7 290
+I0804 15:24:26.844544 13080 wcc.cc:178] worker window 51 7 104
+I0804 15:24:26.844537 13076 wcc.cc:178] worker window 19 7 2
+I0804 15:24:26.633613 13308 wcc.cc:148] access IncEval
+I0804 15:24:26.633617 13307 wcc.cc:178] worker window 28 7 7
+I0804 15:24:26.540112   840 wcc.cc:178] worker window 62 6 116
+I0804 15:24:26.924844 17474 wcc.cc:178] worker window 55 6 470
+I0804 15:24:27.093840  9194 wcc.cc:148] access IncEval
+I0804 15:24:27.093845  9191 wcc.cc:178] worker window 13 6 82
+I0804 15:24:26.721051 13034 wcc.cc:148] access IncEval
+I0804 15:24:26.726186  4181 wcc.cc:178] worker window 32 7 301
+I0804 15:24:26.672765 13185 wcc.cc:148] access IncEval
+I0804 15:24:26.672767 13187 wcc.cc:148] access IncEval
+I0804 15:24:26.672782 13185 wcc.cc:178] worker window 42 8 172
+I0804 15:24:26.672771 13186 wcc.cc:148] access IncEval
+I0804 15:24:26.672788 13187 wcc.cc:178] worker window 58 8 84
+I0804 15:24:26.672806 13186 wcc.cc:178] worker window 50 8 42
+I0804 15:24:26.844550 13078 wcc.cc:178] worker window 35 7 348
+I0804 15:24:26.844550 13081 wcc.cc:178] worker window 59 7 40
+I0804 15:24:26.633620 13311 wcc.cc:148] access IncEval
+I0804 15:24:26.633616 13309 wcc.cc:148] access IncEval
+I0804 15:24:26.633617 13310 wcc.cc:148] access IncEval
+I0804 15:24:26.540077   834 wcc.cc:178] worker window 22 6 64
+I0804 15:24:26.924872 17472 wcc.cc:178] worker window 39 6 109
+I0804 15:24:27.093852  9194 wcc.cc:178] worker window 37 6 23
+I0804 15:24:26.721102 13034 wcc.cc:178] worker window 49 7 69
+I0804 15:24:26.726171  4183 wcc.cc:148] access IncEval
+I0804 15:24:26.726171  4184 wcc.cc:148] access IncEval
+I0804 15:24:26.672765 13184 wcc.cc:148] access IncEval
+I0804 15:24:26.672823 13184 wcc.cc:178] worker window 34 8 164
+I0804 15:24:26.844533 13079 wcc.cc:148] access IncEval
+I0804 15:24:26.633642 13309 wcc.cc:178] worker window 44 7 126
+I0804 15:24:26.633636 13311 wcc.cc:178] worker window 60 7 40
+I0804 15:24:26.540215   836 wcc.cc:148] access IncEval
+I0804 15:24:26.924983 17472 wcc.cc:148] access IncEval
+I0804 15:24:26.924984 17473 wcc.cc:148] access IncEval
+I0804 15:24:26.924985 17475 wcc.cc:148] access IncEval
+I0804 15:24:26.925004 17472 wcc.cc:178] worker window 39 7 94
+I0804 15:24:26.924985 17474 wcc.cc:148] access IncEval
+I0804 15:24:26.925012 17475 wcc.cc:178] worker window 63 7 54
+I0804 15:24:26.925009 17473 wcc.cc:178] worker window 47 7 190
+I0804 15:24:26.925024 17474 wcc.cc:178] worker window 55 7 298
+I0804 15:24:27.094010  9191 wcc.cc:148] access IncEval
+I0804 15:24:26.721200 13032 wcc.cc:148] access IncEval
+I0804 15:24:26.721201 13034 wcc.cc:148] access IncEval
+I0804 15:24:26.726207  4183 wcc.cc:178] worker window 48 7 145
+I0804 15:24:26.672890 13185 wcc.cc:148] access IncEval
+I0804 15:24:26.844594 13079 wcc.cc:178] worker window 43 7 230
+I0804 15:24:26.633625 13308 wcc.cc:178] worker window 36 7 123
+I0804 15:24:26.633651 13310 wcc.cc:178] worker window 52 7 96
+I0804 15:24:26.540217   834 wcc.cc:148] access IncEval
+I0804 15:24:26.925118 17473 wcc.cc:148] access IncEval
+I0804 15:24:26.925122 17472 wcc.cc:148] access IncEval
+I0804 15:24:26.925122 17474 wcc.cc:148] access IncEval
+I0804 15:24:26.925123 17475 wcc.cc:148] access IncEval
+I0804 15:24:26.925143 17474 wcc.cc:178] worker window 55 8 151
+I0804 15:24:26.925150 17475 wcc.cc:178] worker window 63 8 53
+I0804 15:24:26.925138 17472 wcc.cc:178] worker window 39 8 96
+I0804 15:24:27.094015  9195 wcc.cc:148] access IncEval
+I0804 15:24:27.094018  9194 wcc.cc:148] access IncEval
+I0804 15:24:26.721204 13035 wcc.cc:148] access IncEval
+I0804 15:24:26.721218 13032 wcc.cc:178] worker window 33 8 244
+I0804 15:24:26.726210  4182 wcc.cc:178] worker window 40 7 238
+I0804 15:24:26.726212  4184 wcc.cc:178] worker window 56 7 59
+I0804 15:24:26.672894 13187 wcc.cc:148] access IncEval
+I0804 15:24:26.672904 13185 wcc.cc:178] worker window 42 9 115
+I0804 15:24:26.844717 13079 wcc.cc:148] access IncEval
+I0804 15:24:26.633776 13307 wcc.cc:148] access IncEval
+I0804 15:24:26.633780 13308 wcc.cc:148] access IncEval
+I0804 15:24:26.540228   836 wcc.cc:178] worker window 30 7 7
+I0804 15:24:26.540220   837 wcc.cc:148] access IncEval
+I0804 15:24:26.925133 17473 wcc.cc:178] worker window 47 8 167
+I0804 15:24:27.094018  9197 wcc.cc:148] access IncEval
+I0804 15:24:26.721221 13034 wcc.cc:178] worker window 49 8 108
+I0804 15:24:26.721204 13033 wcc.cc:148] access IncEval
+I0804 15:24:26.721226 13035 wcc.cc:178] worker window 57 8 141
+I0804 15:24:26.726330  4183 wcc.cc:148] access IncEval
+I0804 15:24:26.726336  4184 wcc.cc:148] access IncEval
+I0804 15:24:26.726333  4182 wcc.cc:148] access IncEval
+I0804 15:24:26.726332  4181 wcc.cc:148] access IncEval
+I0804 15:24:26.726357  4182 wcc.cc:178] worker window 40 8 238
+I0804 15:24:26.726351  4184 wcc.cc:178] worker window 56 8 59
+I0804 15:24:26.726346  4183 wcc.cc:178] worker window 48 8 78
+I0804 15:24:26.726367  4181 wcc.cc:178] worker window 32 8 241
+I0804 15:24:26.672909 13186 wcc.cc:148] access IncEval
+I0804 15:24:26.672910 13187 wcc.cc:178] worker window 58 9 102
+I0804 15:24:26.844725 13081 wcc.cc:148] access IncEval
+I0804 15:24:26.844733 13079 wcc.cc:178] worker window 43 8 149
+I0804 15:24:26.540239   834 wcc.cc:178] worker window 22 7 36
+I0804 15:24:26.540221   840 wcc.cc:148] access IncEval
+I0804 15:24:27.094023  9191 wcc.cc:178] worker window 13 7 36
+I0804 15:24:27.094035  9194 wcc.cc:178] worker window 37 7 159
+I0804 15:24:26.721238 13033 wcc.cc:178] worker window 41 8 80
+I0804 15:24:26.726480  4182 wcc.cc:148] access IncEval
+I0804 15:24:26.726481  4183 wcc.cc:148] access IncEval
+I0804 15:24:26.672945 13186 wcc.cc:178] worker window 50 9 55
+I0804 15:24:26.844739 13081 wcc.cc:178] worker window 59 8 40
+I0804 15:24:26.844722 13080 wcc.cc:148] access IncEval
+I0804 15:24:26.844718 13078 wcc.cc:148] access IncEval
+I0804 15:24:26.633785 13310 wcc.cc:148] access IncEval
+I0804 15:24:26.540259   837 wcc.cc:178] worker window 38 7 40
+I0804 15:24:26.925298 17473 wcc.cc:148] access IncEval
+I0804 15:24:27.094028  9195 wcc.cc:178] worker window 45 6 112
+I0804 15:24:27.094013  9193 wcc.cc:148] access IncEval
+I0804 15:24:26.721351 13032 wcc.cc:148] access IncEval
+I0804 15:24:26.721354 13035 wcc.cc:148] access IncEval
+I0804 15:24:26.726491  4182 wcc.cc:178] worker window 40 9 136
+I0804 15:24:26.726496  4183 wcc.cc:178] worker window 48 9 141
+I0804 15:24:26.844753 13080 wcc.cc:178] worker window 51 8 75
+I0804 15:24:26.633793 13308 wcc.cc:178] worker window 36 8 88
+I0804 15:24:26.633800 13310 wcc.cc:178] worker window 52 8 102
+I0804 15:24:26.633783 13309 wcc.cc:148] access IncEval
+I0804 15:24:26.540218   839 wcc.cc:148] access IncEval
+I0804 15:24:26.925300 17475 wcc.cc:148] access IncEval
+I0804 15:24:26.925299 17472 wcc.cc:148] access IncEval
+I0804 15:24:27.094039  9197 wcc.cc:178] worker window 61 6 78
+I0804 15:24:26.721352 13034 wcc.cc:148] access IncEval
+I0804 15:24:26.721366 13032 wcc.cc:178] worker window 33 9 74
+I0804 15:24:26.726482  4184 wcc.cc:148] access IncEval
+I0804 15:24:26.673014 13185 wcc.cc:148] access IncEval
+I0804 15:24:26.673017 13187 wcc.cc:148] access IncEval
+I0804 15:24:26.844759 13078 wcc.cc:178] worker window 35 8 295
+I0804 15:24:26.633788 13307 wcc.cc:178] worker window 28 8 38
+I0804 15:24:26.633788 13311 wcc.cc:148] access IncEval
+I0804 15:24:26.540222   838 wcc.cc:148] access IncEval
+I0804 15:24:26.925316 17475 wcc.cc:178] worker window 63 9 57
+I0804 15:24:26.925312 17473 wcc.cc:178] worker window 47 9 93
+I0804 15:24:27.094059  9193 wcc.cc:178] worker window 29 6 34
+I0804 15:24:26.721372 13034 wcc.cc:178] worker window 49 9 50
+I0804 15:24:26.726482  4181 wcc.cc:148] access IncEval
+I0804 15:24:26.726516  4184 wcc.cc:178] worker window 56 9 57
+I0804 15:24:26.673018 13186 wcc.cc:148] access IncEval
+I0804 15:24:26.844839 13078 wcc.cc:148] access IncEval
+I0804 15:24:26.844844 13080 wcc.cc:148] access IncEval
+I0804 15:24:26.633827 13309 wcc.cc:178] worker window 44 8 69
+I0804 15:24:26.540282   839 wcc.cc:178] worker window 54 7 305
+I0804 15:24:26.925325 17472 wcc.cc:178] worker window 39 9 90
+I0804 15:24:27.094045  9196 wcc.cc:148] access IncEval
+I0804 15:24:26.721367 13035 wcc.cc:178] worker window 57 9 104
+I0804 15:24:26.726526  4181 wcc.cc:178] worker window 32 9 106
+I0804 15:24:26.673028 13187 wcc.cc:178] worker window 58 10 14
+I0804 15:24:26.673058 13186 wcc.cc:178] worker window 50 10 31
+I0804 15:24:26.633849 13311 wcc.cc:178] worker window 60 8 85
+I0804 15:24:26.540268   840 wcc.cc:178] worker window 62 7 88
+I0804 15:24:26.925400 17475 wcc.cc:148] access IncEval
+I0804 15:24:27.094084  9196 wcc.cc:178] worker window 53 6 287
+I0804 15:24:26.721354 13033 wcc.cc:148] access IncEval
+I0804 15:24:26.726636  4183 wcc.cc:148] access IncEval
+I0804 15:24:26.726636  4184 wcc.cc:148] access IncEval
+I0804 15:24:26.673025 13185 wcc.cc:178] worker window 42 10 29
+I0804 15:24:26.844841 13079 wcc.cc:148] access IncEval
+I0804 15:24:26.844857 13080 wcc.cc:178] worker window 51 9 90
+I0804 15:24:26.844856 13078 wcc.cc:178] worker window 35 9 103
+I0804 15:24:26.844866 13079 wcc.cc:178] worker window 43 9 147
+I0804 15:24:26.633932 13311 wcc.cc:148] access IncEval
+I0804 15:24:26.633944 13311 wcc.cc:178] worker window 60 9 85
+I0804 15:24:26.540290   838 wcc.cc:178] worker window 46 7 115
+I0804 15:24:26.925400 17472 wcc.cc:148] access IncEval
+I0804 15:24:27.094172  9193 wcc.cc:148] access IncEval
+I0804 15:24:27.094175  9195 wcc.cc:148] access IncEval
+I0804 15:24:26.721400 13033 wcc.cc:178] worker window 41 9 62
+I0804 15:24:26.726650  4183 wcc.cc:178] worker window 48 10 48
+I0804 15:24:26.726653  4184 wcc.cc:178] worker window 56 10 9
+I0804 15:24:26.844846 13081 wcc.cc:148] access IncEval
+I0804 15:24:26.844938 13081 wcc.cc:178] worker window 59 9 12
+I0804 15:24:26.634032 13311 wcc.cc:148] access IncEval
+I0804 15:24:26.540369   836 wcc.cc:148] access IncEval
+I0804 15:24:26.925411 17475 wcc.cc:178] worker window 63 10 57
+I0804 15:24:27.094182  9193 wcc.cc:178] worker window 29 7 3
+I0804 15:24:27.094184  9195 wcc.cc:178] worker window 45 7 49
+I0804 15:24:26.721479 13032 wcc.cc:148] access IncEval
+I0804 15:24:26.844965 13079 wcc.cc:148] access IncEval
+I0804 15:24:26.844974 13079 wcc.cc:178] worker window 43 10 58
+I0804 15:24:26.634053 13311 wcc.cc:178] worker window 60 10 45
+I0804 15:24:26.540374   837 wcc.cc:148] access IncEval
+I0804 15:24:26.540381   836 wcc.cc:178] worker window 30 8 3
+I0804 15:24:26.925423 17472 wcc.cc:178] worker window 39 10 94
+I0804 15:24:27.094179  9196 wcc.cc:148] access IncEval
+I0804 15:24:27.094179  9197 wcc.cc:148] access IncEval
+I0804 15:24:26.721480 13034 wcc.cc:148] access IncEval
+I0804 15:24:26.844970 13080 wcc.cc:148] access IncEval
+I0804 15:24:26.540377   838 wcc.cc:148] access IncEval
+I0804 15:24:26.540390   837 wcc.cc:178] worker window 38 8 21
+I0804 15:24:26.540375   840 wcc.cc:148] access IncEval
+I0804 15:24:26.540376   839 wcc.cc:148] access IncEval
+I0804 15:24:27.094208  9196 wcc.cc:178] worker window 53 7 6
+I0804 15:24:27.094180  9194 wcc.cc:148] access IncEval
+I0804 15:24:26.721494 13032 wcc.cc:178] worker window 33 10 1
+I0804 15:24:26.721482 13035 wcc.cc:148] access IncEval
+I0804 15:24:26.721503 13034 wcc.cc:178] worker window 49 10 18
+I0804 15:24:26.844972 13081 wcc.cc:148] access IncEval
+I0804 15:24:26.844995 13080 wcc.cc:178] worker window 51 10 54
+I0804 15:24:26.540403   838 wcc.cc:178] worker window 46 8 96
+I0804 15:24:27.094216  9197 wcc.cc:178] worker window 61 7 68
+I0804 15:24:26.721509 13035 wcc.cc:178] worker window 57 10 103
+I0804 15:24:26.845000 13081 wcc.cc:178] worker window 59 10 34
+I0804 15:24:26.540405   840 wcc.cc:178] worker window 62 8 116
+I0804 15:24:26.540407   839 wcc.cc:178] worker window 54 8 109
+I0804 15:24:27.094231  9194 wcc.cc:178] worker window 37 8 56
+I0804 15:24:26.540518   840 wcc.cc:148] access IncEval
+I0804 15:24:27.094324  9196 wcc.cc:148] access IncEval
+I0804 15:24:27.094326  9197 wcc.cc:148] access IncEval
+I0804 15:24:27.094328  9194 wcc.cc:148] access IncEval
+I0804 15:24:26.540522   837 wcc.cc:148] access IncEval
+I0804 15:24:26.540529   840 wcc.cc:178] worker window 62 9 102
+I0804 15:24:27.094339  9196 wcc.cc:178] worker window 53 8 39
+I0804 15:24:26.540536   837 wcc.cc:178] worker window 38 9 40
+I0804 15:24:27.094352  9194 wcc.cc:178] worker window 37 9 61
+I0804 15:24:26.540647   840 wcc.cc:148] access IncEval
+I0804 15:24:26.540650   837 wcc.cc:148] access IncEval
+I0804 15:24:27.094341  9197 wcc.cc:178] worker window 61 8 78
+I0804 15:24:26.540657   840 wcc.cc:178] worker window 62 10 107
+I0804 15:24:27.094451  9197 wcc.cc:148] access IncEval
+I0804 15:24:26.540663   837 wcc.cc:178] worker window 38 10 40
+I0804 15:24:27.094465  9197 wcc.cc:178] worker window 61 9 76
+I0804 15:24:27.094453  9194 wcc.cc:148] access IncEval
+I0804 15:24:27.094483  9194 wcc.cc:178] worker window 37 10 21
+I0804 15:24:26.725129 13035 wcc.cc:148] access IncEval
+I0804 15:24:26.725165 13035 wcc.cc:178] worker window 57 11 47
+I0804 15:24:26.730242  4184 wcc.cc:148] access IncEval
+I0804 15:24:26.730252  4184 wcc.cc:178] worker window 56 11 50
+I0804 15:24:26.676697 13187 wcc.cc:148] access IncEval
+I0804 15:24:26.676720 13187 wcc.cc:178] worker window 58 11 68
+I0804 15:24:26.848603 13079 wcc.cc:148] access IncEval
+I0804 15:24:26.848614 13079 wcc.cc:178] worker window 43 11 7
+I0804 15:24:26.848639 13080 wcc.cc:148] access IncEval
+I0804 15:24:26.637701 13311 wcc.cc:148] access IncEval
+I0804 15:24:26.544281   840 wcc.cc:148] access IncEval
+I0804 15:24:26.544291   840 wcc.cc:178] worker window 62 11 77
+I0804 15:24:26.929064 17472 wcc.cc:148] access IncEval
+I0804 15:24:26.929064 17475 wcc.cc:148] access IncEval
+I0804 15:24:26.929090 17472 wcc.cc:178] worker window 39 11 19
+I0804 15:24:27.098115  9197 wcc.cc:148] access IncEval
+I0804 15:24:27.098140  9197 wcc.cc:178] worker window 61 10 33
+I0804 15:24:26.725245 13035 wcc.cc:148] access IncEval
+I0804 15:24:26.730376  4184 wcc.cc:148] access IncEval
+I0804 15:24:26.848650 13081 wcc.cc:148] access IncEval
+I0804 15:24:26.848654 13080 wcc.cc:178] worker window 51 11 32
+I0804 15:24:26.848676 13081 wcc.cc:178] worker window 59 11 6
+I0804 15:24:26.637724 13311 wcc.cc:178] worker window 60 11 40
+I0804 15:24:26.544317   837 wcc.cc:148] access IncEval
+I0804 15:24:26.929105 17475 wcc.cc:178] worker window 63 11 54
+I0804 15:24:26.730384  4184 wcc.cc:178] worker window 56 12 7
+I0804 15:24:26.848737 13081 wcc.cc:148] access IncEval
+I0804 15:24:26.848748 13081 wcc.cc:178] worker window 59 12 6
+I0804 15:24:26.637804 13311 wcc.cc:148] access IncEval
+I0804 15:24:26.544337   837 wcc.cc:178] worker window 38 11 14
+I0804 15:24:26.929162 17475 wcc.cc:148] access IncEval
+I0804 15:24:27.098222  9197 wcc.cc:148] access IncEval
+I0804 15:24:26.725255 13035 wcc.cc:178] worker window 57 12 36
+I0804 15:24:26.637821 13311 wcc.cc:178] worker window 60 12 45
+I0804 15:24:26.544417   840 wcc.cc:148] access IncEval
+I0804 15:24:26.929170 17475 wcc.cc:178] worker window 63 12 3
+I0804 15:24:27.098245  9197 wcc.cc:178] worker window 61 11 48
+I0804 15:24:26.929219 17475 wcc.cc:148] access IncEval
+I0804 15:24:26.929229 17475 wcc.cc:178] worker window 63 13 4
+I0804 15:24:27.098274  9197 wcc.cc:148] access IncEval
+I0804 15:24:26.544427   840 wcc.cc:178] worker window 62 12 82
+I0804 15:24:27.098284  9197 wcc.cc:178] worker window 61 12 10
+I0804 15:24:26.725962 13023 worker.cc:478] [worker2] enters process result assemble, 8
+I0804 15:24:26.731096  4172 worker.cc:478] [worker1] enters process result assemble, 8
+I0804 15:24:26.677497 13175 worker.cc:478] [worker3] enters process result assemble, 8
+I0804 15:24:26.849462 13069 worker.cc:478] [worker4] enters process result assemble, 8
+I0804 15:24:26.638514 13299 worker.cc:478] [worker5] enters process result assemble, 8
+I0804 15:24:26.545127   827 worker.cc:478] [worker7] enters process result assemble, 8
+I0804 15:24:26.929880 17463 worker.cc:478] [worker8] enters process result assemble, 8
+I0804 15:24:27.098935  9185 worker.cc:478] [worker6] enters process result assemble, 8
+I0804 15:24:27.852593 12393 metric.cc:219] -------------------------------------------------
+I0804 15:24:27.852610 12393 metric.cc:220] algorithm:           wcc
+I0804 15:24:27.852628 12393 metric.cc:221] dataset-vfile:       /BIGDATA1/buaa_wffan_1/grape-data/usaroad/evr/usa-road.v
+I0804 15:24:27.852632 12393 metric.cc:222] dataset-efile:       /BIGDATA1/buaa_wffan_1/grape-data/usaroad/evr/usa-road.e
+I0804 15:24:27.852644 12393 metric.cc:223] partition-num:       64
+I0804 15:24:27.852649 12393 metric.cc:224] query-info:          file:/BIGDATA1/buaa_wffan_1/lidongze/code/grape/cpp/build/query/wcc/bsp/query-bsp
+I0804 15:24:27.852653 12393 metric.cc:225] graph-load-time(s):  1.94804
+I0804 15:24:27.852661 12393 metric.cc:226] grape-total-time(s): 0.0740061
+I0804 15:24:27.852669 12393 metric.cc:227] max-thread-time(s):  0.0617638
+I0804 15:24:27.852674 12393 metric.cc:228] min-thread-time(s):  0.0370021
+I0804 15:24:27.852679 12393 metric.cc:229] avg-thread-time(s):  0.0517396
+I0804 15:24:27.852684 12393 metric.cc:230] mpi-msg-size(Bytes): 690840
+I0804 15:24:27.852692 12393 metric.cc:231] -------------------------------------------------
+I0804 15:24:27.852695 12393 metric.cc:232] ------------Running State Time-------------------
+I0804 15:24:27.852699 12393 metric.cc:234] [worker1]: 0.0583491
+I0804 15:24:27.852720 12393 metric.cc:234] [worker2]: 0.0505979
+I0804 15:24:27.852725 12393 metric.cc:234] [worker3]: 0.0451965
+I0804 15:24:27.852730 12393 metric.cc:234] [worker4]: 0.0529385
+I0804 15:24:27.852735 12393 metric.cc:234] [worker5]: 0.0545619
+I0804 15:24:27.852741 12393 metric.cc:234] [worker6]: 0.049942
+I0804 15:24:27.852746 12393 metric.cc:234] [worker7]: 0.055928
+I0804 15:24:27.852751 12393 metric.cc:234] [worker8]: 0.0550776
+I0804 15:24:27.852761 12393 metric.cc:236] ------------Listening State Time-----------------
+I0804 15:24:27.852766 12393 metric.cc:238] [worker1]: 0.000574827
+I0804 15:24:27.852772 12393 metric.cc:238] [worker2]: 0.000552416
+I0804 15:24:27.852777 12393 metric.cc:238] [worker3]: 0.000583649
+I0804 15:24:27.852783 12393 metric.cc:238] [worker4]: 0.000546217
+I0804 15:24:27.852788 12393 metric.cc:238] [worker5]: 0.0005548
+I0804 15:24:27.852793 12393 metric.cc:238] [worker6]: 0.00052309
+I0804 15:24:27.852799 12393 metric.cc:238] [worker7]: 0.000555038
+I0804 15:24:27.852804 12393 metric.cc:238] [worker8]: 0.000509024
+I0804 15:24:27.852810 12393 metric.cc:240] -----------------Evaluation Time-----------------
+I0804 15:24:27.852814 12393 metric.cc:242] [worker1]: 0.073981
+I0804 15:24:27.852819 12393 metric.cc:242] [worker2]: 0.0739889
+I0804 15:24:27.852824 12393 metric.cc:242] [worker3]: 0.0740039
+I0804 15:24:27.852829 12393 metric.cc:242] [worker4]: 0.0739882
+I0804 15:24:27.852835 12393 metric.cc:242] [worker5]: 0.0739951
+I0804 15:24:27.852840 12393 metric.cc:242] [worker6]: 0.073983
+I0804 15:24:27.852845 12393 metric.cc:242] [worker7]: 0.073997
+I0804 15:24:27.852850 12393 metric.cc:242] [worker8]: 0.073966
+I0804 15:24:27.852860 12393 metric.cc:244] -------------------Ejecting Time-----------------
+I0804 15:24:27.852865 12393 metric.cc:246] [worker1]: 0.0132921
+I0804 15:24:27.852871 12393 metric.cc:246] [worker2]: 0.0158808
+I0804 15:24:27.852876 12393 metric.cc:246] [worker3]: 0.0145164
+I0804 15:24:27.852881 12393 metric.cc:246] [worker4]: 0.0160196
+I0804 15:24:27.852895 12393 metric.cc:246] [worker5]: 0.0128939
+I0804 15:24:27.852902 12393 metric.cc:246] [worker6]: 0.0125794
+I0804 15:24:27.852907 12393 metric.cc:246] [worker7]: 0.0167682
+I0804 15:24:27.852913 12393 metric.cc:246] [worker8]: 0.016793
+I0804 15:24:27.852918 12393 metric.cc:249] ------------------Receiving Time-----------------
+I0804 15:24:27.852922 12393 metric.cc:251] [worker1]: 0.0305808
+I0804 15:24:27.852928 12393 metric.cc:251] [worker2]: 0.0229301
+I0804 15:24:27.852933 12393 metric.cc:251] [worker3]: 0.0201209
+I0804 15:24:27.852939 12393 metric.cc:251] [worker4]: 0.0245547
+I0804 15:24:27.852944 12393 metric.cc:251] [worker5]: 0.0292299
+I0804 15:24:27.852950 12393 metric.cc:251] [worker6]: 0.0251145
+I0804 15:24:27.852955 12393 metric.cc:251] [worker7]: 0.0260959
+I0804 15:24:27.852960 12393 metric.cc:251] [worker8]: 0.0253551
+I0804 15:24:27.852967 12393 metric.cc:255] ---------------------Waking Time-----------------
+I0804 15:24:27.852970 12393 metric.cc:257] [worker1]: 0.0185628
+I0804 15:24:27.852975 12393 metric.cc:257] [worker2]: 0.0152757
+I0804 15:24:27.852982 12393 metric.cc:257] [worker3]: 0.0137079
+I0804 15:24:27.852986 12393 metric.cc:257] [worker4]: 0.0160112
+I0804 15:24:27.852991 12393 metric.cc:257] [worker5]: 0.0162833
+I0804 15:24:27.852996 12393 metric.cc:257] [worker6]: 0.015837
+I0804 15:24:27.853003 12393 metric.cc:257] [worker7]: 0.0170157
+I0804 15:24:27.853008 12393 metric.cc:257] [worker8]: 0.0168374
+I0804 15:24:27.853013 12393 metric.cc:259] ---------------------Msg Size--------------------
+I0804 15:24:27.853016 12393 metric.cc:261] [worker1]: 92144
+I0804 15:24:27.853020 12393 metric.cc:261] [worker2]: 81728
+I0804 15:24:27.853024 12393 metric.cc:261] [worker3]: 83696
+I0804 15:24:27.853027 12393 metric.cc:261] [worker4]: 93240
+I0804 15:24:27.853031 12393 metric.cc:261] [worker5]: 82936
+I0804 15:24:27.853034 12393 metric.cc:261] [worker6]: 86012
+I0804 15:24:27.853039 12393 metric.cc:261] [worker7]: 77424
+I0804 15:24:27.853041 12393 metric.cc:261] [worker8]: 93660
+I0804 15:24:27.853044 12393 metric.cc:264] ---------------------MPI_recv time---------------
+I0804 15:24:27.853049 12393 metric.cc:266] [worker1]: 9.15527e-05 , 0.000136137, 0.000101089 , 
+I0804 15:24:27.853055 12393 metric.cc:266] [worker2]: 6.86646e-05 , 0.000136375, 0.00012064 , 
+I0804 15:24:27.853062 12393 metric.cc:266] [worker3]: 8.70228e-05 , 0.000151634, 0.000123024 , 
+I0804 15:24:27.853070 12393 metric.cc:266] [worker4]: 6.91414e-05 , 0.000124454, 8.96454e-05 , 
+I0804 15:24:27.853076 12393 metric.cc:266] [worker5]: 6.67572e-05 , 0.000144243, 0.000110865 , 
+I0804 15:24:27.853082 12393 metric.cc:266] [worker6]: 8.82149e-05 , 0.000146389, 0.000118494 , 
+I0804 15:24:27.853090 12393 metric.cc:266] [worker7]: 5.10216e-05 , 0.000102043, 8.46386e-05 , 
+I0804 15:24:27.853096 12393 metric.cc:266] [worker8]: 7.36713e-05 , 0.000148535, 0.000100851 , 
+I0804 15:24:27.853102 12393 metric.cc:270] -----------------Sent Msg Num--------------------
+I0804 15:24:27.853106 12393 metric.cc:274] [worker1]: 9053
+I0804 15:24:27.853111 12393 metric.cc:274] [worker2]: 8123
+I0804 15:24:27.853114 12393 metric.cc:274] [worker3]: 8583
+I0804 15:24:27.853117 12393 metric.cc:274] [worker4]: 9564
+I0804 15:24:27.853121 12393 metric.cc:274] [worker5]: 8530
+I0804 15:24:27.853125 12393 metric.cc:274] [worker6]: 7936
+I0804 15:24:27.853128 12393 metric.cc:274] [worker7]: 7474
+I0804 15:24:27.853132 12393 metric.cc:274] [worker8]: 9538
+I0804 15:24:27.853135 12393 metric.cc:277] [coordinator] : total = 68801
+I0804 15:24:27.853139 12393 metric.cc:278] [coordinator] : aggregated msg num = 68801
+I0804 15:24:27.853143 12393 metric.cc:279] [coordinator] : iter num = 0
+I0804 15:24:27.979991 12393 worker.cc:235] all queries in the workload is processed. 
+I0804 15:24:27.980011 12393 worker.cc:249] query_info=
+I0804 15:24:27.980139 12393 worker.cc:276] [coordinator] shutdown.
+I0804 15:24:27.795699 13023 worker.cc:368] [worker_2] shutdown.
+I0804 15:24:27.800829  4172 worker.cc:368] [worker_1] shutdown.
+I0804 15:24:27.747251 13175 worker.cc:368] [worker_3] shutdown.
+I0804 15:24:27.919185 13069 worker.cc:368] [worker_4] shutdown.
+I0804 15:24:27.708250 13299 worker.cc:368] [worker_5] shutdown.
+I0804 15:24:27.614861   827 worker.cc:368] [worker_7] shutdown.
+I0804 15:24:27.999631 17463 worker.cc:368] [worker_8] shutdown.
+I0804 15:24:28.168675  9185 worker.cc:368] [worker_6] shutdown.
