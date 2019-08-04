@@ -1,0 +1,250 @@
+I0804 14:04:24.108657 23799 worker.cc:233] The query is /BIGDATA1/buaa_wffan_1/lidongze/code/sssp/cpp/build/query/hits/hits-bsp
+I0804 14:04:24.729508 11687 worker.cc:49] Enter worker loop
+I0804 14:04:24.641705 24463 worker.cc:49] Enter worker loop
+I0804 14:04:24.518620 31349 worker.cc:49] Enter worker loop
+I0804 14:04:24.556125 30026 worker.cc:49] Enter worker loop
+I0804 14:04:24.128252 23799 worker.cc:242] query_info=file:/BIGDATA1/buaa_wffan_1/lidongze/code/sssp/cpp/build/query/hits/hits-bsp
+I0804 14:04:24.128427 23799 worker.cc:35] Enter coordinator loop
+I0804 14:04:24.729954 11692 hits.cc:20] frag-0 access peval
+I0804 14:04:24.745909 11692 hits.cc:38] worker window 0 0 1176534
+I0804 14:04:24.519178 31354 hits.cc:20] frag-1 access peval
+I0804 14:04:24.642266 24468 hits.cc:20] frag-2 access peval
+I0804 14:04:24.556733 30031 hits.cc:20] frag-3 access peval
+I0804 14:04:24.536119 31354 hits.cc:38] worker window 1 0 1246192
+I0804 14:04:24.659884 24468 hits.cc:38] worker window 2 0 1248309
+I0804 14:04:24.572185 30031 hits.cc:38] worker window 3 0 1176537
+I0804 14:04:24.908025 11692 hits.cc:86] frag-0 access Inceval 1
+I0804 14:04:24.909474 11692 hits.cc:181] worker window 0 1 218622
+I0804 14:04:24.698521 31354 hits.cc:86] frag-1 access Inceval 1
+I0804 14:04:24.700186 31354 hits.cc:181] worker window 1 1 241631
+I0804 14:04:24.938400 11692 hits.cc:86] frag-0 access Inceval 2
+I0804 14:04:24.729478 31354 hits.cc:86] frag-1 access Inceval 2
+I0804 14:04:24.852782 24468 hits.cc:86] frag-2 access Inceval 1
+I0804 14:04:24.855851 24468 hits.cc:181] worker window 2 1 477831
+I0804 14:04:24.886970 24468 hits.cc:86] frag-2 access Inceval 2
+I0804 14:04:24.801254 30031 hits.cc:86] frag-3 access Inceval 1
+I0804 14:04:24.803645 30031 hits.cc:181] worker window 3 1 341537
+I0804 14:04:25.069042 11692 hits.cc:138] worker window 0 2 1176534
+I0804 14:04:24.876353 31354 hits.cc:138] worker window 1 2 1246192
+I0804 14:04:25.051867 24468 hits.cc:138] worker window 2 2 1248309
+I0804 14:04:25.192515 11692 hits.cc:86] frag-0 access Inceval 3
+I0804 14:04:25.019116 30031 hits.cc:86] frag-3 access Inceval 2
+I0804 14:04:25.193199 11692 hits.cc:181] worker window 0 3 93390
+I0804 14:04:25.225401 11692 hits.cc:86] frag-0 access Inceval 4
+I0804 14:04:25.016098 31354 hits.cc:86] frag-1 access Inceval 3
+I0804 14:04:25.018076 31354 hits.cc:181] worker window 1 3 368191
+I0804 14:04:25.092619 31354 hits.cc:86] frag-1 access Inceval 4
+I0804 14:04:25.216079 24468 hits.cc:86] frag-2 access Inceval 3
+I0804 14:04:25.218508 24468 hits.cc:181] worker window 2 3 477831
+I0804 14:04:25.332162 11692 hits.cc:138] worker window 0 4 1176534
+I0804 14:04:25.218870 30031 hits.cc:138] worker window 3 2 1176537
+I0804 14:04:25.224664 31354 hits.cc:138] worker window 1 4 1246192
+I0804 14:04:25.445461 11692 hits.cc:86] frag-0 access Inceval 5
+I0804 14:04:25.357605 24468 hits.cc:86] frag-2 access Inceval 4
+I0804 14:04:25.446614 11692 hits.cc:181] worker window 0 5 213974
+I0804 14:04:25.572968 11692 hits.cc:86] frag-0 access Inceval 6
+I0804 14:04:25.362807 31354 hits.cc:86] frag-1 access Inceval 5
+I0804 14:04:25.364125 31354 hits.cc:181] worker window 1 5 241631
+I0804 14:04:25.509848 24468 hits.cc:138] worker window 2 4 1248309
+I0804 14:04:25.387920 31354 hits.cc:86] frag-1 access Inceval 6
+I0804 14:04:25.426561 30031 hits.cc:86] frag-3 access Inceval 3
+I0804 14:04:25.428956 30031 hits.cc:181] worker window 3 3 437125
+I0804 14:04:25.682457 11692 hits.cc:138] worker window 0 6 1176534
+I0804 14:04:25.513675 31354 hits.cc:138] worker window 1 6 1246192
+I0804 14:04:25.587762 30031 hits.cc:86] frag-3 access Inceval 4
+I0804 14:04:25.673439 24468 hits.cc:86] frag-2 access Inceval 5
+I0804 14:04:25.675755 24468 hits.cc:181] worker window 2 5 454874
+I0804 14:04:25.795671 11692 hits.cc:86] frag-0 access Inceval 7
+I0804 14:04:25.707805 24468 hits.cc:86] frag-2 access Inceval 6
+I0804 14:04:25.797313 11692 hits.cc:181] worker window 0 7 307364
+I0804 14:04:25.876696 11692 hits.cc:86] frag-0 access Inceval 8
+I0804 14:04:25.667362 31354 hits.cc:86] frag-1 access Inceval 7
+I0804 14:04:25.700546 31354 hits.cc:181] worker window 1 7 496142
+I0804 14:04:25.763530 30031 hits.cc:138] worker window 3 4 1176537
+I0804 14:04:25.881686 24468 hits.cc:138] worker window 2 6 1248309
+I0804 14:04:25.987166 11692 hits.cc:138] worker window 0 8 1176534
+I0804 14:04:25.948839 31354 hits.cc:86] frag-1 access Inceval 8
+I0804 14:04:26.160889 11692 hits.cc:86] frag-0 access Inceval 9
+I0804 14:04:26.161643 11692 hits.cc:181] worker window 0 9 93390
+I0804 14:04:25.989085 30031 hits.cc:86] frag-3 access Inceval 5
+I0804 14:04:26.007015 30031 hits.cc:181] worker window 3 5 261892
+I0804 14:04:26.195981 11692 hits.cc:86] frag-0 access Inceval 10
+I0804 14:04:26.110491 24468 hits.cc:86] frag-2 access Inceval 7
+I0804 14:04:26.028581 30031 hits.cc:86] frag-3 access Inceval 6
+I0804 14:04:26.141233 24468 hits.cc:181] worker window 2 7 691742
+I0804 14:04:26.323881 11692 hits.cc:138] worker window 0 10 1176534
+I0804 14:04:26.148591 31354 hits.cc:138] worker window 1 8 1246192
+I0804 14:04:26.281430 30031 hits.cc:138] worker window 3 6 1176537
+I0804 14:04:26.536291 24468 hits.cc:86] frag-2 access Inceval 8
+I0804 14:04:26.782049 11692 hits.cc:86] frag-0 access Inceval 11
+I0804 14:04:26.783424 11692 hits.cc:181] worker window 0 11 218622
+I0804 14:04:26.572405 31354 hits.cc:86] frag-1 access Inceval 9
+I0804 14:04:26.575629 31354 hits.cc:181] worker window 1 9 622702
+I0804 14:04:27.073825 11692 hits.cc:86] frag-0 access Inceval 12
+I0804 14:04:26.863135 31354 hits.cc:86] frag-1 access Inceval 10
+I0804 14:04:26.901687 30031 hits.cc:86] frag-3 access Inceval 7
+I0804 14:04:26.902890 30031 hits.cc:181] worker window 3 7 178740
+I0804 14:04:27.002277 24468 hits.cc:138] worker window 2 8 1248309
+I0804 14:04:26.988497 31354 hits.cc:138] worker window 1 10 1246192
+I0804 14:04:27.213564 11692 hits.cc:138] worker window 0 12 1176534
+I0804 14:04:27.136736 24468 hits.cc:86] frag-2 access Inceval 9
+I0804 14:04:27.051242 30031 hits.cc:86] frag-3 access Inceval 8
+I0804 14:04:27.138976 24468 hits.cc:181] worker window 2 9 454874
+I0804 14:04:27.228185 24468 hits.cc:86] frag-2 access Inceval 10
+I0804 14:04:27.105345 31354 hits.cc:86] frag-1 access Inceval 11
+I0804 14:04:27.320082 11692 hits.cc:86] frag-0 access Inceval 13
+I0804 14:04:27.322188 11692 hits.cc:181] worker window 0 13 432596
+I0804 14:04:27.122895 31354 hits.cc:181] worker window 1 11 254511
+I0804 14:04:27.132618 31354 hits.cc:86] frag-1 access Inceval 12
+I0804 14:04:27.194300 30031 hits.cc:138] worker window 3 8 1176537
+I0804 14:04:27.356789 24468 hits.cc:138] worker window 2 10 1248309
+I0804 14:04:27.241041 31354 hits.cc:138] worker window 1 12 1246192
+I0804 14:04:27.539276 11692 hits.cc:86] frag-0 access Inceval 14
+I0804 14:04:27.367246 30031 hits.cc:86] frag-3 access Inceval 9
+I0804 14:04:27.379434 30031 hits.cc:181] worker window 3 9 178740
+I0804 14:04:27.501329 24468 hits.cc:86] frag-2 access Inceval 11
+I0804 14:04:27.415832 30031 hits.cc:86] frag-3 access Inceval 10
+I0804 14:04:27.382920 31354 hits.cc:86] frag-1 access Inceval 13
+I0804 14:04:27.384946 31354 hits.cc:181] worker window 1 13 381071
+I0804 14:04:27.530521 24468 hits.cc:181] worker window 2 11 450779
+I0804 14:04:27.540326 24468 hits.cc:86] frag-2 access Inceval 12
+I0804 14:04:27.630481 11692 hits.cc:138] worker window 0 14 1176534
+I0804 14:04:27.515136 31354 hits.cc:86] frag-1 access Inceval 14
+I0804 14:04:27.726672 11692 hits.cc:86] frag-0 access Inceval 15
+I0804 14:04:27.728772 11692 hits.cc:181] worker window 0 15 432596
+I0804 14:04:27.575426 30031 hits.cc:138] worker window 3 10 1176537
+I0804 14:04:27.674163 24468 hits.cc:138] worker window 2 12 1248309
+I0804 14:04:27.628706 31354 hits.cc:138] worker window 1 14 1246192
+I0804 14:04:27.920114 11692 hits.cc:86] frag-0 access Inceval 16
+I0804 14:04:27.747953 30031 hits.cc:86] frag-3 access Inceval 11
+I0804 14:04:27.749060 30031 hits.cc:181] worker window 3 11 178740
+I0804 14:04:27.841001 24468 hits.cc:86] frag-2 access Inceval 13
+I0804 14:04:27.757216 30031 hits.cc:86] frag-3 access Inceval 12
+I0804 14:04:27.843281 24468 hits.cc:181] worker window 2 13 450779
+I0804 14:04:27.744429 31354 hits.cc:86] frag-1 access Inceval 15
+I0804 14:04:27.867499 24468 hits.cc:86] frag-2 access Inceval 14
+I0804 14:04:27.746603 31354 hits.cc:181] worker window 1 15 381071
+I0804 14:04:28.030519 11692 hits.cc:138] worker window 0 16 1176534
+I0804 14:04:27.992712 24468 hits.cc:138] worker window 2 14 1248309
+I0804 14:04:27.914911 30031 hits.cc:138] worker window 3 12 1176537
+I0804 14:04:27.915431 31354 hits.cc:86] frag-1 access Inceval 16
+I0804 14:04:28.126930 11692 hits.cc:86] frag-0 access Inceval 17
+I0804 14:04:28.129124 11692 hits.cc:181] worker window 0 17 432596
+I0804 14:04:28.213369 11692 hits.cc:86] frag-0 access Inceval 18
+I0804 14:04:28.126606 24468 hits.cc:86] frag-2 access Inceval 15
+I0804 14:04:28.127923 24468 hits.cc:181] worker window 2 15 236868
+I0804 14:04:28.061486 30031 hits.cc:86] frag-3 access Inceval 13
+I0804 14:04:28.147222 24468 hits.cc:86] frag-2 access Inceval 16
+I0804 14:04:28.063321 30031 hits.cc:181] worker window 3 13 341537
+I0804 14:04:28.028080 31354 hits.cc:138] worker window 1 16 1246192
+I0804 14:04:28.309047 11692 hits.cc:138] worker window 0 18 1176534
+I0804 14:04:28.142997 31354 hits.cc:86] frag-1 access Inceval 17
+I0804 14:04:28.180547 30031 hits.cc:86] frag-3 access Inceval 14
+I0804 14:04:28.144930 31354 hits.cc:181] worker window 1 17 381071
+I0804 14:04:28.280930 24468 hits.cc:138] worker window 2 16 1248309
+I0804 14:04:28.193840 31354 hits.cc:86] frag-1 access Inceval 18
+I0804 14:04:28.405351 11692 hits.cc:86] frag-0 access Inceval 19
+I0804 14:04:28.407034 11692 hits.cc:181] worker window 0 19 312012
+I0804 14:04:28.319520 30031 hits.cc:138] worker window 3 14 1176537
+I0804 14:04:28.511140 11692 hits.cc:86] frag-0 access Inceval 20
+I0804 14:04:28.425029 24468 hits.cc:86] frag-2 access Inceval 17
+I0804 14:04:28.316838 31354 hits.cc:138] worker window 1 18 1246192
+I0804 14:04:28.443747 24468 hits.cc:181] worker window 2 17 477831
+I0804 14:04:28.466133 30031 hits.cc:86] frag-3 access Inceval 15
+I0804 14:04:28.551875 24468 hits.cc:86] frag-2 access Inceval 18
+I0804 14:04:28.467555 30031 hits.cc:181] worker window 3 15 245949
+I0804 14:04:28.442134 31354 hits.cc:86] frag-1 access Inceval 19
+I0804 14:04:28.479670 30031 hits.cc:86] frag-3 access Inceval 16
+I0804 14:04:28.467653 31354 hits.cc:181] worker window 1 19 381071
+I0804 14:04:28.490509 31354 hits.cc:86] frag-1 access Inceval 20
+I0804 14:04:28.702018 11692 hits.cc:86] frag-0 access Inceval 21
+I0804 14:04:28.682407 24468 hits.cc:138] worker window 2 18 1248309
+I0804 14:04:28.627452 30031 hits.cc:138] worker window 3 16 1176537
+I0804 14:04:28.911393 11692 hits.cc:86] frag-0 access Inceval 22
+I0804 14:04:28.825157 24468 hits.cc:86] frag-2 access Inceval 19
+I0804 14:04:28.827507 24468 hits.cc:181] worker window 2 19 477831
+I0804 14:04:28.715896 31354 hits.cc:86] frag-1 access Inceval 21
+I0804 14:04:28.838977 24468 hits.cc:86] frag-2 access Inceval 20
+I0804 14:04:28.759917 31354 hits.cc:86] frag-1 access Inceval 22
+I0804 14:04:28.798473 30031 hits.cc:86] frag-3 access Inceval 17
+I0804 14:04:29.029449 11692 hits.cc:86] frag-0 access Inceval 23
+I0804 14:04:29.207011 11692 hits.cc:86] frag-0 access Inceval 24
+I0804 14:04:28.997016 31354 hits.cc:86] frag-1 access Inceval 23
+I0804 14:04:29.120385 24468 hits.cc:86] frag-2 access Inceval 21
+I0804 14:04:29.034888 30031 hits.cc:86] frag-3 access Inceval 18
+I0804 14:04:29.224134 30031 hits.cc:138] worker window 3 18 1176537
+I0804 14:04:29.542657 11692 hits.cc:86] frag-0 access Inceval 25
+I0804 14:04:29.332017 31354 hits.cc:86] frag-1 access Inceval 24
+I0804 14:04:29.455770 24468 hits.cc:86] frag-2 access Inceval 22
+I0804 14:04:29.689049 11687 worker.cc:471] [worker1] enters process result assemble, 1
+I0804 14:04:29.478134 31349 worker.cc:471] [worker2] enters process result assemble, 1
+I0804 14:04:29.601209 24463 worker.cc:471] [worker3] enters process result assemble, 1
+I0804 14:04:29.515620 30026 worker.cc:471] [worker4] enters process result assemble, 1
+I0804 14:04:44.488554 23799 metric.cc:219] -------------------------------------------------
+I0804 14:04:44.488590 23799 metric.cc:220] algorithm:           hits
+I0804 14:04:44.488610 23799 metric.cc:221] dataset-vfile:       /BIGDATA1/buaa_wffan_1/grape-data/livejournal/evr/livejournal.v
+I0804 14:04:44.488622 23799 metric.cc:222] dataset-efile:       /BIGDATA1/buaa_wffan_1/grape-data/livejournal/evr/livejournal.e
+I0804 14:04:44.488627 23799 metric.cc:223] partition-num:       4
+I0804 14:04:44.488636 23799 metric.cc:224] query-info:          file:/BIGDATA1/buaa_wffan_1/lidongze/code/sssp/cpp/build/query/hits/hits-bsp
+I0804 14:04:44.488641 23799 metric.cc:225] graph-load-time(s):  1.70036
+I0804 14:04:44.495199 23799 metric.cc:226] grape-total-time(s): 4.95961
+I0804 14:04:44.495214 23799 metric.cc:227] max-thread-time(s):  3.94235
+I0804 14:04:44.495221 23799 metric.cc:228] min-thread-time(s):  2.92452
+I0804 14:04:44.495242 23799 metric.cc:229] avg-thread-time(s):  3.55307
+I0804 14:04:44.495255 23799 metric.cc:230] mpi-msg-size(Bytes): 188546864
+I0804 14:04:44.495265 23799 metric.cc:231] -------------------------------------------------
+I0804 14:04:44.495271 23799 metric.cc:232] ------------Running State Time-------------------
+I0804 14:04:44.495276 23799 metric.cc:234] [worker1]: 2.3907
+I0804 14:04:44.495283 23799 metric.cc:234] [worker2]: 2.87047
+I0804 14:04:44.495290 23799 metric.cc:234] [worker3]: 3.1295
+I0804 14:04:44.495311 23799 metric.cc:234] [worker4]: 3.21294
+I0804 14:04:44.495316 23799 metric.cc:236] ------------Listening State Time-----------------
+I0804 14:04:44.495321 23799 metric.cc:238] [worker1]: 2.0132
+I0804 14:04:44.495328 23799 metric.cc:238] [worker2]: 1.41608
+I0804 14:04:44.495334 23799 metric.cc:238] [worker3]: 1.0946
+I0804 14:04:44.495340 23799 metric.cc:238] [worker4]: 0.996123
+I0804 14:04:44.495347 23799 metric.cc:240] -----------------Evaluation Time-----------------
+I0804 14:04:44.495352 23799 metric.cc:242] [worker1]: 4.9596
+I0804 14:04:44.495373 23799 metric.cc:242] [worker2]: 4.95951
+I0804 14:04:44.495379 23799 metric.cc:242] [worker3]: 4.9596
+I0804 14:04:44.495385 23799 metric.cc:242] [worker4]: 4.95957
+I0804 14:04:44.495393 23799 metric.cc:244] -------------------Ejecting Time-----------------
+I0804 14:04:44.495398 23799 metric.cc:246] [worker1]: 0.456303
+I0804 14:04:44.495404 23799 metric.cc:246] [worker2]: 0.521453
+I0804 14:04:44.495410 23799 metric.cc:246] [worker3]: 0.573394
+I0804 14:04:44.495417 23799 metric.cc:246] [worker4]: 0.61816
+I0804 14:04:44.495437 23799 metric.cc:249] ------------------Receiving Time-----------------
+I0804 14:04:44.495442 23799 metric.cc:251] [worker1]: 1.22599
+I0804 14:04:44.495448 23799 metric.cc:251] [worker2]: 1.49378
+I0804 14:04:44.495455 23799 metric.cc:251] [worker3]: 1.62291
+I0804 14:04:44.495460 23799 metric.cc:251] [worker4]: 1.64064
+I0804 14:04:44.495467 23799 metric.cc:255] ---------------------Waking Time-----------------
+I0804 14:04:44.495472 23799 metric.cc:257] [worker1]: 0.941679
+I0804 14:04:44.495479 23799 metric.cc:257] [worker2]: 1.13627
+I0804 14:04:44.495486 23799 metric.cc:257] [worker3]: 1.24096
+I0804 14:04:44.495491 23799 metric.cc:257] [worker4]: 1.26702
+I0804 14:04:44.495498 23799 metric.cc:259] ---------------------Msg Size--------------------
+I0804 14:04:44.495503 23799 metric.cc:261] [worker1]: 45540736
+I0804 14:04:44.495507 23799 metric.cc:261] [worker2]: 53786448
+I0804 14:04:44.495512 23799 metric.cc:261] [worker3]: 59163192
+I0804 14:04:44.495517 23799 metric.cc:261] [worker4]: 30056488
+I0804 14:04:44.495522 23799 metric.cc:264] ---------------------MPI_recv time---------------
+I0804 14:04:44.495527 23799 metric.cc:266] [worker1]: 4.07696e-05 , 0.00445223, 1.33514e-05 , 
+I0804 14:04:44.495537 23799 metric.cc:266] [worker2]: 0.000345469 , 0.0104215, 4.05312e-05 , 
+I0804 14:04:44.495544 23799 metric.cc:266] [worker3]: 0.000201225 , 0.00951433, 2.76566e-05 , 
+I0804 14:04:44.495563 23799 metric.cc:266] [worker4]: 8.2016e-05 , 0.00427699, 2.59876e-05 , 
+I0804 14:04:44.495573 23799 metric.cc:270] -----------------Sent Msg Num--------------------
+I0804 14:04:44.495577 23799 metric.cc:274] [worker1]: 6178161
+I0804 14:04:44.495582 23799 metric.cc:274] [worker2]: 6106903
+I0804 14:04:44.495587 23799 metric.cc:274] [worker3]: 6944102
+I0804 14:04:44.495592 23799 metric.cc:274] [worker4]: 4338610
+I0804 14:04:44.495597 23799 metric.cc:277] [coordinator] : total = 23567776
+I0804 14:04:44.495602 23799 metric.cc:278] [coordinator] : aggregated msg num = 0
+I0804 14:04:44.495607 23799 metric.cc:279] [coordinator] : iter num = 0
+I0804 14:04:44.510280 23799 worker.cc:230] all queries in the workload is processed. 
+I0804 14:04:44.510296 23799 worker.cc:242] query_info=
+I0804 14:04:44.510432 23799 worker.cc:269] [coordinator] shutdown.
+I0804 14:04:45.111538 11687 worker.cc:361] [worker_1] shutdown.
+I0804 14:04:44.900553 31349 worker.cc:361] [worker_2] shutdown.
+I0804 14:04:45.023663 24463 worker.cc:361] [worker_3] shutdown.
+I0804 14:04:44.938050 30026 worker.cc:361] [worker_4] shutdown.

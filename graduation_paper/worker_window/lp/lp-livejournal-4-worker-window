@@ -1,0 +1,167 @@
+I0804 13:48:23.957782 11631 fragment_loader.cc:27] [worker1]: Begin loading rfile...
+I0804 13:48:23.871405 24407 fragment_loader.cc:27] [worker3]: Begin loading rfile...
+I0804 13:48:23.787722 13866 fragment_loader.cc:27] [worker4]: Begin loading rfile...
+I0804 13:48:23.751214 21428 fragment_loader.cc:27] [worker2]: Begin loading rfile...
+I0804 13:48:25.378916 11631 fragment_loader.cc:51] [worker1]: Finished loading rfile...
+I0804 13:48:25.379787 11631 fragment_loader.cc:69] [worker1]: Begin loading efile...
+I0804 13:48:25.313879 24407 fragment_loader.cc:51] [worker3]: Finished loading rfile...
+I0804 13:48:25.314575 24407 fragment_loader.cc:69] [worker3]: Begin loading efile...
+I0804 13:48:25.239902 21428 fragment_loader.cc:51] [worker2]: Finished loading rfile...
+I0804 13:48:25.240694 21428 fragment_loader.cc:69] [worker2]: Begin loading efile...
+I0804 13:48:25.499698 13866 fragment_loader.cc:51] [worker4]: Finished loading rfile...
+I0804 13:48:25.501067 13866 fragment_loader.cc:69] [worker4]: Begin loading efile...
+I0804 13:48:53.508116 11631 fragment_loader.cc:142] [worker1]: Finished loading efile...
+I0804 13:48:53.508901 11631 fragment_loader.cc:156] [worker1]: Begin loading vfile...
+I0804 13:48:53.696245 24407 fragment_loader.cc:142] [worker3]: Finished loading efile...
+I0804 13:48:53.697263 24407 fragment_loader.cc:156] [worker3]: Begin loading vfile...
+I0804 13:48:53.737246 21428 fragment_loader.cc:142] [worker2]: Finished loading efile...
+I0804 13:48:53.738201 21428 fragment_loader.cc:156] [worker2]: Begin loading vfile...
+I0804 13:48:54.012537 13866 fragment_loader.cc:142] [worker4]: Finished loading efile...
+I0804 13:48:54.013633 13866 fragment_loader.cc:156] [worker4]: Begin loading vfile...
+I0804 13:48:55.266476 11631 fragment_loader.cc:168] [worker1]: Finished loading vfile...
+I0804 13:48:55.493392 24407 fragment_loader.cc:168] [worker3]: Finished loading vfile...
+I0804 13:48:55.507527 21428 fragment_loader.cc:168] [worker2]: Finished loading vfile...
+I0804 13:48:55.749843 13866 fragment_loader.cc:168] [worker4]: Finished loading vfile...
+I0804 13:49:01.691785  7572 worker.cc:233] The query is /BIGDATA1/buaa_wffan_1/lidongze/code/sssp/cpp/build/query/lp/lp-bsp
+I0804 13:49:02.289674 11631 worker.cc:49] Enter worker loop
+I0804 13:49:02.081291 21428 worker.cc:49] Enter worker loop
+I0804 13:49:02.202924 24407 worker.cc:49] Enter worker loop
+I0804 13:49:02.118378 13866 worker.cc:49] Enter worker loop
+I0804 13:49:02.081485 21434 lp.cc:41] worker window 1 0 1246192
+I0804 13:49:02.203117 24413 lp.cc:41] worker window 2 0 1248309
+I0804 13:49:02.118573 16141 lp.cc:41] worker window 3 0 1176537
+I0804 13:49:02.290050 11637 lp.cc:41] worker window 0 0 1176534
+I0804 13:49:01.695483  7572 worker.cc:242] query_info=file:/BIGDATA1/buaa_wffan_1/lidongze/code/sssp/cpp/build/query/lp/lp-bsp
+I0804 13:49:01.695691  7572 worker.cc:35] Enter coordinator loop
+I0804 13:49:07.302266 21434 lp.cc:127] worker window 1 1 1246192
+I0804 13:49:07.953617 11637 lp.cc:127] worker window 0 1 1176534
+I0804 13:49:08.796994 24413 lp.cc:127] worker window 2 1 1248309
+I0804 13:49:12.342926 16141 lp.cc:127] worker window 3 1 1176537
+I0804 13:49:16.998754 21434 lp.cc:127] worker window 1 2 1246192
+I0804 13:49:17.767917 11637 lp.cc:127] worker window 0 2 1176534
+I0804 13:49:18.714118 24413 lp.cc:127] worker window 2 2 1248309
+I0804 13:49:21.662621 16141 lp.cc:127] worker window 3 2 1176537
+I0804 13:49:25.926721 21434 lp.cc:127] worker window 1 3 1246192
+I0804 13:49:26.788698 11637 lp.cc:127] worker window 0 3 1176534
+I0804 13:49:27.493646 24413 lp.cc:127] worker window 2 3 1248309
+I0804 13:49:30.675611 16141 lp.cc:127] worker window 3 3 1176537
+I0804 13:49:34.996192 21434 lp.cc:127] worker window 1 4 1246192
+I0804 13:49:35.768173 11637 lp.cc:127] worker window 0 4 1176534
+I0804 13:49:36.419343 24413 lp.cc:127] worker window 2 4 1248309
+I0804 13:49:39.457628 16141 lp.cc:127] worker window 3 4 1176537
+I0804 13:49:43.651545 21434 lp.cc:127] worker window 1 5 1246192
+I0804 13:49:44.435525 11637 lp.cc:127] worker window 0 5 1176534
+I0804 13:49:45.144093 24413 lp.cc:127] worker window 2 5 1248309
+I0804 13:49:48.195433 16141 lp.cc:127] worker window 3 5 1176537
+I0804 13:49:52.472129 21434 lp.cc:127] worker window 1 6 1246192
+I0804 13:49:53.156394 11637 lp.cc:127] worker window 0 6 1176534
+I0804 13:49:53.894299 24413 lp.cc:127] worker window 2 6 1248309
+I0804 13:49:56.949724 16141 lp.cc:127] worker window 3 6 1176537
+I0804 13:50:01.282028 21434 lp.cc:127] worker window 1 7 1246192
+I0804 13:50:01.886242 11637 lp.cc:127] worker window 0 7 1176534
+I0804 13:50:02.649754 24413 lp.cc:127] worker window 2 7 1248309
+I0804 13:50:05.660651 16141 lp.cc:127] worker window 3 7 1176537
+I0804 13:50:09.913174 21434 lp.cc:127] worker window 1 8 1246192
+I0804 13:50:10.654695 11637 lp.cc:127] worker window 0 8 1176534
+I0804 13:50:11.322949 24413 lp.cc:127] worker window 2 8 1248309
+I0804 13:50:14.407977 16141 lp.cc:127] worker window 3 8 1176537
+I0804 13:50:18.574445 21434 lp.cc:127] worker window 1 9 1246192
+I0804 13:50:19.358502 11637 lp.cc:127] worker window 0 9 1176534
+I0804 13:50:20.169474 24413 lp.cc:127] worker window 2 9 1248309
+I0804 13:50:23.100111 16141 lp.cc:127] worker window 3 9 1176537
+I0804 13:50:27.321633 21434 lp.cc:127] worker window 1 10 1246192
+I0804 13:50:28.052362 11637 lp.cc:127] worker window 0 10 1176534
+I0804 13:50:28.784363 24413 lp.cc:127] worker window 2 10 1248309
+I0804 13:50:31.695987 16141 lp.cc:127] worker window 3 10 1176537
+I0804 13:50:35.832021 21434 lp.cc:127] worker window 1 11 1246192
+I0804 13:50:36.685088 11637 lp.cc:127] worker window 0 11 1176534
+I0804 13:50:37.352572 24413 lp.cc:127] worker window 2 11 1248309
+I0804 13:50:40.335553 16141 lp.cc:127] worker window 3 11 1176537
+I0804 13:50:44.457679 21434 lp.cc:127] worker window 1 12 1246192
+I0804 13:50:45.269309 11637 lp.cc:127] worker window 0 12 1176534
+I0804 13:50:46.037550 24413 lp.cc:127] worker window 2 12 1248309
+I0804 13:50:49.059815 16141 lp.cc:127] worker window 3 12 1176537
+I0804 13:50:53.234509 21434 lp.cc:127] worker window 1 13 1246192
+I0804 13:50:54.051841 11637 lp.cc:127] worker window 0 13 1176534
+I0804 13:50:54.703806 24413 lp.cc:127] worker window 2 13 1248309
+I0804 13:50:57.932582 16141 lp.cc:127] worker window 3 13 1176537
+I0804 13:51:02.050278 21434 lp.cc:127] worker window 1 14 1246192
+I0804 13:51:02.857635 11637 lp.cc:127] worker window 0 14 1176534
+I0804 13:51:03.600661 24413 lp.cc:127] worker window 2 14 1248309
+I0804 13:51:06.558851 16141 lp.cc:127] worker window 3 14 1176537
+I0804 13:51:10.732388 21434 lp.cc:127] worker window 1 15 1246192
+I0804 13:51:11.585764 11637 lp.cc:127] worker window 0 15 1176534
+I0804 13:51:12.189996 24413 lp.cc:127] worker window 2 15 1248309
+I0804 13:51:15.133364 16141 lp.cc:127] worker window 3 15 1176537
+I0804 13:51:15.494535 11631 worker.cc:471] [worker1] enters process result assemble, 1
+I0804 13:51:15.285735 21428 worker.cc:471] [worker2] enters process result assemble, 1
+I0804 13:51:15.407579 24407 worker.cc:471] [worker3] enters process result assemble, 1
+I0804 13:51:15.322861 13866 worker.cc:471] [worker4] enters process result assemble, 1
+I0804 13:51:15.828624  7572 metric.cc:219] -------------------------------------------------
+I0804 13:51:15.828646  7572 metric.cc:220] algorithm:           lp
+I0804 13:51:15.828667  7572 metric.cc:221] dataset-vfile:       /BIGDATA1/buaa_wffan_1/grape-data/livejournal/evr/livejournal.v
+I0804 13:51:15.828675  7572 metric.cc:222] dataset-efile:       /BIGDATA1/buaa_wffan_1/grape-data/livejournal/evr/livejournal.e
+I0804 13:51:15.828680  7572 metric.cc:223] partition-num:       4
+I0804 13:51:15.828687  7572 metric.cc:224] query-info:          file:/BIGDATA1/buaa_wffan_1/lidongze/code/sssp/cpp/build/query/lp/lp-bsp
+I0804 13:51:15.828692  7572 metric.cc:225] graph-load-time(s):  38.3214
+I0804 13:51:15.831615  7572 metric.cc:226] grape-total-time(s): 133.204
+I0804 13:51:15.831627  7572 metric.cc:227] max-thread-time(s):  133.068
+I0804 13:51:15.831635  7572 metric.cc:228] min-thread-time(s):  65.5116
+I0804 13:51:15.831643  7572 metric.cc:229] avg-thread-time(s):  89.6649
+I0804 13:51:15.831651  7572 metric.cc:230] mpi-msg-size(Bytes): 620287392
+I0804 13:51:15.831660  7572 metric.cc:231] -------------------------------------------------
+I0804 13:51:15.831666  7572 metric.cc:232] ------------Running State Time-------------------
+I0804 13:51:15.831672  7572 metric.cc:234] [worker1]: 99.4284
+I0804 13:51:15.831679  7572 metric.cc:234] [worker2]: 91.3695
+I0804 13:51:15.831686  7572 metric.cc:234] [worker3]: 99.9029
+I0804 13:51:15.831693  7572 metric.cc:234] [worker4]: 100.505
+I0804 13:51:15.831701  7572 metric.cc:236] ------------Listening State Time-----------------
+I0804 13:51:15.831707  7572 metric.cc:238] [worker1]: 3.70702
+I0804 13:51:15.831713  7572 metric.cc:238] [worker2]: 11.8447
+I0804 13:51:15.831720  7572 metric.cc:238] [worker3]: 2.99718
+I0804 13:51:15.831727  7572 metric.cc:238] [worker4]: 0.0159099
+I0804 13:51:15.831734  7572 metric.cc:240] -----------------Evaluation Time-----------------
+I0804 13:51:15.831739  7572 metric.cc:242] [worker1]: 133.205
+I0804 13:51:15.831748  7572 metric.cc:242] [worker2]: 133.205
+I0804 13:51:15.831754  7572 metric.cc:242] [worker3]: 133.205
+I0804 13:51:15.831761  7572 metric.cc:242] [worker4]: 133.205
+I0804 13:51:15.831769  7572 metric.cc:244] -------------------Ejecting Time-----------------
+I0804 13:51:15.831774  7572 metric.cc:246] [worker1]: 23.0461
+I0804 13:51:15.831782  7572 metric.cc:246] [worker2]: 21.1932
+I0804 13:51:15.831789  7572 metric.cc:246] [worker3]: 22.8829
+I0804 13:51:15.831796  7572 metric.cc:246] [worker4]: 23.9386
+I0804 13:51:15.831804  7572 metric.cc:249] ------------------Receiving Time-----------------
+I0804 13:51:15.831809  7572 metric.cc:251] [worker1]: 48.2425
+I0804 13:51:15.831816  7572 metric.cc:251] [worker2]: 44.3038
+I0804 13:51:15.831823  7572 metric.cc:251] [worker3]: 48.9065
+I0804 13:51:15.831830  7572 metric.cc:251] [worker4]: 49.2489
+I0804 13:51:15.831838  7572 metric.cc:255] ---------------------Waking Time-----------------
+I0804 13:51:15.831843  7572 metric.cc:257] [worker1]: 37.3331
+I0804 13:51:15.831851  7572 metric.cc:257] [worker2]: 34.2764
+I0804 13:51:15.831872  7572 metric.cc:257] [worker3]: 37.3024
+I0804 13:51:15.831879  7572 metric.cc:257] [worker4]: 36.3471
+I0804 13:51:15.831887  7572 metric.cc:259] ---------------------Msg Size--------------------
+I0804 13:51:15.831892  7572 metric.cc:261] [worker1]: 151708848
+I0804 13:51:15.831897  7572 metric.cc:261] [worker2]: 178248048
+I0804 13:51:15.831902  7572 metric.cc:261] [worker3]: 191077728
+I0804 13:51:15.831907  7572 metric.cc:261] [worker4]: 99252768
+I0804 13:51:15.831912  7572 metric.cc:264] ---------------------MPI_recv time---------------
+I0804 13:51:15.831918  7572 metric.cc:266] [worker1]: 0.000588417 , 0.0614309, 4.22001e-05 , 
+I0804 13:51:15.831926  7572 metric.cc:266] [worker2]: 0.000286102 , 0.0748487, 3.91006e-05 , 
+I0804 13:51:15.831935  7572 metric.cc:266] [worker3]: 0.000277519 , 0.0792441, 5.4121e-05 , 
+I0804 13:51:15.831944  7572 metric.cc:266] [worker4]: 0.000166416 , 0.0263906, 3.6478e-05 , 
+I0804 13:51:15.831952  7572 metric.cc:270] -----------------Sent Msg Num--------------------
+I0804 13:51:15.831959  7572 metric.cc:274] [worker1]: 9838365
+I0804 13:51:15.831964  7572 metric.cc:274] [worker2]: 9701370
+I0804 13:51:15.831977  7572 metric.cc:274] [worker3]: 11397105
+I0804 13:51:15.831982  7572 metric.cc:274] [worker4]: 7830930
+I0804 13:51:15.831987  7572 metric.cc:277] [coordinator] : total = 38767770
+I0804 13:51:15.831993  7572 metric.cc:278] [coordinator] : aggregated msg num = 0
+I0804 13:51:15.831998  7572 metric.cc:279] [coordinator] : iter num = 0
+I0804 13:51:15.842862  7572 worker.cc:230] all queries in the workload is processed. 
+I0804 13:51:15.842880  7572 worker.cc:242] query_info=
+I0804 13:51:15.842960  7572 worker.cc:269] [coordinator] shutdown.
+I0804 13:51:16.437891 11631 worker.cc:361] [worker_1] shutdown.
+I0804 13:51:16.229086 21428 worker.cc:361] [worker_2] shutdown.
+I0804 13:51:16.266209 13866 worker.cc:361] [worker_4] shutdown.
+I0804 13:51:16.350929 24407 worker.cc:361] [worker_3] shutdown.

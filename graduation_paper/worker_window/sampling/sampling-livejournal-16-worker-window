@@ -1,0 +1,1515 @@
+I0804 15:09:03.241222 28229 fragment_loader.cc:23] [worker1]: Begin loading rfile...
+I0804 15:09:03.239622 17074 fragment_loader.cc:23] [worker3]: Begin loading rfile...
+I0804 15:09:03.037421 19462 fragment_loader.cc:23] [worker6]: Begin loading rfile...
+I0804 15:09:03.166525 27294 fragment_loader.cc:23] [worker7]: Begin loading rfile...
+I0804 15:09:02.726660 30637 fragment_loader.cc:23] [worker9]: Begin loading rfile...
+I0804 15:09:03.506357  3201 fragment_loader.cc:23] [worker10]: Begin loading rfile...
+I0804 15:09:02.830127  6697 fragment_loader.cc:23] [worker12]: Begin loading rfile...
+I0804 15:09:03.076753 17404 fragment_loader.cc:23] [worker8]: Begin loading rfile...
+I0804 15:09:03.259811 14469 fragment_loader.cc:23] [worker5]: Begin loading rfile...
+I0804 15:09:02.996058  8840 fragment_loader.cc:23] [worker16]: Begin loading rfile...
+I0804 15:09:03.073048 29926 fragment_loader.cc:23] [worker11]: Begin loading rfile...
+I0804 15:09:03.213481 25223 fragment_loader.cc:23] [worker15]: Begin loading rfile...
+I0804 15:09:02.731050 16421 fragment_loader.cc:23] [worker2]: Begin loading rfile...
+I0804 15:09:02.733568  6098 fragment_loader.cc:23] [worker13]: Begin loading rfile...
+I0804 15:09:02.629304 10047 fragment_loader.cc:23] [worker4]: Begin loading rfile...
+I0804 15:09:02.701874  2005 fragment_loader.cc:23] [worker14]: Begin loading rfile...
+I0804 15:09:04.540164 27294 fragment_loader.cc:51] [worker7]: Finished loading rfile...
+I0804 15:09:04.541164 27294 fragment_loader.cc:75] [worker7]: Begin loading efile... local frag num is 1
+I0804 15:09:04.551934 27294 fragment_loader.cc:133] 7 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.643579 28229 fragment_loader.cc:49] frag-0 vertex num is 306725
+I0804 15:09:04.643642 28229 fragment_loader.cc:49] frag-1 vertex num is 295356
+I0804 15:09:04.643647 28229 fragment_loader.cc:49] frag-2 vertex num is 293917
+I0804 15:09:04.643651 28229 fragment_loader.cc:49] frag-3 vertex num is 317749
+I0804 15:09:04.643656 28229 fragment_loader.cc:49] frag-4 vertex num is 288917
+I0804 15:09:04.643658 28229 fragment_loader.cc:49] frag-5 vertex num is 305850
+I0804 15:09:04.643662 28229 fragment_loader.cc:49] frag-6 vertex num is 298280
+I0804 15:09:04.643666 28229 fragment_loader.cc:49] frag-7 vertex num is 307017
+I0804 15:09:04.643669 28229 fragment_loader.cc:49] frag-8 vertex num is 302945
+I0804 15:09:04.643673 28229 fragment_loader.cc:49] frag-9 vertex num is 309348
+I0804 15:09:04.643677 28229 fragment_loader.cc:49] frag-10 vertex num is 307384
+I0804 15:09:04.643682 28229 fragment_loader.cc:49] frag-11 vertex num is 318108
+I0804 15:09:04.643684 28229 fragment_loader.cc:49] frag-12 vertex num is 301104
+I0804 15:09:04.643687 28229 fragment_loader.cc:49] frag-13 vertex num is 316698
+I0804 15:09:04.643692 28229 fragment_loader.cc:49] frag-14 vertex num is 318290
+I0804 15:09:04.643694 28229 fragment_loader.cc:49] frag-15 vertex num is 259884
+I0804 15:09:04.643697 28229 fragment_loader.cc:51] [worker1]: Finished loading rfile...
+I0804 15:09:04.644609 28229 fragment_loader.cc:75] [worker1]: Begin loading efile... local frag num is 1
+I0804 15:09:04.239289  6697 fragment_loader.cc:51] [worker12]: Finished loading rfile...
+I0804 15:09:04.447459 19462 fragment_loader.cc:51] [worker6]: Finished loading rfile...
+I0804 15:09:04.240242  6697 fragment_loader.cc:75] [worker12]: Begin loading efile... local frag num is 1
+I0804 15:09:04.448431 19462 fragment_loader.cc:75] [worker6]: Begin loading efile... local frag num is 1
+I0804 15:09:04.656283 28229 fragment_loader.cc:111] 1 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.660861 17074 fragment_loader.cc:51] [worker3]: Finished loading rfile...
+I0804 15:09:04.661736 17074 fragment_loader.cc:75] [worker3]: Begin loading efile... local frag num is 1
+I0804 15:09:04.462618 19462 fragment_loader.cc:133] 6 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.504086 17404 fragment_loader.cc:51] [worker8]: Finished loading rfile...
+I0804 15:09:04.934412  3201 fragment_loader.cc:51] [worker10]: Finished loading rfile...
+I0804 15:09:04.504884 17404 fragment_loader.cc:75] [worker8]: Begin loading efile... local frag num is 1
+I0804 15:09:04.258744  6697 fragment_loader.cc:133] 12 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.935330  3201 fragment_loader.cc:75] [worker10]: Begin loading efile... local frag num is 1
+I0804 15:09:04.672008 17074 fragment_loader.cc:133] 3 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.516242 17404 fragment_loader.cc:133] 8 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.701833 14469 fragment_loader.cc:51] [worker5]: Finished loading rfile...
+I0804 15:09:04.702625 14469 fragment_loader.cc:75] [worker5]: Begin loading efile... local frag num is 1
+I0804 15:09:04.176357  6098 fragment_loader.cc:51] [worker13]: Finished loading rfile...
+I0804 15:09:04.950718  3201 fragment_loader.cc:133] 10 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.171106 30637 fragment_loader.cc:51] [worker9]: Finished loading rfile...
+I0804 15:09:04.177045  6098 fragment_loader.cc:75] [worker13]: Begin loading efile... local frag num is 1
+I0804 15:09:04.172055 30637 fragment_loader.cc:75] [worker9]: Begin loading efile... local frag num is 1
+I0804 15:09:04.659184 25223 fragment_loader.cc:51] [worker15]: Finished loading rfile...
+I0804 15:09:04.659973 25223 fragment_loader.cc:75] [worker15]: Begin loading efile... local frag num is 1
+I0804 15:09:04.182653 16421 fragment_loader.cc:51] [worker2]: Finished loading rfile...
+I0804 15:09:04.524957 29926 fragment_loader.cc:51] [worker11]: Finished loading rfile...
+I0804 15:09:04.081193 10047 fragment_loader.cc:51] [worker4]: Finished loading rfile...
+I0804 15:09:04.183578 16421 fragment_loader.cc:75] [worker2]: Begin loading efile... local frag num is 1
+I0804 15:09:04.525697 29926 fragment_loader.cc:75] [worker11]: Begin loading efile... local frag num is 1
+I0804 15:09:04.081920 10047 fragment_loader.cc:75] [worker4]: Begin loading efile... local frag num is 1
+I0804 15:09:04.712647 14469 fragment_loader.cc:133] 5 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.191473  6098 fragment_loader.cc:133] 13 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.188467 30637 fragment_loader.cc:133] 9 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.165591  2005 fragment_loader.cc:51] [worker14]: Finished loading rfile...
+I0804 15:09:04.677664 25223 fragment_loader.cc:133] 15 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.166556  2005 fragment_loader.cc:75] [worker14]: Begin loading efile... local frag num is 1
+I0804 15:09:04.198994 16421 fragment_loader.cc:133] 2 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.099521 10047 fragment_loader.cc:133] 4 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.545079 29926 fragment_loader.cc:133] 11 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.176879  2005 fragment_loader.cc:133] 14 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:04.581146  8840 fragment_loader.cc:51] [worker16]: Finished loading rfile...
+I0804 15:09:04.582003  8840 fragment_loader.cc:75] [worker16]: Begin loading efile... local frag num is 1
+I0804 15:09:04.592883  8840 fragment_loader.cc:133] 16 has completed resize, now size is 0 capacity is 1073741824
+I0804 15:09:31.587325 25223 fragment_loader.cc:182] [worker15]: Finished loading efile...
+I0804 15:09:31.588320 25223 fragment_loader.cc:197] [worker15]: Begin loading vfile... vnum is 4847572
+I0804 15:09:31.396713  6697 fragment_loader.cc:182] [worker12]: Finished loading efile...
+I0804 15:09:31.397882  6697 fragment_loader.cc:197] [worker12]: Begin loading vfile... vnum is 4847572
+I0804 15:09:31.831883 25223 fragment_loader.cc:210] [worker15]: Finished loading vfile...
+I0804 15:09:32.143530  3201 fragment_loader.cc:182] [worker10]: Finished loading efile...
+I0804 15:09:32.144451  3201 fragment_loader.cc:197] [worker10]: Begin loading vfile... vnum is 4847572
+I0804 15:09:31.404517 30637 fragment_loader.cc:182] [worker9]: Finished loading efile...
+I0804 15:09:31.405551 30637 fragment_loader.cc:197] [worker9]: Begin loading vfile... vnum is 4847572
+I0804 15:09:31.937523 27294 fragment_loader.cc:182] [worker7]: Finished loading efile...
+I0804 15:09:31.938547 27294 fragment_loader.cc:197] [worker7]: Begin loading vfile... vnum is 4847572
+I0804 15:09:31.605513  6697 fragment_loader.cc:210] [worker12]: Finished loading vfile...
+I0804 15:09:32.415516  3201 fragment_loader.cc:210] [worker10]: Finished loading vfile...
+I0804 15:09:31.702517 30637 fragment_loader.cc:210] [worker9]: Finished loading vfile...
+I0804 15:09:32.108321 17404 fragment_loader.cc:182] [worker8]: Finished loading efile...
+I0804 15:09:32.109344 17404 fragment_loader.cc:197] [worker8]: Begin loading vfile... vnum is 4847572
+I0804 15:09:32.224303 27294 fragment_loader.cc:210] [worker7]: Finished loading vfile...
+I0804 15:09:32.428783 14469 fragment_loader.cc:182] [worker5]: Finished loading efile...
+I0804 15:09:32.429551 14469 fragment_loader.cc:197] [worker5]: Begin loading vfile... vnum is 4847572
+I0804 15:09:32.244932 19462 fragment_loader.cc:182] [worker6]: Finished loading efile...
+I0804 15:09:32.245999 19462 fragment_loader.cc:197] [worker6]: Begin loading vfile... vnum is 4847572
+I0804 15:09:32.421651 17404 fragment_loader.cc:210] [worker8]: Finished loading vfile...
+I0804 15:09:32.734781 14469 fragment_loader.cc:210] [worker5]: Finished loading vfile...
+I0804 15:09:32.134948 10047 fragment_loader.cc:182] [worker4]: Finished loading efile...
+I0804 15:09:32.136096 10047 fragment_loader.cc:197] [worker4]: Begin loading vfile... vnum is 4847572
+I0804 15:09:32.546684 19462 fragment_loader.cc:210] [worker6]: Finished loading vfile...
+I0804 15:09:32.468451 10047 fragment_loader.cc:210] [worker4]: Finished loading vfile...
+I0804 15:09:32.889463 16421 fragment_loader.cc:182] [worker2]: Finished loading efile...
+I0804 15:09:32.890731 16421 fragment_loader.cc:197] [worker2]: Begin loading vfile... vnum is 4847572
+I0804 15:09:33.435133 17074 fragment_loader.cc:182] [worker3]: Finished loading efile...
+I0804 15:09:33.436147 17074 fragment_loader.cc:197] [worker3]: Begin loading vfile... vnum is 4847572
+I0804 15:09:33.170481  6098 fragment_loader.cc:182] [worker13]: Finished loading efile...
+I0804 15:09:33.171622  6098 fragment_loader.cc:197] [worker13]: Begin loading vfile... vnum is 4847572
+I0804 15:09:33.183079  2005 fragment_loader.cc:182] [worker14]: Finished loading efile...
+I0804 15:09:33.184185  2005 fragment_loader.cc:197] [worker14]: Begin loading vfile... vnum is 4847572
+I0804 15:09:33.776196 17074 fragment_loader.cc:210] [worker3]: Finished loading vfile...
+I0804 15:09:33.275089 16421 fragment_loader.cc:210] [worker2]: Finished loading vfile...
+I0804 15:09:33.353869  6098 fragment_loader.cc:210] [worker13]: Finished loading vfile...
+I0804 15:09:33.462503  2005 fragment_loader.cc:210] [worker14]: Finished loading vfile...
+I0804 15:09:34.192541  8840 fragment_loader.cc:182] [worker16]: Finished loading efile...
+I0804 15:09:34.193516  8840 fragment_loader.cc:197] [worker16]: Begin loading vfile... vnum is 4847572
+I0804 15:09:34.392751  8840 fragment_loader.cc:210] [worker16]: Finished loading vfile...
+I0804 15:09:34.803313 28229 fragment_loader.cc:182] [worker1]: Finished loading efile...
+I0804 15:09:34.804383 28229 fragment_loader.cc:197] [worker1]: Begin loading vfile... vnum is 4847572
+I0804 15:09:35.132443 28229 fragment_loader.cc:210] [worker1]: Finished loading vfile...
+I0804 15:09:37.500401 29926 fragment_loader.cc:182] [worker11]: Finished loading efile...
+I0804 15:09:37.501406 29926 fragment_loader.cc:197] [worker11]: Begin loading vfile... vnum is 4847572
+I0804 15:09:37.735430 29926 fragment_loader.cc:210] [worker11]: Finished loading vfile...
+I0804 15:09:40.275816 30649 util.cc:56] "2-10-10"
+I0804 15:09:40.277037 30649 worker.cc:238] The query absolute path is /BIGDATA1/buaa_wffan_1/lidongze/code/grape/cpp/build/query/sampling/2-10-10
+I0804 15:09:40.280630 30649 worker.cc:244] query detail: 
+I0804 15:09:40.280645 30649 query.cc:81] terminate = 0
+I0804 15:09:40.280660 30649 query.cc:82] bound = 0
+I0804 15:09:40.280680 30649 query.cc:83] root = 2
+I0804 15:09:40.280686 30649 query.cc:84] lower_bound_ = 0
+I0804 15:09:40.280690 30649 query.cc:85] upper_bound_ = 50
+I0804 15:09:40.280694 30649 query.cc:86] ttl_ = 100000
+I0804 15:09:40.283587 30649 query.cc:87] sampling_pattern = 2-10-10
+I0804 15:09:40.283597 30649 worker.cc:249] query_info=file:/BIGDATA1/buaa_wffan_1/lidongze/code/grape/cpp/build/query/sampling/2-10-10
+I0804 15:09:40.283871 30649 worker.cc:35] Enter coordinator loop
+I0804 15:09:40.523419 28229 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.011513 16421 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.521651 17074 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:39.909694 10047 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.540684 14469 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.319253 19462 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.448474 27294 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.358494 17404 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.008260 30637 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.353796 29926 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.788403  3201 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.111829  6697 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:39.982270  2005 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.013938  6098 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.494297 25223 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.276819  8840 worker.cc:49] Enter worker loop, task num is 1
+I0804 15:09:40.523504 28234 worker.cc:155] tid-0 access Cool
+I0804 15:09:40.011672 16426 worker.cc:155] tid-0 access Cool
+I0804 15:09:40.521728 17079 worker.cc:155] tid-0 access Cool
+I0804 15:09:39.909785 10052 worker.cc:155] tid-0 access Cool
+I0804 15:09:40.540782 14474 worker.cc:155] tid-0 access Cool
+I0804 15:09:40.319325 19467 worker.cc:155] tid-0 access Cool
+I0804 15:09:40.448554 27299 worker.cc:155] tid-0 access Cool
+I0804 15:09:40.358578 17409 worker.cc:155] tid-0 access Cool
+I0804 15:09:40.008348 30642 worker.cc:155] tid-0 access Cool
+I0804 15:09:40.353881 29931 worker.cc:155] tid-0 access Cool
+I0804 15:09:40.788476  3206 worker.cc:155] tid-0 access Cool
+I0804 15:09:40.111901  6702 worker.cc:155] tid-0 access Cool
+I0804 15:09:39.982345  2010 worker.cc:155] tid-0 access Cool
+I0804 15:09:40.014029  6103 worker.cc:155] tid-0 access Cool
+I0804 15:09:40.494392 25228 worker.cc:155] tid-0 access Cool
+I0804 15:09:40.276895  8845 worker.cc:155] tid-0 access Cool
+E0804 15:09:40.870290 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.881999 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.882530 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.882894 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.883214 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.883241 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.883250 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.883258 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.883267 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.883276 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.883285 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.889719 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.877382 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.897788 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.899236 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.899251 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.899271 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.679320 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.886750 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.725123 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.727046 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.688161 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.912396 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.692176 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.692378 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.732213 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.694221 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.899991 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.900005 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.698143 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.698786 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.922415 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.922644 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.922674 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.922693 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.925819 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.743680 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926618 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.927692 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.706290 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.928894 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.746984 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.708915 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.708930 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.708950 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.708956 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.930692 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.749459 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.749473 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.749496 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.914649 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.932430 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.933223 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.914400 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.752249 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.752264 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.917757 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.753051 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.918486 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.754104 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.936370 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.754734 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.754750 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.939991 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.718418 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.718434 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.718456 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.718462 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.718467 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.718473 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.718492 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.758522 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.758905 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.759297 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.759744 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.759758 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.721498 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.761951 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.762676 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.762929 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.764668 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.764768 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.764778 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.764786 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.928937 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.949139 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.949152 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.949177 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.728190 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.768069 17409 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:40.686573  8845 sampling.cc:189] worker window 15 0 259884
+E0804 15:09:40.768407 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.768501 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.768512 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.768541 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.768563 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.768569 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.768575 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.769421 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.769582 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.769865 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.770021 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.731350 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.731366 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.731386 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.771761 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.954412 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.954427 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.935396 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.935410 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.733877 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.733891 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.733911 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.774351 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.774368 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.774389 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.774394 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.774400 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.864240 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.865324 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.940826 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.428817 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.776265 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.959010 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.941797 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.942014 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.329747 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.330379 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.330397 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.330421 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.330430 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.330440 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.779443 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.869381 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.961776 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.962330 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945400 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945415 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945436 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945446 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945452 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945458 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945464 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945469 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945475 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945485 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945492 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945497 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945513 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945519 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945524 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945530 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945536 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945888 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.741808 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.741967 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.741981 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.741987 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.872212 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.744741 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.744773 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.745633 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.746268 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.785550 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.438724 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.786413 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.786482 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.787379 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.440567 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.441210 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.970412 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.437778 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.749702 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.750119 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.879544 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.439417 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.439436 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.439467 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.439476 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.439482 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.439489 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.439503 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.880573 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.440465 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.440774 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.440788 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.440805 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.440812 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.954334 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.441169 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.441184 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.445092 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.343497 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.792392 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.792407 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.792430 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.792436 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.442303 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.753342 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.443056 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.345111 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.883949 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.884006 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.794200 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.884385 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.884601 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.884940 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.884958 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.884963 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.445029 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.445070 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.445078 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.445084 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.346428 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.795328 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.795343 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.795372 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.445091 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.795379 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.795763 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.885773 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.885787 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.961339 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.961352 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.796496 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.797178 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.797191 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.797211 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.797217 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.797224 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.797230 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.797235 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.797241 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.797247 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.447921 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.349848 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.350548 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.449435 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.449450 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.760622 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.450583 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.801328 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.451562 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.891911 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.967238 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.967478 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.965759 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.802702 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.452993 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.453184 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.968250 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893388 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893497 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893507 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893517 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893532 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893538 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893544 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893550 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893555 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.985910 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893879 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893891 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893898 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893916 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.453740 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.894244 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.765334 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.805258 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.805511 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.895526 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.456624 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.806949 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.457151 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.457163 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.457183 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.457188 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.457283 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.807628 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.457844 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.359259 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.458025 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.359575 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.359602 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.769541 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.459316 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.459558 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.459681 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.459849 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.992940 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.461077 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.461091 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.993762 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.901517 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.461485 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.461589 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.461601 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.977183 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.994843 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.994920 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.994946 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.994952 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.364387 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.364403 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.364425 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.364434 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.978197 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.978679 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.976888 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.976917 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.981777 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.466850 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.368414 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.980612 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.980626 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.982856 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.983116 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.981402 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.369657 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.983585 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.468557 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.468955 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.983197 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.983301 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.983341 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.983541 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.472661 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.823433 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.913560 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.913574 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.823998 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.785277 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.785341 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.785349 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.785356 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.785363 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.785369 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.785377 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.785387 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.785413 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.785423 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.785429 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.475250 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.008838 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.476395 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.787569 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.476671 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.476691 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.827075 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.917035 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.917052 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.917071 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.827219 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.477061 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.477758 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.477771 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.788856 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.478648 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.478682 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.380316 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.380872 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.380888 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.380910 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.380923 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.380930 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.380939 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.380949 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.479738 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.381482 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.012626 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.920487 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.791283 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.791548 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.830834 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.830869 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.830876 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.481621 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.922495 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.482674 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.482831 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.482842 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.923184 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.483031 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.483057 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.483088 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.483096 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.483103 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.834357 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.016585 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.016600 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.016621 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.834422 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.834491 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.834501 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.795536 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.795549 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.795569 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.795574 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.795581 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.795586 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.795593 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.795599 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.924823 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.485028 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.485059 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.485066 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.485285 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.835657 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.001202 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.001240 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.001255 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.927187 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.927760 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.021520 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.022280 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.022786 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.022919 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.022938 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.022944 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.022950 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.022956 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.840864 17409 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:40.496335  6103 sampling.cc:189] worker window 12 0 301104
+E0804 15:09:41.004393 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.491057 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.004513 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.491616 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.491850 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.491863 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.005411 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.005425 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.005471 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.495944 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.843010 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.843281 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.493144 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.843644 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.843672 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.843678 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.026124 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.026324 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.493927 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.805172 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.805186 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.805204 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.805212 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.805217 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.805222 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.805227 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.805246 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.805254 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.805260 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.805265 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.010471 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.010856 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.806665 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.806679 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.806702 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.806708 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.806715 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.806720 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.807631 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.847194 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.847209 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.847230 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.847237 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.807978 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.808493 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.848191 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.848361 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.848585 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.498327 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.498339 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.501555 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.501577 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.501607 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.809469 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.809593 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.809729 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.809741 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.809746 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.809753 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.849066 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.849079 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.849100 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.849107 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.809761 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.809767 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.809772 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.014410 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.014423 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.014443 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.014449 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.499797 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.500053 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.940196 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.500074 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.500082 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.500087 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.500093 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.850436 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.500108 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.500116 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.500123 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.032797 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.014331 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.941288 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.851636 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.501528 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.501541 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.014932 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.015087 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.502028 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.502068 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.502074 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.015668 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.016103 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.853183 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.503057 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.016424 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.016436 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.016466 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.016474 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.016482 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.016502 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.016530 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.016537 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.503268 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.815042 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.815063 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.815086 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.504187 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.944452 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.944531 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.037089 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.945210 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.037533 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.506918 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.818205 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.818219 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.507316 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.507400 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.507416 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.507423 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.507438 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.507447 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.507452 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.507457 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.021687 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.508781 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.508800 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.508823 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.508829 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.508836 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.508841 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.508847 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.410321 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.859779 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.859812 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.042356 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.042539 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860813 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860829 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860849 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860855 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860862 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860867 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860873 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860879 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860885 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860891 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860896 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860903 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.043233 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.043249 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.024957 17079 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:41.291908  3206 sampling.cc:189] worker window 9 0 309348
+E0804 15:09:40.512118 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.512132 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.512151 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.952713 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.953184 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.513454 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.513468 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.954838 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.954856 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.954879 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.514710 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.954885 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.514899 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.514910 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.514916 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.826484 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.866092 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.048457 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.031980 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.049715 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.049733 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.867485 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.867832 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.517807 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.517822 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.829313 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.829474 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.829486 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.829493 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.958753 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.520025 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.870674 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.831583 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.870941 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.961544 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.832904 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.522121 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.963482 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.523860 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.524113 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.524199 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.524235 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.874547 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.964645 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.964767 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.836261 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.836881 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.526024 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.966208 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.837072 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.876271 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.837083 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.526206 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.837095 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.526243 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.058702 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.526250 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.526257 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.526263 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.877543 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.877558 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.877579 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.877589 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.527371 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.527385 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.838719 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.838734 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.968188 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.968374 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.968385 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.968391 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.528838 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.528898 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.840011 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.840219 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.042567 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.840250 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.529335 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.879623 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.879711 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.840560 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.840572 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.062517 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.062535 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.062556 14474 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.530397 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.530508 30642 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:41.063014 14474 sampling.cc:189] worker window 4 0 288917
+E0804 15:09:40.880990 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.534586 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.534610 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.881760 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.881775 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.532375 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.532536 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.532593 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.534129 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.534200 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.845448 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.845484 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.845494 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.534581 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.534626 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.535056 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.535812 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.437608 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.438105 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.438122 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.438145 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.050093 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.977174 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.977190 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.977208 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.537571 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.888084 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.538619 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.538631 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.538651 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.538657 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.538662 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.850194 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.850209 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.850230 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.980116 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.980154 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.980161 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.890544 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.890614 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.890624 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.890630 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.890635 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.981145 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.891265 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.891279 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.981359 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.981389 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.544453 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.544476 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.544497 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.544503 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.544509 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.981467 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.981829 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.542153 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.545699 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.546134 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.546300 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893481 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893563 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.543298 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893571 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893852 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893954 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893977 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.893983 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.854868 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.547446 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.855377 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.544458 30642 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:40.891397 29931 sampling.cc:189] worker window 10 0 307384
+E0804 15:09:40.546033 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.857722 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.546809 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.546960 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.546985 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.547073 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.062161 28234 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.988107 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.548481 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.548566 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.548576 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.548583 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.548588 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.548593 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.548599 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.548612 30642 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.989514 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.989624 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.899673 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.989688 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.899768 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.989697 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.899780 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.989703 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.989709 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.989715 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.989720 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.899787 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.989727 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.989733 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.989739 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860909 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860924 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860944 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860954 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.860963 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.554241 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.901393 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.065760 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.992785 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.556107 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.865121 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.865144 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.865164 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.067754 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.456063 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.068730 17079 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.995695 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.457013 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.457051 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.867393 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.906917 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.906940 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.906962 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.906968 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.906975 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.906980 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.906986 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.907001 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.907012 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.907018 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.907024 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.907030 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.907037 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.907074 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.908464 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.909637 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.000423 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.000509 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.563684 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.001283 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.911799 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.911857 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.564973 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.002831 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.913065 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.003444 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.003572 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.914067 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.914147 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.914156 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.567414 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.567428 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.914718 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.916314 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.916358 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.467615 10052 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:41.079675 17079 sampling.cc:189] worker window 2 0 293917
+E0804 15:09:41.007051 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.007066 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.468647 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.917809 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.918139 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.918196 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.918373 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.008792 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.919073 17409 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:41.084451 28234 sampling.cc:189] worker window 0 0 306725
+E0804 15:09:40.880496 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.880525 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.880533 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.471102 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.010802 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.473145 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.475147 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.925848 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.925927 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926182 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926446 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926473 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926482 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926491 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926497 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.579610 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926504 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926510 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926517 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926522 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926528 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926538 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926544 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926553 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926651 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926661 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926666 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926672 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926678 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926683 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926689 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926697 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926702 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926708 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926713 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926719 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926725 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926731 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926738 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926743 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926755 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.887804 19467 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926766 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926772 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.478286 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926779 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926784 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.926790 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.927100 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.888207 19467 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:40.890259 19467 sampling.cc:189] worker window 5 0 305850
+E0804 15:09:40.932922 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.023291 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.023910 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.025101 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.025202 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.026132 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.026259 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.026939 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.937383 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.937539 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.027428 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.027570 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.938902 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.940062 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.940078 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.940099 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.940105 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.940111 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.940117 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.940124 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.940129 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.940137 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.940143 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.491940 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.030879 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.941244 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.941260 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.031520 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.031541 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.032207 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.032220 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.034407 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.944742 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.944911 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.944923 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.600502 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.037964 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.038343 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.038357 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.038362 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.038378 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.038405 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.948532 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.948817 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.949033 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.039288 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.039302 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.949656 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.040782 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.502027 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.502091 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.502230 10052 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:40.704648  6702 sampling.cc:189] worker window 11 0 318108
+E0804 15:09:41.041601 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.041805 27299 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.502979 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.502995 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.952316 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.952333 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.952600 17409 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:41.088229 25228 sampling.cc:189] worker window 14 0 318290
+E0804 15:09:40.503778 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.503795 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.503818 10052 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.953403 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.953418 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.953439 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.953446 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.953711 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:41.044425 27299 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:40.578835  2010 sampling.cc:189] worker window 13 0 316698
+E0804 15:09:40.955680 17409 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.955696 17409 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:40.956065 17409 sampling.cc:189] worker window 7 0 307017
+E0804 15:09:40.611865 16426 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:41.048830 27299 sampling.cc:189] worker window 6 0 298280
+E0804 15:09:40.613806 16426 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:40.619808 30642 sampling.cc:189] worker window 8 0 302945
+I0804 15:09:40.523603 10052 sampling.cc:189] worker window 3 0 317749
+E0804 15:09:40.635699 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.635957 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.636654 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.637712 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.657196 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.657239 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.660642 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.666097 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.668375 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.672264 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.673188 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.673414 16426 sampling.cc:43] find vertex with no neighbors
+E0804 15:09:40.673426 16426 sampling.cc:43] find vertex with no neighbors
+I0804 15:09:40.679832 16426 sampling.cc:189] worker window 1 0 295356
+I0804 15:09:40.759177  2010 sampling.cc:267] worker window 13 1 96822
+I0804 15:09:40.908833  6702 sampling.cc:267] worker window 11 1 132922
+I0804 15:09:41.297686 25228 sampling.cc:267] worker window 14 1 106048
+I0804 15:09:40.822566  6103 sampling.cc:267] worker window 12 1 114329
+I0804 15:09:41.616096  3206 sampling.cc:267] worker window 9 1 166360
+I0804 15:09:41.106626  8845 sampling.cc:267] worker window 15 1 108921
+I0804 15:09:41.183614 29931 sampling.cc:267] worker window 10 1 157435
+I0804 15:09:40.900887 30642 sampling.cc:267] worker window 8 1 213712
+I0804 15:09:41.378389 27299 sampling.cc:267] worker window 6 1 257031
+I0804 15:09:41.299548 17409 sampling.cc:267] worker window 7 1 202533
+I0804 15:09:41.329617 19467 sampling.cc:267] worker window 5 1 310677
+I0804 15:09:40.973654 10052 sampling.cc:267] worker window 3 1 410260
+I0804 15:09:41.654345 14474 sampling.cc:267] worker window 4 1 334572
+I0804 15:09:41.918205 17079 sampling.cc:267] worker window 2 1 514439
+I0804 15:09:41.488778 16426 sampling.cc:267] worker window 1 1 667309
+I0804 15:09:43.067580 28234 sampling.cc:267] worker window 0 1 1053239
+I0804 15:09:42.925387  6103 sampling.cc:267] worker window 12 2 350045
+I0804 15:09:43.197414  8845 sampling.cc:267] worker window 15 2 393111
+I0804 15:09:43.040818  6702 sampling.cc:267] worker window 11 2 415109
+I0804 15:09:42.922204  2010 sampling.cc:267] worker window 13 2 363669
+I0804 15:09:43.446792 25228 sampling.cc:267] worker window 14 2 363159
+I0804 15:09:43.752578  3206 sampling.cc:267] worker window 9 2 499345
+I0804 15:09:43.323204 29931 sampling.cc:267] worker window 10 2 478635
+I0804 15:09:43.391077 17409 sampling.cc:267] worker window 7 2 580467
+I0804 15:09:43.082056 30642 sampling.cc:267] worker window 8 2 626598
+I0804 15:09:43.599174 27299 sampling.cc:267] worker window 6 2 738571
+I0804 15:09:43.702433 14474 sampling.cc:267] worker window 4 2 977487
+I0804 15:09:43.517180 19467 sampling.cc:267] worker window 5 2 906548
+I0804 15:09:43.285295 10052 sampling.cc:267] worker window 3 2 1274906
+I0804 15:09:43.967180 17079 sampling.cc:267] worker window 2 2 1522733
+I0804 15:09:43.794246 16426 sampling.cc:267] worker window 1 2 1953178
+I0804 15:09:44.996002 28234 sampling.cc:267] worker window 0 2 3096266
+I0804 15:09:44.985916  2010 sampling.cc:267] worker window 13 3 254746
+I0804 15:09:45.140949  6702 sampling.cc:267] worker window 11 3 339914
+I0804 15:09:45.579048 25228 sampling.cc:267] worker window 14 3 291919
+I0804 15:09:45.873489  3206 sampling.cc:267] worker window 9 3 426840
+I0804 15:09:45.116008  6103 sampling.cc:267] worker window 12 3 310322
+I0804 15:09:45.382709  8845 sampling.cc:267] worker window 15 3 327573
+I0804 15:09:45.524004 29931 sampling.cc:267] worker window 10 3 405058
+I0804 15:09:45.290459 30642 sampling.cc:267] worker window 8 3 574088
+I0804 15:09:45.726364 17409 sampling.cc:267] worker window 7 3 533755
+I0804 15:09:45.821147 27299 sampling.cc:267] worker window 6 3 710422
+I0804 15:09:45.984771 19467 sampling.cc:267] worker window 5 3 900763
+I0804 15:09:45.795296 10052 sampling.cc:267] worker window 3 3 1256905
+I0804 15:09:46.667374 14474 sampling.cc:267] worker window 4 3 989319
+I0804 15:09:47.330989 17079 sampling.cc:267] worker window 2 3 1629431
+I0804 15:09:46.888185 16426 sampling.cc:267] worker window 1 3 2128313
+I0804 15:09:50.239745 28234 sampling.cc:267] worker window 0 3 3460459
+I0804 15:09:50.687222  6702 sampling.cc:267] worker window 11 4 1106440
+I0804 15:09:50.617413  6103 sampling.cc:267] worker window 12 4 917991
+I0804 15:09:51.451194  3206 sampling.cc:267] worker window 9 4 1383174
+I0804 15:09:51.190402 25228 sampling.cc:267] worker window 14 4 892538
+I0804 15:09:50.973489  8845 sampling.cc:267] worker window 15 4 985498
+I0804 15:09:50.686589  2010 sampling.cc:267] worker window 13 4 929004
+I0804 15:09:51.079079 29931 sampling.cc:267] worker window 10 4 1317588
+I0804 15:09:50.967144 30642 sampling.cc:267] worker window 8 4 1778314
+I0804 15:09:51.448912 27299 sampling.cc:267] worker window 6 4 2147138
+I0804 15:09:51.572348 17409 sampling.cc:267] worker window 7 4 1640566
+I0804 15:09:51.736400 19467 sampling.cc:267] worker window 5 4 2682374
+I0804 15:09:51.404255 10052 sampling.cc:267] worker window 3 4 3917901
+I0804 15:09:52.217885 14474 sampling.cc:267] worker window 4 4 2931427
+I0804 15:09:52.673086 17079 sampling.cc:267] worker window 2 4 4806213
+I0804 15:09:52.821626 16426 sampling.cc:267] worker window 1 4 6153963
+I0804 15:09:57.308748 28234 sampling.cc:267] worker window 0 4 10029352
+I0804 15:09:58.612041 25228 sampling.cc:267] worker window 14 5 849166
+I0804 15:09:58.122406  2010 sampling.cc:267] worker window 13 5 729420
+I0804 15:09:58.295907  6702 sampling.cc:267] worker window 11 5 966279
+I0804 15:09:59.156553  3206 sampling.cc:267] worker window 9 5 1224565
+I0804 15:09:58.463086  6103 sampling.cc:267] worker window 12 5 920124
+I0804 15:09:58.930007 29931 sampling.cc:267] worker window 10 5 1157972
+I0804 15:09:59.001754  8845 sampling.cc:267] worker window 15 5 981981
+I0804 15:09:58.852429 30642 sampling.cc:267] worker window 8 5 1659891
+I0804 15:09:59.558732 17409 sampling.cc:267] worker window 7 5 1544134
+I0804 15:09:59.748968 27299 sampling.cc:267] worker window 6 5 2079900
+I0804 15:10:00.124265 19467 sampling.cc:267] worker window 5 5 2667566
+I0804 15:10:00.512888 14474 sampling.cc:267] worker window 4 5 2960792
+I0804 15:10:00.145172 10052 sampling.cc:267] worker window 3 5 3784753
+I0804 15:10:02.344388 17079 sampling.cc:267] worker window 2 5 4983590
+I0804 15:10:03.408138 16426 sampling.cc:267] worker window 1 5 6462306
+I0804 15:10:10.092185 28234 sampling.cc:267] worker window 0 5 10647042
+I0804 15:10:12.103334  6702 sampling.cc:267] worker window 11 6 3146254
+I0804 15:10:12.681308 25228 sampling.cc:267] worker window 14 6 2411398
+I0804 15:10:13.038488  3206 sampling.cc:267] worker window 9 6 4022455
+I0804 15:10:12.615593 29931 sampling.cc:267] worker window 10 6 3810438
+I0804 15:10:12.644625  8845 sampling.cc:267] worker window 15 6 2689593
+I0804 15:10:12.672471  6103 sampling.cc:267] worker window 12 6 2588471
+I0804 15:10:12.840179 30642 sampling.cc:267] worker window 8 6 5200530
+I0804 15:10:12.859541  2010 sampling.cc:267] worker window 13 6 2580171
+I0804 15:10:13.610448 27299 sampling.cc:267] worker window 6 6 6381367
+I0804 15:10:13.896988 17409 sampling.cc:267] worker window 7 6 4811751
+I0804 15:10:14.243301 19467 sampling.cc:267] worker window 5 6 8023922
+I0804 15:10:14.027228 10052 sampling.cc:267] worker window 3 6 11953783
+I0804 15:10:15.787117 14474 sampling.cc:267] worker window 4 6 8817622
+I0804 15:10:17.361618 17079 sampling.cc:267] worker window 2 6 14749622
+I0804 15:10:18.201719 16426 sampling.cc:267] worker window 1 6 18746673
+I0804 15:10:26.141723 28234 sampling.cc:267] worker window 0 6 30924393
+I0804 15:10:29.282359  2010 sampling.cc:267] worker window 13 7 2167838
+I0804 15:10:29.709751  6103 sampling.cc:267] worker window 12 7 2812664
+I0804 15:10:30.145082  6702 sampling.cc:267] worker window 11 7 2841073
+I0804 15:10:30.839684  3206 sampling.cc:267] worker window 9 7 3624524
+I0804 15:10:30.935276 25228 sampling.cc:267] worker window 14 7 2548751
+I0804 15:10:30.918453  8845 sampling.cc:267] worker window 15 7 2978278
+I0804 15:10:31.041877 29931 sampling.cc:267] worker window 10 7 3420106
+I0804 15:10:31.264061 17409 sampling.cc:267] worker window 7 7 4565885
+I0804 15:10:31.201962 30642 sampling.cc:267] worker window 8 7 4922314
+I0804 15:10:32.505373 27299 sampling.cc:267] worker window 6 7 6187172
+I0804 15:10:34.205480 19467 sampling.cc:267] worker window 5 7 7954486
+I0804 15:10:34.957018 14474 sampling.cc:267] worker window 4 7 8858889
+I0804 15:10:34.731297 10052 sampling.cc:267] worker window 3 7 11331158
+I0804 15:10:44.273708 16426 sampling.cc:267] worker window 1 7 19414101
+I0804 15:10:45.262725 17079 sampling.cc:267] worker window 2 7 15092153
+I0804 15:11:12.643347 28234 sampling.cc:267] worker window 0 7 32139051
+I0804 15:11:19.514613  8845 sampling.cc:267] worker window 15 8 7682983
+I0804 15:11:19.495391  6702 sampling.cc:267] worker window 11 8 9152255
+I0804 15:11:19.934864 25228 sampling.cc:267] worker window 14 8 6852868
+I0804 15:11:20.370124  3206 sampling.cc:267] worker window 9 8 11889949
+I0804 15:11:19.746037  2010 sampling.cc:267] worker window 13 8 7453256
+I0804 15:11:20.682654 29931 sampling.cc:267] worker window 10 8 11233426
+I0804 15:11:21.624902 30642 sampling.cc:267] worker window 8 8 15395517
+I0804 15:11:22.602066 17409 sampling.cc:267] worker window 7 8 14296751
+I0804 15:11:22.392171  6103 sampling.cc:267] worker window 12 8 7534981
+I0804 15:11:23.031924 27299 sampling.cc:267] worker window 6 8 19048067
+I0804 15:11:23.794348 19467 sampling.cc:267] worker window 5 8 24000402
+I0804 15:11:24.983475 10052 sampling.cc:267] worker window 3 8 36241575
+I0804 15:11:31.262037 14474 sampling.cc:267] worker window 4 8 26484563
+I0804 15:11:33.083510 17079 sampling.cc:267] worker window 2 8 44800955
+I0804 15:11:36.791622 16426 sampling.cc:267] worker window 1 8 56570394
+I0804 15:11:59.496512 28234 sampling.cc:267] worker window 0 8 93937387
+I0804 15:12:08.147243  2010 sampling.cc:267] worker window 13 9 6560477
+I0804 15:12:08.997478  3206 sampling.cc:267] worker window 9 9 10873909
+I0804 15:12:08.337184  6702 sampling.cc:267] worker window 11 9 8498714
+I0804 15:12:09.563302 29931 sampling.cc:267] worker window 10 9 10242875
+I0804 15:12:09.598701  8845 sampling.cc:267] worker window 15 9 9094712
+I0804 15:12:10.097512 25228 sampling.cc:267] worker window 14 9 7778028
+I0804 15:12:11.092646  6103 sampling.cc:267] worker window 12 9 8703866
+I0804 15:12:11.480067 30642 sampling.cc:267] worker window 8 9 14699351
+I0804 15:12:13.180701 27299 sampling.cc:267] worker window 6 9 18469630
+I0804 15:12:14.407279 19467 sampling.cc:267] worker window 5 9 23752722
+I0804 15:12:17.661131 17409 sampling.cc:267] worker window 7 9 13607808
+I0804 15:12:18.276131 14474 sampling.cc:267] worker window 4 9 26501519
+I0804 15:12:17.672446 10052 sampling.cc:267] worker window 3 9 33902813
+I0804 15:12:34.154808 16426 sampling.cc:267] worker window 1 9 58024756
+I0804 15:12:38.682168 17079 sampling.cc:267] worker window 2 9 45444723
+I0804 15:14:02.182075 28234 sampling.cc:267] worker window 0 9 96419426
+I0804 15:14:04.554047 16426 sampling.cc:267] worker window 1 10 0
+I0804 15:14:05.426123 17079 sampling.cc:267] worker window 2 10 0
+I0804 15:14:05.419826 10052 sampling.cc:267] worker window 3 10 0
+I0804 15:14:06.036686 19467 sampling.cc:267] worker window 5 10 0
+I0804 15:14:06.373204 14474 sampling.cc:267] worker window 4 10 0
+I0804 15:14:06.455564 27299 sampling.cc:267] worker window 6 10 0
+I0804 15:14:06.467092 30642 sampling.cc:267] worker window 8 10 0
+I0804 15:14:06.842097 17409 sampling.cc:267] worker window 7 10 0
+I0804 15:14:07.660908  3206 sampling.cc:267] worker window 9 10 0
+I0804 15:14:07.513440 29931 sampling.cc:267] worker window 10 10 0
+I0804 15:14:07.629595  8845 sampling.cc:267] worker window 15 10 0
+I0804 15:14:07.549439  6702 sampling.cc:267] worker window 11 10 0
+I0804 15:14:08.373109 28234 sampling.cc:267] worker window 0 10 0
+I0804 15:14:08.065346  2010 sampling.cc:267] worker window 13 10 0
+I0804 15:14:08.695528 25228 sampling.cc:267] worker window 14 10 0
+I0804 15:14:14.063560  6103 sampling.cc:267] worker window 12 10 0
+I0804 15:14:14.657696 17074 worker.cc:478] [worker3] enters process result assemble, 1
+I0804 15:14:14.489292 29926 worker.cc:478] [worker11] enters process result assemble, 1
+I0804 15:14:14.630280 25223 worker.cc:478] [worker15] enters process result assemble, 1
+I0804 15:14:14.659513 28229 worker.cc:478] [worker1] enters process result assemble, 1
+I0804 15:14:14.145932 16421 worker.cc:478] [worker2] enters process result assemble, 1
+I0804 15:14:14.584295 27294 worker.cc:478] [worker7] enters process result assemble, 1
+I0804 15:14:14.494084 17404 worker.cc:478] [worker8] enters process result assemble, 1
+I0804 15:14:14.412084  8840 worker.cc:478] [worker16] enters process result assemble, 1
+I0804 15:14:14.454668 19462 worker.cc:478] [worker6] enters process result assemble, 1
+I0804 15:14:14.142699 30637 worker.cc:478] [worker9] enters process result assemble, 1
+I0804 15:14:14.925429  3201 worker.cc:478] [worker10] enters process result assemble, 1
+I0804 15:14:14.246575  6697 worker.cc:478] [worker12] enters process result assemble, 1
+I0804 15:14:14.116554  2005 worker.cc:478] [worker14] enters process result assemble, 1
+I0804 15:14:14.148393  6098 worker.cc:478] [worker13] enters process result assemble, 1
+I0804 15:14:14.043763 10047 worker.cc:478] [worker4] enters process result assemble, 1
+I0804 15:14:14.676931 14469 worker.cc:478] [worker5] enters process result assemble, 1
+I0804 15:14:36.854077 30649 metric.cc:219] -------------------------------------------------
+I0804 15:14:36.854126 30649 metric.cc:220] algorithm:           sampling
+I0804 15:14:36.854131 30649 metric.cc:221] dataset-vfile:       /BIGDATA1/buaa_wffan_1/grape-data/livejournal/evr/livejournal.v
+I0804 15:14:36.854137 30649 metric.cc:222] dataset-efile:       /BIGDATA1/buaa_wffan_1/grape-data/livejournal/evr/livejournal.e
+I0804 15:14:36.854142 30649 metric.cc:223] partition-num:       16
+I0804 15:14:36.854146 30649 metric.cc:224] query-info:          file:/BIGDATA1/buaa_wffan_1/lidongze/code/grape/cpp/build/query/sampling/2-10-10
+I0804 15:14:36.854151 30649 metric.cc:225] graph-load-time(s):  37.2683
+I0804 15:14:36.854171 30649 metric.cc:226] grape-total-time(s): 274.135
+I0804 15:14:36.854182 30649 metric.cc:227] max-thread-time(s):  256.62
+I0804 15:14:36.854187 30649 metric.cc:228] min-thread-time(s):  21.7731
+I0804 15:14:36.854193 30649 metric.cc:229] avg-thread-time(s):  55.5128
+I0804 15:14:36.854198 30649 metric.cc:230] mpi-msg-size(Bytes): 45682774528
+I0804 15:14:36.854207 30649 metric.cc:231] -------------------------------------------------
+I0804 15:14:36.854223 30649 metric.cc:232] ------------Running State Time-------------------
+I0804 15:14:36.854228 30649 metric.cc:234] [worker1]: 209.567
+I0804 15:14:36.854233 30649 metric.cc:234] [worker2]: 218.046
+I0804 15:14:36.854239 30649 metric.cc:234] [worker3]: 219.845
+I0804 15:14:36.854244 30649 metric.cc:234] [worker4]: 195.346
+I0804 15:14:36.854250 30649 metric.cc:234] [worker5]: 222.283
+I0804 15:14:36.854256 30649 metric.cc:234] [worker6]: 223.951
+I0804 15:14:36.854261 30649 metric.cc:234] [worker7]: 224.564
+I0804 15:14:36.854267 30649 metric.cc:234] [worker8]: 224.735
+I0804 15:14:36.854272 30649 metric.cc:234] [worker9]: 225.837
+I0804 15:14:36.854277 30649 metric.cc:234] [worker10]: 226.143
+I0804 15:14:36.854284 30649 metric.cc:234] [worker11]: 226.03
+I0804 15:14:36.854290 30649 metric.cc:234] [worker12]: 227.202
+I0804 15:14:36.854295 30649 metric.cc:234] [worker13]: 233.372
+I0804 15:14:36.854300 30649 metric.cc:234] [worker14]: 227.295
+I0804 15:14:36.854321 30649 metric.cc:234] [worker15]: 227.825
+I0804 15:14:36.854326 30649 metric.cc:234] [worker16]: 226.571
+I0804 15:14:36.854332 30649 metric.cc:236] ------------Listening State Time-----------------
+I0804 15:14:36.854336 30649 metric.cc:238] [worker1]: 6.2194
+I0804 15:14:36.854342 30649 metric.cc:238] [worker2]: 9.51929
+I0804 15:14:36.854347 30649 metric.cc:238] [worker3]: 9.13938
+I0804 15:14:36.854353 30649 metric.cc:238] [worker4]: 8.53594
+I0804 15:14:36.854358 30649 metric.cc:238] [worker5]: 8.14757
+I0804 15:14:36.854363 30649 metric.cc:238] [worker6]: 8.32228
+I0804 15:14:36.854368 30649 metric.cc:238] [worker7]: 8.04147
+I0804 15:14:36.854374 30649 metric.cc:238] [worker8]: 7.56456
+I0804 15:14:36.854379 30649 metric.cc:238] [worker9]: 7.58528
+I0804 15:14:36.854384 30649 metric.cc:238] [worker10]: 7.16656
+I0804 15:14:36.854389 30649 metric.cc:238] [worker11]: 6.88163
+I0804 15:14:36.854394 30649 metric.cc:238] [worker12]: 6.75031
+I0804 15:14:36.854399 30649 metric.cc:238] [worker13]: 0.0115192
+I0804 15:14:36.854405 30649 metric.cc:238] [worker14]: 6.50895
+I0804 15:14:36.854411 30649 metric.cc:238] [worker15]: 5.84232
+I0804 15:14:36.854416 30649 metric.cc:238] [worker16]: 6.95213
+I0804 15:14:36.854421 30649 metric.cc:240] -----------------Evaluation Time-----------------
+I0804 15:14:36.854426 30649 metric.cc:242] [worker1]: 274.136
+I0804 15:14:36.854432 30649 metric.cc:242] [worker2]: 274.134
+I0804 15:14:36.854437 30649 metric.cc:242] [worker3]: 274.136
+I0804 15:14:36.854444 30649 metric.cc:242] [worker4]: 274.134
+I0804 15:14:36.854449 30649 metric.cc:242] [worker5]: 274.136
+I0804 15:14:36.854454 30649 metric.cc:242] [worker6]: 274.135
+I0804 15:14:36.854460 30649 metric.cc:242] [worker7]: 274.136
+I0804 15:14:36.854466 30649 metric.cc:242] [worker8]: 274.136
+I0804 15:14:36.854471 30649 metric.cc:242] [worker9]: 274.134
+I0804 15:14:36.854477 30649 metric.cc:242] [worker10]: 274.137
+I0804 15:14:36.854482 30649 metric.cc:242] [worker11]: 274.136
+I0804 15:14:36.854488 30649 metric.cc:242] [worker12]: 274.135
+I0804 15:14:36.854494 30649 metric.cc:242] [worker13]: 274.134
+I0804 15:14:36.854508 30649 metric.cc:242] [worker14]: 274.134
+I0804 15:14:36.854514 30649 metric.cc:242] [worker15]: 274.136
+I0804 15:14:36.854521 30649 metric.cc:242] [worker16]: 274.135
+I0804 15:14:36.854527 30649 metric.cc:244] -------------------Ejecting Time-----------------
+I0804 15:14:36.854532 30649 metric.cc:246] [worker1]: 32.2047
+I0804 15:14:36.854537 30649 metric.cc:246] [worker2]: 32.1034
+I0804 15:14:36.854542 30649 metric.cc:246] [worker3]: 35.4704
+I0804 15:14:36.854548 30649 metric.cc:246] [worker4]: 40.7555
+I0804 15:14:36.854554 30649 metric.cc:246] [worker5]: 30.3826
+I0804 15:14:36.854559 30649 metric.cc:246] [worker6]: 30.8639
+I0804 15:14:36.854565 30649 metric.cc:246] [worker7]: 34.692
+I0804 15:14:36.854570 30649 metric.cc:246] [worker8]: 29.3575
+I0804 15:14:36.854576 30649 metric.cc:246] [worker9]: 29.2654
+I0804 15:14:36.854583 30649 metric.cc:246] [worker10]: 30.1779
+I0804 15:14:36.854601 30649 metric.cc:246] [worker11]: 29.8388
+I0804 15:14:36.854607 30649 metric.cc:246] [worker12]: 29.2784
+I0804 15:14:36.854612 30649 metric.cc:246] [worker13]: 34.4735
+I0804 15:14:36.854619 30649 metric.cc:246] [worker14]: 29.0526
+I0804 15:14:36.854624 30649 metric.cc:246] [worker15]: 28.9296
+I0804 15:14:36.854629 30649 metric.cc:246] [worker16]: 28.7549
+I0804 15:14:36.854635 30649 metric.cc:249] ------------------Receiving Time-----------------
+I0804 15:14:36.854638 30649 metric.cc:251] [worker1]: 141.777
+I0804 15:14:36.854643 30649 metric.cc:251] [worker2]: 142.034
+I0804 15:14:36.854650 30649 metric.cc:251] [worker3]: 140.295
+I0804 15:14:36.854655 30649 metric.cc:251] [worker4]: 51.7157
+I0804 15:14:36.854673 30649 metric.cc:251] [worker5]: 144.648
+I0804 15:14:36.854678 30649 metric.cc:251] [worker6]: 144.446
+I0804 15:14:36.854683 30649 metric.cc:251] [worker7]: 141.862
+I0804 15:14:36.854689 30649 metric.cc:251] [worker8]: 147.402
+I0804 15:14:36.854694 30649 metric.cc:251] [worker9]: 148.897
+I0804 15:14:36.854701 30649 metric.cc:251] [worker10]: 145.933
+I0804 15:14:36.854705 30649 metric.cc:251] [worker11]: 146.509
+I0804 15:14:36.854710 30649 metric.cc:251] [worker12]: 148.835
+I0804 15:14:36.854717 30649 metric.cc:251] [worker13]: 149.59
+I0804 15:14:36.854722 30649 metric.cc:251] [worker14]: 148.958
+I0804 15:14:36.854727 30649 metric.cc:251] [worker15]: 149.947
+I0804 15:14:36.854732 30649 metric.cc:251] [worker16]: 148.766
+I0804 15:14:36.854737 30649 metric.cc:255] ---------------------Waking Time-----------------
+I0804 15:14:36.854740 30649 metric.cc:257] [worker1]: 47.266
+I0804 15:14:36.854746 30649 metric.cc:257] [worker2]: 58.2736
+I0804 15:14:36.854751 30649 metric.cc:257] [worker3]: 58.4766
+I0804 15:14:36.854756 30649 metric.cc:257] [worker4]: 137.072
+I0804 15:14:36.854766 30649 metric.cc:257] [worker5]: 62.6402
+I0804 15:14:36.854773 30649 metric.cc:257] [worker6]: 64.5025
+I0804 15:14:36.854779 30649 metric.cc:257] [worker7]: 63.6655
+I0804 15:14:36.854784 30649 metric.cc:257] [worker8]: 63.5736
+I0804 15:14:36.854789 30649 metric.cc:257] [worker9]: 63.2177
+I0804 15:14:36.854794 30649 metric.cc:257] [worker10]: 66.3468
+I0804 15:14:36.854800 30649 metric.cc:257] [worker11]: 65.8602
+I0804 15:14:36.854805 30649 metric.cc:257] [worker12]: 65.0768
+I0804 15:14:36.854810 30649 metric.cc:257] [worker13]: 65.3741
+I0804 15:14:36.854815 30649 metric.cc:257] [worker14]: 65.339
+I0804 15:14:36.854821 30649 metric.cc:257] [worker15]: 64.9001
+I0804 15:14:36.854826 30649 metric.cc:257] [worker16]: 65.0128
+I0804 15:14:36.854831 30649 metric.cc:259] ---------------------Msg Size--------------------
+I0804 15:14:36.854835 30649 metric.cc:261] [worker1]: 4113041120
+I0804 15:14:36.854838 30649 metric.cc:261] [worker2]: 3723694320
+I0804 15:14:36.854842 30649 metric.cc:261] [worker3]: 3436241712
+I0804 15:14:36.854846 30649 metric.cc:261] [worker4]: 3463591872
+I0804 15:14:36.854849 30649 metric.cc:261] [worker5]: 2945895264
+I0804 15:14:36.854852 30649 metric.cc:261] [worker6]: 2827367568
+I0804 15:14:36.854856 30649 metric.cc:261] [worker7]: 2760115376
+I0804 15:14:36.854859 30649 metric.cc:261] [worker8]: 2709199072
+I0804 15:14:36.854868 30649 metric.cc:261] [worker9]: 2664682880
+I0804 15:14:36.854873 30649 metric.cc:261] [worker10]: 2675659872
+I0804 15:14:36.854876 30649 metric.cc:261] [worker11]: 2571626704
+I0804 15:14:36.854881 30649 metric.cc:261] [worker12]: 2618217136
+I0804 15:14:36.854883 30649 metric.cc:261] [worker13]: 2463685520
+I0804 15:14:36.854887 30649 metric.cc:261] [worker14]: 2539111584
+I0804 15:14:36.854890 30649 metric.cc:261] [worker15]: 2466237040
+I0804 15:14:36.854894 30649 metric.cc:261] [worker16]: 1704407488
+I0804 15:14:36.854897 30649 metric.cc:264] ---------------------MPI_recv time---------------
+I0804 15:14:36.854902 30649 metric.cc:266] [worker1]: 0.00216818 , 1.79575, 0.000121593 , 
+I0804 15:14:36.854909 30649 metric.cc:266] [worker2]: 0.00101042 , 1.52859, 0.000147581 , 
+I0804 15:14:36.854916 30649 metric.cc:266] [worker3]: 0.00120759 , 1.46553, 0.00014782 , 
+I0804 15:14:36.854923 30649 metric.cc:266] [worker4]: 0.00212574 , 1.36388, 0.000219107 , 
+I0804 15:14:36.854929 30649 metric.cc:266] [worker5]: 0.00125909 , 1.19205, 0.000531435 , 
+I0804 15:14:36.854936 30649 metric.cc:266] [worker6]: 0.0020318 , 1.18823, 0.000172138 , 
+I0804 15:14:36.854943 30649 metric.cc:266] [worker7]: 0.000910282 , 1.17054, 0.000121593 , 
+I0804 15:14:36.854949 30649 metric.cc:266] [worker8]: 0.00125146 , 1.14667, 0.000146151 , 
+I0804 15:14:36.854956 30649 metric.cc:266] [worker9]: 0.000825644 , 1.09273, 0.000109434 , 
+I0804 15:14:36.854962 30649 metric.cc:266] [worker10]: 0.00105023 , 1.11056, 0.000209332 , 
+I0804 15:14:36.854969 30649 metric.cc:266] [worker11]: 0.000775576 , 1.0132, 0.000130177 , 
+I0804 15:14:36.854975 30649 metric.cc:266] [worker12]: 0.00108552 , 1.05969, 0.000252962 , 
+I0804 15:14:36.854981 30649 metric.cc:266] [worker13]: 0.00107169 , 1.02065, 9.01222e-05 , 
+I0804 15:14:36.854988 30649 metric.cc:266] [worker14]: 0.000953197 , 1.07912, 0.000142813 , 
+I0804 15:14:36.854995 30649 metric.cc:266] [worker15]: 0.00109839 , 1.02788, 0.000251532 , 
+I0804 15:14:36.855000 30649 metric.cc:266] [worker16]: 0.00813508 , 0.752649, 0.000112295 , 
+I0804 15:14:36.855007 30649 metric.cc:270] -----------------Sent Msg Num--------------------
+I0804 15:14:36.855011 30649 metric.cc:274] [worker1]: 676572760
+I0804 15:14:36.855015 30649 metric.cc:274] [worker2]: 433223729
+I0804 15:14:36.855018 30649 metric.cc:274] [worker3]: 340983744
+I0804 15:14:36.855022 30649 metric.cc:274] [worker4]: 268453544
+I0804 15:14:36.855026 30649 metric.cc:274] [worker5]: 202828442
+I0804 15:14:36.855029 30649 metric.cc:274] [worker6]: 171644238
+I0804 15:14:36.855032 30649 metric.cc:274] [worker7]: 140223846
+I0804 15:14:36.855036 30649 metric.cc:274] [worker8]: 104244589
+I0804 15:14:36.855039 30649 metric.cc:274] [worker9]: 109857543
+I0804 15:14:36.855043 30649 metric.cc:274] [worker10]: 84877027
+I0804 15:14:36.855046 30649 metric.cc:274] [worker11]: 75596108
+I0804 15:14:36.855051 30649 metric.cc:274] [worker12]: 62528776
+I0804 15:14:36.855053 30649 metric.cc:274] [worker13]: 58434467
+I0804 15:14:36.855057 30649 metric.cc:274] [worker14]: 46737057
+I0804 15:14:36.855060 30649 metric.cc:274] [worker15]: 45779309
+I0804 15:14:36.855063 30649 metric.cc:274] [worker16]: 33185589
+I0804 15:14:36.855067 30649 metric.cc:277] [coordinator] : total = 2855170768
+I0804 15:14:36.855072 30649 metric.cc:278] [coordinator] : aggregated msg num = 0
+I0804 15:14:36.855074 30649 metric.cc:279] [coordinator] : iter num = 0
+I0804 15:14:36.939007 30649 worker.cc:235] all queries in the workload is processed. 
+I0804 15:14:36.939023 30649 worker.cc:249] query_info=
+I0804 15:14:36.939288 30649 worker.cc:276] [coordinator] shutdown.
+I0804 15:14:36.665789 16421 worker.cc:368] [worker_2] shutdown.
+I0804 15:14:37.177712 17074 worker.cc:368] [worker_3] shutdown.
+I0804 15:14:36.974604 19462 worker.cc:368] [worker_6] shutdown.
+I0804 15:14:37.104255 27294 worker.cc:368] [worker_7] shutdown.
+I0804 15:14:37.014017 17404 worker.cc:368] [worker_8] shutdown.
+I0804 15:14:37.009229 29926 worker.cc:368] [worker_11] shutdown.
+I0804 15:14:36.766432  6697 worker.cc:368] [worker_12] shutdown.
+I0804 15:14:36.668267  6098 worker.cc:368] [worker_13] shutdown.
+I0804 15:14:37.150259 25223 worker.cc:368] [worker_15] shutdown.
+I0804 15:14:36.931984  8840 worker.cc:368] [worker_16] shutdown.
+I0804 15:14:37.179543 28229 worker.cc:368] [worker_1] shutdown.
+I0804 15:14:37.196933 14469 worker.cc:368] [worker_5] shutdown.
+I0804 15:14:36.662575 30637 worker.cc:368] [worker_9] shutdown.
+I0804 15:14:37.445502  3201 worker.cc:368] [worker_10] shutdown.
+I0804 15:14:36.636405  2005 worker.cc:368] [worker_14] shutdown.
+I0804 15:14:36.563601 10047 worker.cc:368] [worker_4] shutdown.
