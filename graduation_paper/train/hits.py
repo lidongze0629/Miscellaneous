@@ -23,7 +23,7 @@ if __name__ == '__main__':
     fnum = int(sys.argv[2])
 
     """ datasets and labels's size is fnum """
-    datasets, labels = GetAllData(extract_dir, fnum, 'pagerankx')
+    datasets, labels = GetAllData(extract_dir, fnum, 'hits')
 
     """ ridge regression """
     sr, sl = rr(datasets, labels, fnum)
@@ -35,7 +35,7 @@ if __name__ == '__main__':
     sr, sl = lr(datasets, labels, fnum)
 
     """ random forest """
-    r, sl = rf(datasets, labels, fnum)
+    sr, sl = rf(datasets, labels, fnum)
 
     """ draw picture """
     sample_draw(sr,sl)

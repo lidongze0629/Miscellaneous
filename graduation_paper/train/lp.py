@@ -23,7 +23,7 @@ if __name__ == '__main__':
     fnum = int(sys.argv[2])
 
     """ datasets and labels's size is fnum """
-    datasets, labels = GetAllData(extract_dir, fnum, 'pagerankx')
+    datasets, labels = GetAllData(extract_dir, fnum, 'lp')
 
     """ ridge regression """
     sr, sl = rr(datasets, labels, fnum)

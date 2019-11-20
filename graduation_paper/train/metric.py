@@ -13,7 +13,8 @@ def printErrorMetrics(result, labels):
 
     for i in range(len(labels)):
         error.append(float(labels[i]) - float(result[i]))
-        relative_error.append((float(labels[i]) - float(result[i])) / float(labels[i]))
+        if (float(labels[i]) != 0): 
+            relative_error.append((float(labels[i]) - float(result[i])) / float(labels[i]))
 
     for val in error:
         squaredError.append(val * val)

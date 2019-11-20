@@ -23,19 +23,20 @@ if __name__ == '__main__':
     fnum = int(sys.argv[2])
 
     """ datasets and labels's size is fnum """
-    datasets, labels = GetAllData(extract_dir, fnum, 'pagerankx')
+    datasets, labels = GetAllData(extract_dir, fnum, 'sssp', total_vertex_num=23947348, L=1000000)
+    # datasets, labels = GetAllData(extract_dir, fnum, 'sssp', total_vertex_num=65608366, L=10000000)
 
     """ ridge regression """
     sr, sl = rr(datasets, labels, fnum)
 
     """ neural network """
-    sr, sl = nn(datasets, labels, fnum)
+    #sr, sl = nn(datasets, labels, fnum)
     
     """ liner regression """
-    sr, sl = lr(datasets, labels, fnum)
+    #sr, sl = lr(datasets, labels, fnum)
 
     """ random forest """
-    r, sl = rf(datasets, labels, fnum)
+    #sr, sl = rf(datasets, labels, fnum)
 
     """ draw picture """
     sample_draw(sr,sl)

@@ -6,10 +6,10 @@ from metric import printErrorMetrics
 
 import numpy as np
 from sklearn.model_selection import KFold
-from sklearn.neural_network import MLPRegressor
+from sklearn import linear_model
 
-def nn(datasets, labels, fnum):
-    print('--- neural network ---')
+def lr(datasets, labels, fnum):
+    print('--- liner regression ---')
     TMSE = 0; TMAE = 0; TRMSE = 0; TMSRE = 0
     sample_results = []
     sample_labels = []
@@ -18,6 +18,8 @@ def nn(datasets, labels, fnum):
     sample_number = 0
 
     for i in range(fnum):
+        """ set sample_number """
+        sample_number = sample_number + len(datasets[i])
         """ change to numpy """
         datasets_np = np.array(datasets[i])
         labels_np = np.array(labels[i])
@@ -25,7 +27,7 @@ def nn(datasets, labels, fnum):
         index = 1
         MSE = 0; MAE = 0; RMSE = 0; MSRE = 0
 
-        mlp=MLPRegressor(solver='lbfgs',hidden_layer_sizes=(10,10))
+        reg = linear_model.LinearRegression()
         kf = KFold(n_splits=10, shuffle=True, random_state=np.random.randint(0,100))
 
         for train_index, test_index in kf.split(datasets_np):
@@ -34,12 +36,12 @@ def nn(datasets, labels, fnum):
             x_train, x_test = datasets_np[train_index], datasets_np[test_index]
             y_train, y_test = labels_np[train_index], labels_np[test_index]
             start = time.process_time()
-            mlp.fit(x_train, y_train)
+            reg.fit(x_train, y_train)
             end = time.process_time()
             times.append(end - start)
             # print(regr.feature_importances_)
             predict_start = time.process_time()
-            result = mlp.predict(x_test)
+            result = reg.predict(x_test)
             predict_end = time.process_time()
             predict_times.append((predict_end - predict_start) / len(x_test))
             a, b, c, d = printErrorMetrics(result, y_test)
