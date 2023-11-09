@@ -12,6 +12,8 @@
 
 ### Do you think it is important to have a sense of humour? (Why)?
 
+### Are you learning to play a musical instrument at the moment?
+
 ## Part-2
 
 1. Talk about a musical instrument you would like to be able to play but have never tried. You should say:

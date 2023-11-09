@@ -1,9 +1,5 @@
 # part-1
 
-### How are education priorities today different from those in the past?
-
-### What is your opinion on the way languages are taught in schools?
-
 ### How can the type of school you go to affect career success?
 
 ### What changes do you think will happen in the classroom in the near future?

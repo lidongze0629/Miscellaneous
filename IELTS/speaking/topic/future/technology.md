@@ -29,3 +29,5 @@
 ### Do you think it is mandatory to teach science in schools?
 
 ### Do you think modern technology has any negative influence on communication?
+
+### Do you think the latest technology plays an important role in a company’s development?
