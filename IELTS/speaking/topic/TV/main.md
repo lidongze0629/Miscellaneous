@@ -83,6 +83,16 @@ I think it's depends on the city you live in. People like me who live in a big c
 ### What effects can watching television have on children?
 Watching TV is a double-edged sword for children. On the positive side, educational programmes can help children expand their horizons and enrich their experiences. However, excessive TV viewing can lead to a sedentary lifestyle and health issues. Additionally, watching TV close to bedtime can influence sleep quality. So it's crucial to set limits and ensure a healthy balance between TV, physical activity, social interactions, and other activities like reading or creative play.
 
+### What happens in these popular TV genres?
+- Documentory: typically documentaries contain multiple subgenres, such as wildlife documentary and biograpies. The wildlife documentary usually tell the life of animals, their migration process. The purposes of this documentary is to let people know about the various animals in the world and educate people how to get along well with them.
+
+- News: Usually the News tell what happened in recent days or what will happen in near future. It can be some anecdotes in life, or national policies. Throughs the new, you can know the current focus of society.
+
+- Game show, typically, A match will be broadcast through a game channel.
+
+- Reality show: generally speaking, it refers to a TV program that hold a certain category of competition activities with the purpose of selecting the final winner from multiple contestants. It also has rich prizes and can obtain extensive economic benefits for the sponsor.
+
+
 ## Part-2
 
 ### describe

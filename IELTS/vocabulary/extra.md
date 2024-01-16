@@ -1,0 +1,16 @@
+- career and technical school
+- faint scent
+- big shift
+- roll out
+- ratch up
+- interest
+- phase down / phase out
+- fallen far short
+- lead is extremely toxic heavy metal
+- salon
+- not content to maintain the status quo.
+- Mil gracias
+- role model
+- ripple effect
+- diligence redeem stupidity.
+- paper clip

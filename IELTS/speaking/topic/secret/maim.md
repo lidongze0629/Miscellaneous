@@ -1,0 +1,4 @@
+- I really can't say anything about that.
+- I'm afraid that's beyond my knowledge.
+- I can't really go into that at the moment.
+- I'm afraid that's confidential information.

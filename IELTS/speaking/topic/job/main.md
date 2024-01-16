@@ -52,6 +52,14 @@
 
 ### That technology will make some people lose their jobs. How do you think this problem should be handled?
 
+### What's your passions in life?
+As for me, passions come from many aspects in my life. First of all, is family and relationships, I’m passionate about my loved ones and prioritize spending quality time with them. Second, is hobbies and interests, I'm a big craft beer enthusiast, and I like reading books, playing football. These things can enrish my life, and bring contentment to my innermost being. Third, is travel and exploration, I'd like to explore new places and learn different culture. These can also expand my horizons and enrish my experience. Then, the last one. is career and professional growth, in order to achieve my dreams and enjoy my life, I need to have a passion for my work.
+
+### Are you following the career path you always dreams of?
+Actually, maybe not. I used to major in computing science in university during my master's degree. So natually I got the job as a programmer since graduation, which seems to be the only possible one I can do to make a living. But as I said earlier, I'm a big craft beer enthusiast, so my dream job is to become to master brewer, to create a unique and exceptional beer that can captivate the tastings bud of beer lovers. I hope I can break the boundaries of traditional brewing, experimenting with innovative ingredients and techniques and, if possible, I hope I can own a brewing. However, there is still a gap between ideal and reality, Not everyone is lucky enough to pursue their dream as a career. I will advance toward my dream step by step.
+
+### How did you decide what you were going to do for a living?
+
 
 ## part-2
 
